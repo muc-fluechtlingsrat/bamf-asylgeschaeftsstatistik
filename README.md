@@ -2,28 +2,18 @@
 
 ## Zu den Daten
 
-Das BAMF ( Bundesamt für Migration und Flüchtlinge ) veröffentlicht monatlich Daten zum Thema Asyl. Das ist eine wichtige und  aktuelle Datenquelle. 
-Eine Kennzahl ist die "Schutzquote", die die Frage beantwortet, wie viel Prozent der Asylantragssteller bleiben dürfen. Die in den BAMF-Berichten erscheinende "Gesamtschutzquote" errechnet sie als Summe aller positiven Entscheide geteilt durch alle Anträge. In dieser "Summe aller Anträge" sind allerdings auch die enthalten, die sich anderweitig erledigt haben - durch Wegzug, Heirat, Weiterreise oder anderen Gründen. Das ist irritierend. Wenn von 1000 Anträgen 800 positiv entschieden wurden, bedeutet das nicht, dass 200 negativ entschieden wurden - sondern dass sich vielleicht 150 anderweitig erledigt haben und 50 negativ entschieden wurden. Deshalb rechnen Eurostat und andere Stellen diese nicht inhaltlich geprüften Asylanträge heraus und geben die "bereinigte Schutzquote" an als die positiven Entscheidungen geteilt durch alle inhaltlich behandelten Anträge. (https://de.wikipedia.org/wiki/Gesamtschutzquote, http://www.bamf.de/DE/Infothek/Statistiken/Asylzahlen/asylzahlen-node.html)
+Das BAMF (Bundesamt für Migration und Flüchtlinge) veröffentlicht monatlich Daten zum Thema Asyl. Das ist eine wichtige und  aktuelle Datenquelle.
 
-Wir wollen 
+In diesem Repository finden sich die Daten aus zwei Quellen:
 
-1. Die Daten aus den Berichten als CSV herausziehen und damit weiterverarbeitbar machen
-2. Die bereinigte Schutzquote errechnen
-3. Das Ergebnis grafisch darstellen
-4. und online stellen.
+1. die [monatlich veröffentlichte Asylgeschäftsstatistik](http://www.bamf.de/DE/Infothek/Statistiken/Asylzahlen/Asylgesch%C3%A4ftsstatistik/asylgeschaeftsstatistik-node.html) - Ordner `report`
+2. die Rohdaten dahinter - [angefragt über das Informationsfreiheitsgesetz](https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/) - Ordner `raw`
 
-### Nebenprodukt
-Anfrage nach Daten, https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/
+Besuche einen der beiden Ordner, um mehr über die Daten zu erfahren und die Daten als CSV zu erhalten.
 
-## Zur Technik
-Daten kommen von https://www.bamf.de/SharedDocs/Anlagen/DE/Downloads/Infothek/Statistik/Asyl/201603-statistik-anlage-asyl-geschaeftsbericht.html
-
-0. Bei Upload des neuen Berichts wird ein email verschickt
-1. In docker mit php Script:
-2. Download des PDF, Weiterverarbeitung per tabula , http://tabula.technology, zu csv, bereinigt und auf github geschoben
-3. Erklärt gemäss Datapackage http://dataprotocols.org/data-packages , mit Datapackage bauen: http://datapackagist.okfnlabs.org
-4. In Spreadsheet: Berechnung, Visualisierung
+| [monatlich veröffentlichte Asylgeschäftsstatistik](report/) | [Rohdaten](raw/) |
+| --- | --- |
+| [![](docs/report.png)](report/) | [![](docs/data.png)](raw/) |
 
 ## Zum Projekt
-Entstanden auf einem Datathon in Muenchen am 07.05.2016
-
+Entstanden auf dem [Refugee Datathon in München](https://refugee-datathon-muc.org)
