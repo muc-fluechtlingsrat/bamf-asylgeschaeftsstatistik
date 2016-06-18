@@ -18,17 +18,22 @@ OUTPUT_DIR=../output
 for DIR in $INTERMED_DIR $OUTPUT_DIR ; do
   if [ ! -d $DIR ]; then
     mkdir $DIR
+  fi
 done
 # Replace minus signs
 cat $FILE | sed 's/,-/,0/g' > $INTERMED_DIR/${FILE_BASE}_zeros.csv 
 
 # We don't want the rows with: Spalte 1, Europa, Afrika, Amerika, Asien, Unbekannt, Herkunftsläer gesamt
-cat $INTERMED_DIR/${FILE_BASE}_zeros.csv | sed '/^Spalte 1/d;/^Europa/d;/^Afrika/d;/^Amerika/d;/^Asien/d;/^Unbekannt/d;/^Herkunnftsl/d' > $INTERMED_DIR/${FILE_BASE}_cleaned.csv
+cat $INTERMED_DIR/${FILE_BASE}_zeros.csv | sed '/^Spalte 1/d;/^Europa/d;/^Afrika/d;/^Amerika/d;/^Asien/d;/^Unbekannt/d;/^Herkunnftsl/d' > $INTERMED_DIR/${FILE_BASE}_no_continents.csv
+
+cat  $INTERMED_DIR/${FILE_BASE}_no_continents.csv | gawk '/Australien/ && seen { next } /Australien/ && !seen { seen=1 } 1' >  $INTERMED_DIR/${FILE_BASE}_no_australia.csv
+
+# Replace dots in numbers
+cat $INTERMED_DIR/${FILE_BASE}_no_australia.csv | sed 's/\([0-9]\)\.\([0-9]\)/\1\2/g' > $INTERMED_DIR/${FILE_BASE}_cleaned.csv
 
 if [ -f $INTERMED_DIR/${FILE_BASE}_cleaned.csv ]; then
   mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv $OUTPUT_DIR/${FILE_BASE}.csv
 fi
-# Replace dots in numbers
 
 exit 0
 
