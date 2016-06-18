@@ -41,7 +41,7 @@ gawk '/Australien/ && seen { next } /Australien/ && !seen { seen=1 } 1' $INTERME
 sed 's/\([0-9]\)\.\([0-9]\)/\1\2/g' $INTERMED_DIR/${FILE_BASE}_no_australia.csv > $INTERMED_DIR/${FILE_BASE}_cleaned.csv
 
 if [ -f $INTERMED_DIR/${FILE_BASE}_cleaned.csv ]; then
-  mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE_BASE}.csv
+  mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE}
 fi
 
 exit 0
