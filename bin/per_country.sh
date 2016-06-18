@@ -17,14 +17,17 @@ COUNTRY=$1
 INPUTDIR=../raw
 OUTPUTDIR=/tmp/output
 
-for DIR in $INTERMED_DIR $OUTPUTDIR; do
+for DIR in $OUTPUTDIR; do
   if [ ! -d $DIR ]; then
     mkdir $DIR
   fi
 done
 
 grep -h $COUNTRY $INPUTDIR/20????.csv | dos2unix | sort > $OUTPUTDIR/$COUNTRY_tail.csv
-cat ../raw/header.csv $OUTPUTDIR/$COUNTRY_tail.csv > $OUTPUTDIR/$COUNTRY.csv
+head -1 $INPUTDIR/header.csv | sed "s/^${FILE_FIRSTSIX}/YEAR_MONTH,/" >  $OUTPUTDIR/dateheader.csv
+
+
+cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/$COUNTRY_tail.csv > $OUTPUTDIR/$COUNTRY.csv
 
 exit 0
 
