@@ -1,39 +1,47 @@
 #!/bin/bash
 #Purpose:     Clean and prepare data from bamf PDFs
 #             Replace minus signs with zeros, and delete continent sum rows
-#             and dots in numbers 
+#             and dots in numbers
 # 2016.06.18   S.Kim
+
+set -ef -o pipefail
 
 SCRIPTNAME=$(basename $0 .sh)
 
 function usage {
-   echo "Usage: $(basename $0) filename"
+  echo "Usage: $(basename $0) filename"
 }
 
 FILE=$1
+
+if [ "$1" = "" ]; then
+  usage
+  exit 1
+fi
+
+set -u
+
 s=${FILE##*/}
 FILE_BASE=${s%.*}
 INTERMED_DIR=../intermediate
-OUTPUT_DIR=../output
-for DIR in $INTERMED_DIR $OUTPUT_DIR ; do
-  if [ ! -d $DIR ]; then
-    mkdir $DIR
-  fi
-done
+
+# create temp folder
+mkdir -p $INTERMED_DIR
+
 # Replace minus signs
-cat $FILE | sed 's/,-/,0/g' > $INTERMED_DIR/${FILE_BASE}_zeros.csv 
+sed 's/,-/,0/g' $FILE > $INTERMED_DIR/${FILE_BASE}_zeros.csv
 
-# We don't want the rows with: Spalte 1, Europa, Afrika, Amerika, Asien, Unbekannt, Herkunftsläer gesamt
-cat $INTERMED_DIR/${FILE_BASE}_zeros.csv | sed '/^Spalte 1/d;/^Europa/d;/^Afrika/d;/^Amerika/d;/^Asien/d;/^Unbekannt/d;/^Herkunnftsl/d' > $INTERMED_DIR/${FILE_BASE}_no_continents.csv
+# We don't want the rows with: Spalte 1, Europa, Afrika, Amerika, Asien, Unbekannt, Herkunftsländer gesamt
+sed '/^Spalte 1/d;/^Europa/d;/^Afrika/d;/^Amerika/d;/^Asien/d;/^Unbekannt/d;/^Herkunftsl.nder/d' $INTERMED_DIR/${FILE_BASE}_zeros.csv > $INTERMED_DIR/${FILE_BASE}_no_continents.csv
 
-cat  $INTERMED_DIR/${FILE_BASE}_no_continents.csv | gawk '/Australien/ && seen { next } /Australien/ && !seen { seen=1 } 1' >  $INTERMED_DIR/${FILE_BASE}_no_australia.csv
+# Remove second Australien (first ist the country, second is the continent)
+gawk '/Australien/ && seen { next } /Australien/ && !seen { seen=1 } 1' $INTERMED_DIR/${FILE_BASE}_no_continents.csv > $INTERMED_DIR/${FILE_BASE}_no_australia.csv
 
 # Replace dots in numbers
-cat $INTERMED_DIR/${FILE_BASE}_no_australia.csv | sed 's/\([0-9]\)\.\([0-9]\)/\1\2/g' > $INTERMED_DIR/${FILE_BASE}_cleaned.csv
+sed 's/\([0-9]\)\.\([0-9]\)/\1\2/g' $INTERMED_DIR/${FILE_BASE}_no_australia.csv > $INTERMED_DIR/${FILE_BASE}_cleaned.csv
 
 if [ -f $INTERMED_DIR/${FILE_BASE}_cleaned.csv ]; then
-  mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv $OUTPUT_DIR/${FILE_BASE}.csv
+  mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE_BASE}.csv
 fi
 
 exit 0
-
