@@ -12,7 +12,7 @@ Benötigt:
 * PDFs des [BAMF aus der IFG-Anfrage](https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/)
 * [Tabula](http://tabula.technology)
 
-1. Importiere eine Monats-PDF bei Tabula
+1. Importiere eine Monats-PDF in Tabula
 2. Markiere nur den Inhalt der Tabelle - nicht den Header (damit kann Tabula nicht umgehen). Nutze _Repeat this Selection_ um alle Seiten mitzunehmen.
 ![](../docs/hkl-tabula-1.png)
 
@@ -22,3 +22,4 @@ Benötigt:
 4. Prüfe, ob die Daten so aussehen wie im Screenshot darüber. Es sollten keine leeren Spalten zwischen den Zahlen existieren.
 5. Exportiere als CSV.
 6. Füge jeder CSV als erste Zeile den Inhalt der `header.csv` hinzu.
+7. Rufe `../bin/clean_csv.sh 2015.csv` (z.b. für 2015.csv) auf, um die Daten zu putzen (`-` durch `0` ersetzen, Zwischenüberschriften weg, etc.)
