@@ -15,7 +15,7 @@ fi
 
 COUNTRY=$1
 INPUTDIR=../raw
-OUTPUTDIR=/tmp/output
+OUTPUTDIR=../cooked
 
 for DIR in $OUTPUTDIR; do
   if [ ! -d $DIR ]; then
