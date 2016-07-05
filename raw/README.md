@@ -10,7 +10,7 @@ In diesem Repository haben wir die PDFs in CSV-Dateien konvertiert, um später d
 Benötigt:
 
 * PDFs des [BAMF aus der IFG-Anfrage](https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/)
-* [Tabula](http://tabula.technology)
+* [Tabula](http://tabula.technology) Herunterladen, starten, warten, auf http://localhost:8080/ finden.
 
 1. Importiere eine Monats-PDF in Tabula
 2. Markiere nur den Inhalt der Tabelle - nicht den Header (damit kann Tabula nicht umgehen). Nutze _Repeat this Selection_ um alle Seiten mitzunehmen.
