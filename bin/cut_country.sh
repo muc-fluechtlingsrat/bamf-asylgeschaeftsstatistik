@@ -24,8 +24,10 @@ for DIR in $OUTPUTDIR; do
     mkdir $DIR
   fi
 done
-
-csvcut -d, -c1,9,10,11,12,13,14 $FILE > $OUTPUTDIR/${FILE_BASE}_cut.csv
+# Format changed slightly, we had a "" column until 201605
+# I should probably do this with csvtools ... sorry.
+sed -i 's/,"",/,/' $FILE
+csvcut -d, -c1,8,9,10,11,12,13 $FILE > $OUTPUTDIR/${FILE_BASE}_cut.csv
 sed '1s/.*/YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen/' $OUTPUTDIR/${FILE_BASE}_cut.csv > $OUTPUTDIR/tmpfile.csv
 mv $OUTPUTDIR/tmpfile.csv  $OUTPUTDIR/${FILE_BASE}_cut.csv
 

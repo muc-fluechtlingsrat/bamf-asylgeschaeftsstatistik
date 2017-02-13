@@ -1,4 +1,4 @@
-YEAR_MONTH,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen
+YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen
 201501,0,110,6,66,72,193
 201502,9,89,14,56,69,246
 201503,8,131,48,73,72,250
@@ -16,3 +16,10 @@ YEAR_MONTH,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (
 201603,1,226,48,75,232,134
 201604,3,170,93,91,319,196
 201605,9,349,142,117,591,220
+201606,20,720,336,242,1481,257
+201607,22,1029,463,565,2176,433
+201608,10,1122,481,903,2679,518
+201609,2,1331,487,2225,3094,565
+201610,1,1990,875,3360,3189,570
+201611,0,3281,1437,5800,4786,1027
+201612,19,3109,1372,4834,5931,1249
