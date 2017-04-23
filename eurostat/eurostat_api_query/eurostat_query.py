@@ -11,7 +11,7 @@ dataset = 'nama_gdp_c'
 opt     = '?precision=1&geo=EU28&unit=EUR_HAB&time=2010&time=2011&indic_na=B1GM'
 
 #this is a first try to get a document that is interesting for us
-dataset = 'tps00180'
+dataset = 'tps00190'
 opt = ''
 
 #build the url and request the data
