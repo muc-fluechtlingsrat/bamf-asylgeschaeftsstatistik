@@ -27,7 +27,7 @@ done
 # Format changed slightly, we had a "" column until 201605
 # I should probably do this with csvtools ... sorry.
 sed -i 's/,"",/,/' $FILE
-csvcut -d, -c1,12 $FILE > $OUTPUTDIR/${FILE_BASE}_cut.csv
+csvcut -d, -c1,12,7 $FILE > $OUTPUTDIR/${FILE_BASE}_cut_negative.csv
 sed '1s/.*/YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen/' $OUTPUTDIR/${FILE_BASE}_cut.csv > $OUTPUTDIR/tmpfile.csv
 mv $OUTPUTDIR/tmpfile.csv  $OUTPUTDIR/${FILE_BASE}_cut.csv
 
