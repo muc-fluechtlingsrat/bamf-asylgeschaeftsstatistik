@@ -21,5 +21,10 @@ Benötigt:
 
 4. Prüfe, ob die Daten so aussehen wie im Screenshot darüber. Es sollten keine leeren Spalten zwischen den Zahlen existieren.
 5. Exportiere als CSV.
+6. Kopiere die CSV-Datei als YYYYMM.csv in das raw-Verzeichnis.
 6. Füge jeder CSV als erste Zeile den Inhalt der `header.csv` hinzu.
 7. Rufe `../bin/clean_csv.sh 2015.csv` (z.b. für 2015.csv) auf, um die Daten zu putzen (`-` durch `0` ersetzen, Zwischenüberschriften weg, etc.)
+8. Rufe `../bin/add_date.sh 2015.csv` auf, um Jahr und Monat als erste Zeile hinzuzufuegen
+9. Falls erwuenscht, rufe `../bin/per_country.sh Syrien` auf - extrahiert alle Zeilen fuer Syrien
+10. Falls erwuenscht, rufe `../bin/cut_country.sh ../cooked/Syrien.csv` auf - reduziert auf die Spalten JahrMonat, Antraege gesamt, positive, negative, sonstige. Daraus lassen sich Histogramme plotten wie auf https://refugee-datathon-muc.org/noch-mehr-entscheidungen-pro-herkunftsland/.
+

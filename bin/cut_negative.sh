@@ -1,6 +1,6 @@
 #!/bin/bash
 #Purpose:      Give me a per country csv, and I'll cut columns, only leaving
-#              YearMonth, Total Applications, positive, negative, other
+#              YearMonth , negative
 # 2016.06.18   S.Kim
 
 SCRIPTNAME=$(basename $0 .sh)
@@ -27,7 +27,7 @@ done
 # Format changed slightly, we had a "" column until 201605
 # I should probably do this with csvtools ... sorry.
 sed -i 's/,"",/,/' $FILE
-csvcut -d, -c1,8,9,10,11,12,13 $FILE > $OUTPUTDIR/${FILE_BASE}_cut.csv
+csvcut -d, -c1,12,7 $FILE > $OUTPUTDIR/${FILE_BASE}_cut_negative.csv
 sed '1s/.*/YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen/' $OUTPUTDIR/${FILE_BASE}_cut.csv > $OUTPUTDIR/tmpfile.csv
 mv $OUTPUTDIR/tmpfile.csv  $OUTPUTDIR/${FILE_BASE}_cut.csv
 

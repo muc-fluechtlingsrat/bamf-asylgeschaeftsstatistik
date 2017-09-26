@@ -32,7 +32,7 @@ if [ $ALREADY_RUN -ne 0 ]; then
   exit 2
 fi
 cat $FILE | sed "s/^/${FILE_FIRSTSIX},/" >  $INTERMED_DIR/${FILE_BASE}_with_date.csv
-head -1 $INTERMED_DIR/${FILE_BASE}_with_date.csv | sed "s/^${FILE_FIRSTSIX}/YEAR_MONTH,/" >  $INTERMED_DIR/${FILE_BASE}_datehead.csv
+head -1 $INTERMED_DIR/${FILE_BASE}_with_date.csv | sed "s/^${FILE_FIRSTSIX}/YEAR_MONTH/" >  $INTERMED_DIR/${FILE_BASE}_datehead.csv
 tail -n +2 $INTERMED_DIR/${FILE_BASE}_with_date.csv > $INTERMED_DIR/${FILE_BASE}_datetail.csv
 cat $INTERMED_DIR/${FILE_BASE}_datehead.csv $INTERMED_DIR/${FILE_BASE}_datetail.csv > $INTERMED_DIR/${FILE_BASE}_date.csv
 
