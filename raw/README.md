@@ -1,16 +1,16 @@
 # Rohdaten hinter der monatl. Asylgeschäftsstatistik
 
-Auf dem ersten [Refugee Datathon München](https://refugee-datathon-muc.org) haben wir eine [IFG-Anfrage bei FragDenStaat](https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/) an das BAMF gestellt, um die Rohdaten hinter der [monatlich veröffentlichten Asylgeschäftsstatistik](http://www.bamf.de/DE/Infothek/Statistiken/Asylzahlen/Asylgesch%C3%A4ftsstatistik/asylgeschaeftsstatistik-node.html) zu bekommen.
-Das BAMF hat uns daraufhin [monatliche PDFs bereitgestellt](https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/#nachricht-50896).
+Auf dem ersten [Refugee Datathon München](https://refugee-datathon-muc.org) haben wir eine [IFG-Anfrage bei FragDenStaat](https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/) an das BAMF (Bundesamt für Migration und Flüchtlinge) gestellt, um die Rohdaten hinter der [monatlich veröffentlichten Asylgeschäftsstatistik](http://www.bamf.de/DE/Infothek/Statistiken/Asylzahlen/Asylgesch%C3%A4ftsstatistik/asylgeschaeftsstatistik-node.html) zu bekommen.
+Das BAMF hat uns daraufhin monatliche PDFs bereitgestellt. Seit 2017 veröffentlicht das BAMF diese PDFs auf seiner Website. 
 
-In diesem Repository haben wir die PDFs in CSV-Dateien konvertiert, um später damit Visualisierungen erstellen zu können.
+In diesem Repository liegen die CSV-Dateien, die wir aus den PDFs herausziehen, um sie weiterverarbeiten zu können. Wir erstellen daraus beispielsweise Histogramme mit datawrapper. Diese Daten sind öffentlich und jede/r ist willkommen, sie zu nutzen.  
 
-## HowTo
+## HowTo: CSV aus den PDFs gewinnen
 
 Benötigt:
 
-* PDFs des [BAMF aus der IFG-Anfrage](https://fragdenstaat.de/anfrage/rohdaten-hinter-monatl-asylgeschaftsstatistik/)
-* [Tabula](http://tabula.technology) Herunterladen, starten, warten, auf http://localhost:8080/ finden. Es braucht java.
+* monatliche Asylgeschäftsstatistik als PDFs vom [BAMF](http://www.bamf.de/DE/Infothek/Statistiken/Asylzahlen/Asylgeschäftsstatistik/asylgeschaeftsstatistik-node.html)
+* [Tabula](http://tabula.technology) Herunterladen, starten, warten, auf http://localhost:8080/ finden. Es braucht java. Starten zB als exe auf Windows. 
 
 1. Importiere eine Monats-PDF in Tabula
 2. Markiere nur den Inhalt der Tabelle - nicht den Header (damit kann Tabula nicht umgehen). Nutze _Repeat this Selection_ um alle Seiten mitzunehmen.
@@ -24,7 +24,7 @@ Benötigt:
 6. Kopiere die CSV-Datei als YYYYMM.csv in das raw-Verzeichnis.
 6. Füge jeder CSV als erste Zeile den Inhalt der `header.csv` hinzu.
 7. Rufe `../bin/clean_csv.sh 2015.csv` (z.b. für 2015.csv) auf, um die Daten zu putzen (`-` durch `0` ersetzen, Zwischenüberschriften weg, etc.)
-8. Rufe `../bin/add_date.sh 2015.csv` auf, um Jahr und Monat als erste Zeile hinzuzufuegen
-9. Falls erwuenscht, rufe `../bin/per_country.sh Syrien` auf - extrahiert alle Zeilen fuer Syrien
-10. Falls erwuenscht, rufe `../bin/cut_country.sh ../cooked/Syrien.csv` auf - reduziert auf die Spalten JahrMonat, Antraege gesamt, positive, negative, sonstige. Daraus lassen sich Histogramme plotten wie auf https://refugee-datathon-muc.org/noch-mehr-entscheidungen-pro-herkunftsland/.
+8. Rufe `../bin/add_date.sh 2015.csv` auf, um Jahr und Monat als erste Zeile hinzuzufügen
+9. Falls erwünscht, rufe `../bin/per_country.sh Syrien` auf - extrahiert alle Zeilen für Syrien
+10. Falls erwünscht, rufe `../bin/cut_country.sh ../cooked/Syrien.csv` auf - reduziert auf die Spalten JahrMonat, Anträge gesamt, positive, negative, sonstige. Daraus lassen sich Histogramme plotten wie auf https://refugee-datathon-muc.org/noch-mehr-entscheidungen-pro-herkunftsland/.
 
