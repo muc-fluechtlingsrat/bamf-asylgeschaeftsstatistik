@@ -24,7 +24,6 @@ for DIR in $OUTPUTDIR; do
 done
 
 grep -h $COUNTRY $INPUTDIR/20????.csv | dos2unix | sort > $OUTPUTDIR/$COUNTRY_tail.csv
-head -1 $INPUTDIR/header.csv | sed "s/^${FILE_FIRSTSIX}/YEAR_MONTH,/" >  $OUTPUTDIR/dateheader.csv
 
 
 cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/$COUNTRY_tail.csv > $OUTPUTDIR/$COUNTRY.csv
