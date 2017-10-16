@@ -15,13 +15,13 @@ fi
 
 FILE=$1
 HEADER_FILE=../raw/header.csv
-if [ ! -z $HEADER_FILE ]; then
+if [ ! -f $HEADER_FILE ]; then
     echo "Sorry, cannot fine $HEADER_FILE , exiting ... "; exit 3
 fi
 
 ALREADY_RUN=$(grep -c ASYLANTRAEGE $FILE)
 if [ $ALREADY_RUN -ne 0 ]; then
-  echo "I think I did this file already"
+  echo "I think I did this file already, exiting"
   exit 2
 fi
 
