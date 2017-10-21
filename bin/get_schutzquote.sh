@@ -34,6 +34,7 @@ csvcut -d, -c1,2,7,12,13 $FILE > $OUTPUTDIR/${FILE_BASE}_quota_tmp.csv
 # vFPAT to handle comma in quotes, like "Kongo, Dem. Republik"
 awk -vFPAT='([^,]*)|("[^"]+")' -vOFS=, '{if ($4-$4-$5 != 0 && $3-$5 != 0){print $1,$2,$3,$4,$5,100*($3-$4-$5)/($3-$5), 100*($3-$4-$5)/($3)} else {print $1,$2,$3,$4,$5,"nd,nd"}}' $OUTPUTDIR/${FILE_BASE}_quota_tmp.csv > $OUTPUTDIR/${FILE_BASE}_quota.csv
 # add header
-sed -i '1s/.*/YEAR_MONTH,Herkunftsland, Entscheidungen insgesamt,Ablehnungen,sonstige Erledigungen, bereinigte Schutzquote, BAMF-Schutzquote/' $OUTPUTDIR/${FILE_BASE}_quota.csv 
+sed -i '1s/.*/YEAR_MONTH,Herkunftsland,Entscheidungen insgesamt,Ablehnungen,sonstige Erledigungen, bereinigte Schutzquote, BAMF-Schutzquote/' $OUTPUTDIR/${FILE_BASE}_quota.csv 
+rm $OUTPUTDIR/${FILE_BASE}_quota_tmp.csv
 exit 0
 
