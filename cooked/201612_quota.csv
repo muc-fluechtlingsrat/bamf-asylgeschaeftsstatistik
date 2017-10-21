@@ -1,0 +1,154 @@
+YEAR_MONTH,Herkunftsland,Entscheidungen insgesamt,Ablehnungen,sonstige Erledigungen, bereinigte Schutzquote, BAMF-Schutzquote
+201612,Albanien,1384,948,426,1.04384,0.722543
+201612,Bosnien und Herzegowina,317,167,144,3.46821,1.89274
+201612,Andorra,0,0,0,nd,nd
+201612,Belgien,0,0,0,nd,nd
+201612,Bulgarien,0,0,0,nd,nd
+201612,Estland,0,0,0,nd,nd
+201612,Frankreich,0,0,0,nd,nd
+201612,Kroatien,0,0,0,nd,nd
+201612,Slowenien,2,0,2,nd,nd
+201612,Griechenland,1,1,0,nd,nd
+201612,Italien,9,4,5,0,0
+201612,Lettland,2,1,1,0,0
+201612,Montenegro,72,41,30,2.38095,1.38889
+201612,Mazedonien,878,483,387,1.62933,0.911162
+201612,Moldau (Republik),561,516,41,0.769231,0.713012
+201612,Niederlande,0,0,0,nd,nd
+201612,Kosovo,820,535,263,3.94973,2.68293
+201612,Polen,8,7,1,0,0
+201612,Portugal,0,0,0,nd,nd
+201612,Rumänien,0,0,0,nd,nd
+201612,Slowakische Republik,0,0,0,nd,nd
+201612,Russische Föderation,2501,1501,897,6.42145,4.11835
+201612,Spanien,0,0,0,nd,nd
+201612,Türkei,366,175,154,17.4528,10.1093
+201612,Tschechische Republik,6,0,6,nd,nd
+201612,Ungarn,3,3,0,nd,nd
+201612,Ukraine,544,332,197,4.32277,2.75735
+201612,Großbritannien mit Nordirland,1,1,0,nd,nd
+201612,Weißrussland,64,16,45,15.7895,4.6875
+201612,Serbien,1198,772,405,2.64817,1.75292
+201612,sonst. europ. Staatsangeh.,1,0,0,nd,nd
+201612,Algerien,415,226,179,4.23729,2.40964
+201612,Angola,21,8,4,52.9412,42.8571
+201612,Eritrea,2666,39,385,98.2902,84.096
+201612,Äthiopien,372,148,156,31.4815,18.2796
+201612,Botsuana,0,0,0,nd,nd
+201612,Benin,113,59,48,9.23077,5.30973
+201612,Dschibuti,1,0,1,nd,nd
+201612,Elfenbeinküste (Cote d Ivoire),56,12,40,25,7.14286
+201612,Nigeria,974,413,459,19.8058,10.4723
+201612,Simbabwe,3,3,0,nd,nd
+201612,Gabun,2,1,1,0,0
+201612,Gambia,316,162,147,4.14201,2.21519
+201612,Ghana,311,197,107,3.43137,2.2508
+201612,Mauretanien,19,7,12,0,0
+201612,Cabo Verde,0,0,0,nd,nd
+201612,Kenia,36,20,16,0,0
+201612,Komoren,0,0,0,nd,nd
+201612,Kongo,18,6,7,45.4545,27.7778
+201612,"Kongo, Dem. Republik",47,20,14,39.3939,27.6596
+201612,Liberia,8,0,8,nd,nd
+201612,Libyen,286,148,83,27.0936,19.2308
+201612,Mali,149,52,91,10.3448,4.02685
+201612,Marokko,516,273,221,7.45763,4.26357
+201612,Mauritius,1,1,0,nd,nd
+201612,Mosambik,0,0,0,nd,nd
+201612,Niger,27,11,16,0,0
+201612,Malawi,0,0,0,nd,nd
+201612,Sambia,0,0,0,nd,nd
+201612,Burkina-Faso,44,17,26,5.55556,2.27273
+201612,Guinea-Bissau,124,29,94,3.33333,0.806452
+201612,Guinea,347,108,173,37.931,19.0202
+201612,Kamerun,119,50,67,3.84615,1.68067
+201612,Südafrika,4,4,0,nd,nd
+201612,Ruanda,1,0,0,nd,nd
+201612,Namibia,0,0,0,nd,nd
+201612,Sao Tome  und Principe,0,0,0,nd,nd
+201612,Senegal,132,77,47,9.41176,6.06061
+201612,Sierra Leone,27,7,15,41.6667,18.5185
+201612,Somalia,1618,174,332,86.4697,68.7268
+201612,Äquatorialguinea,1,1,0,nd,nd
+201612,Sudan (ohne Südsudan),129,16,78,68.6275,27.1318
+201612,Südsudan,3,0,2,100,33.3333
+201612,Tansania,1,0,1,nd,nd
+201612,Togo,23,13,8,13.3333,8.69565
+201612,Tschad,44,19,19,24,13.6364
+201612,Tunesien,117,61,56,0,0
+201612,Uganda,13,2,7,66.6667,30.7692
+201612,Ägypten,593,384,119,18.9873,15.1771
+201612,Zentralafrikanische Republik,4,1,1,66.6667,50
+201612,Burundi,8,0,0,nd,nd
+201612,sonst. afrik. Staatsangeh.,59,31,8,39.2157,33.8983
+201612,Argentinien,1,1,0,nd,nd
+201612,Brasilien,0,0,0,nd,nd
+201612,Dominikanische Republik,0,0,0,nd,nd
+201612,Ecuador,2,1,0,nd,nd
+201612,El Salvador,0,0,0,nd,nd
+201612,Guatemala,0,0,0,nd,nd
+201612,Haiti,1,0,0,nd,nd
+201612,Honduras,4,1,0,nd,nd
+201612,Kanada,0,0,0,nd,nd
+201612,Kolumbien,1,1,0,nd,nd
+201612,Kuba,11,4,7,0,0
+201612,Mexico,0,0,0,nd,nd
+201612,Nicaragua,0,0,0,nd,nd
+201612,Jamaica,7,2,5,0,0
+201612,Paraguay,0,0,0,nd,nd
+201612,Peru,0,0,0,nd,nd
+201612,Suriname,0,0,0,nd,nd
+201612,Uruguay,0,0,0,nd,nd
+201612,Venezuela,14,10,2,16.6667,14.2857
+201612,Vereinigte Staaten v. Amerika,1,0,0,nd,nd
+201612,Trinidad und Tobago,0,0,0,nd,nd
+201612,Britisch abh.Geb.Amerika,0,0,0,nd,nd
+201612,Jemen,96,0,9,100,90.625
+201612,Armenien,669,497,126,8.47145,6.87593
+201612,Afghanistan,16514,5931,1249,61.1464,56.5217
+201612,Bahrain,1,0,0,nd,nd
+201612,Aserbaidschan,859,577,101,23.8786,21.071
+201612,Bhutan,1,0,1,nd,nd
+201612,Myanmar,12,0,9,100,25
+201612,Georgien,808,464,317,5.49898,3.34158
+201612,Sri Lanka,40,8,12,71.4286,50
+201612,Vietnam,168,118,49,0.840336,0.595238
+201612,Korea (Demokrat. Volksrepubl.),3,3,0,nd,nd
+201612,Indien,978,718,242,2.44565,1.84049
+201612,Indonesien,0,0,0,nd,nd
+201612,Irak,12185,2705,1030,75.7508,69.3476
+201612,"Iran, Islamische Republik",3148,1104,453,59.0353,50.54
+201612,Israel,2,1,1,0,0
+201612,Japan,0,0,0,nd,nd
+201612,Kasachstan,50,43,7,0,0
+201612,Jordanien,28,6,18,40,14.2857
+201612,Kambodscha,1,0,1,nd,nd
+201612,Katar,0,0,0,nd,nd
+201612,Kuwait,11,1,7,75,27.2727
+201612,"Laos, Demokratische Volksrepublik",0,0,0,nd,nd
+201612,Kirgisistan,16,7,8,12.5,6.25
+201612,Libanon,1020,770,182,8.11456,6.66667
+201612,Oman,0,0,0,nd,nd
+201612,Mongolei,68,37,27,9.7561,5.88235
+201612,Nepal,5,1,4,0,0
+201612,Staatsangehörigkeit ohne Bezeichnung,51,18,8,58.1395,49.0196
+201612,Bangladesch,155,80,56,19.1919,12.2581
+201612,Pakistan,3035,2010,943,3.91969,2.70181
+201612,Philippinen,6,4,2,0,0
+201612,China (Taiwan),4,2,2,0,0
+201612,Korea (Republik),0,0,0,nd,nd
+201612,Vereinigte arabische Emirate,0,0,0,nd,nd
+201612,Tadschikistan,158,75,67,17.5824,10.1266
+201612,Turkmenistan,88,71,10,8.97436,7.95455
+201612,Saudi Arabien,9,0,1,100,88.8889
+201612,"Syrien, Arabische Republik",19122,19,810,99.8962,95.6647
+201612,Thailand,1,0,0,nd,nd
+201612,Usbekistan,8,3,1,57.1429,50
+201612,China,222,102,83,26.6187,16.6667
+201612,Malaysia,0,0,0,nd,nd
+201612,Timor-Leste,0,0,0,nd,nd
+201612,sonst. asiat. Staatsangeh.,320,125,38,55.6738,49.0625
+201612,Australien,0,0,0,nd,nd
+201612,Staatenlos,693,107,54,83.2551,76.7677
+201612,Ungeklärt,1526,377,217,71.1994,61.0747
+201612,ohne Angabe,9,4,2,42.8571,33.3333

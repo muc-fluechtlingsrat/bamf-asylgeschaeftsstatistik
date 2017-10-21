@@ -1,0 +1,154 @@
+YEAR_MONTH,Herkunftsland,Entscheidungen insgesamt,Ablehnungen,sonstige Erledigungen, bereinigte Schutzquote, BAMF-Schutzquote
+201701,Albanien,1318,912,395,1.19177,0.834598
+201701,Bosnien und Herzegowina,282,173,105,2.25989,1.41844
+201701,Andorra,0,0,0,nd,nd
+201701,Belgien,1,0,1,nd,nd
+201701,Bulgarien,0,0,0,nd,nd
+201701,Estland,1,1,0,nd,nd
+201701,Frankreich,0,0,0,nd,nd
+201701,Kroatien,0,0,0,nd,nd
+201701,Slowenien,0,0,0,nd,nd
+201701,Griechenland,0,0,0,nd,nd
+201701,Italien,2,0,2,nd,nd
+201701,Lettland,3,3,0,nd,nd
+201701,Montenegro,57,31,23,8.82353,5.26316
+201701,Litauen,0,0,0,nd,nd
+201701,Mazedonien,717,415,294,1.89125,1.11576
+201701,Moldau (Republik),418,367,51,0,0
+201701,Niederlande,0,0,0,nd,nd
+201701,Kosovo,586,385,195,1.53453,1.02389
+201701,Polen,15,10,5,0,0
+201701,Portugal,1,0,1,nd,nd
+201701,Rumänien,4,1,3,0,0
+201701,Slowakische Republik,0,0,0,nd,nd
+201701,Russische Föderation,1819,1097,636,7.26965,4.72787
+201701,Spanien,4,0,4,nd,nd
+201701,Türkei,314,169,125,10.582,6.36943
+201701,Tschechische Republik,0,0,0,nd,nd
+201701,Ungarn,0,0,0,nd,nd
+201701,Ukraine,505,287,177,12.5,8.11881
+201701,Großbritannien mit Nordirland,1,0,1,nd,nd
+201701,Weißrussland,71,36,32,7.69231,4.22535
+201701,Serbien,1023,536,486,0.18622,0.0977517
+201701,sonst. europ. Staatsangeh.,1,0,1,nd,nd
+201701,Algerien,407,196,198,6.2201,3.1941
+201701,Angola,24,9,1,60.8696,58.3333
+201701,Eritrea,2210,48,467,97.2461,76.6968
+201701,Äthiopien,543,152,282,41.7625,20.0737
+201701,Botsuana,0,0,0,nd,nd
+201701,Benin,99,78,15,7.14286,6.06061
+201701,Dschibuti,3,0,1,100,66.6667
+201701,Elfenbeinküste (Cote d Ivoire),144,39,94,22,7.63889
+201701,Nigeria,1401,589,652,21.3618,11.4204
+201701,Simbabwe,23,7,10,46.1538,26.087
+201701,Gabun,1,0,1,nd,nd
+201701,Gambia,525,227,277,8.46774,4
+201701,Ghana,631,437,176,3.95604,2.85261
+201701,Mauretanien,32,18,8,25,18.75
+201701,Cabo Verde,0,0,0,nd,nd
+201701,Kenia,34,22,9,12,8.82353
+201701,Komoren,0,0,0,nd,nd
+201701,Kongo,13,7,6,0,0
+201701,"Kongo, Dem. Republik",61,14,22,64.1026,40.9836
+201701,Liberia,11,3,8,0,0
+201701,Libyen,263,120,90,30.6358,20.1521
+201701,Mali,132,43,86,6.52174,2.27273
+201701,Marokko,444,247,180,6.43939,3.82883
+201701,Mauritius,0,0,0,nd,nd
+201701,Mosambik,1,0,1,nd,nd
+201701,Niger,27,16,10,5.88235,3.7037
+201701,Malawi,0,0,0,nd,nd
+201701,Sambia,0,0,0,nd,nd
+201701,Burkina-Faso,83,49,30,7.54717,4.81928
+201701,Guinea-Bissau,90,45,38,13.4615,7.77778
+201701,Guinea,696,203,440,20.7031,7.61494
+201701,Kamerun,183,69,114,0,0
+201701,Südafrika,2,0,2,nd,nd
+201701,Ruanda,1,0,1,nd,nd
+201701,Namibia,0,0,0,nd,nd
+201701,Sao Tome  und Principe,0,0,0,nd,nd
+201701,Senegal,289,194,83,5.82524,4.15225
+201701,Sierra Leone,98,28,58,30,12.2449
+201701,Somalia,1894,228,426,84.4687,65.4699
+201701,Äquatorialguinea,3,1,2,0,0
+201701,Sudan (ohne Südsudan),215,24,159,57.1429,14.8837
+201701,Südsudan,11,3,8,0,0
+201701,Tansania,5,2,3,0,0
+201701,Togo,13,8,5,0,0
+201701,Tschad,25,4,19,33.3333,8
+201701,Tunesien,131,77,49,6.09756,3.81679
+201701,Uganda,4,1,2,50,25
+201701,Ägypten,354,206,93,21.0728,15.5367
+201701,Zentralafrikanische Republik,9,3,5,25,11.1111
+201701,Burundi,4,0,0,nd,nd
+201701,sonst. afrik. Staatsangeh.,57,42,5,19.2308,17.5439
+201701,Argentinien,0,0,0,nd,nd
+201701,Brasilien,1,1,0,nd,nd
+201701,Chile,1,1,0,nd,nd
+201701,Dominikanische Republik,0,0,0,nd,nd
+201701,Ecuador,0,0,0,nd,nd
+201701,El Salvador,1,0,1,nd,nd
+201701,Guatemala,0,0,0,nd,nd
+201701,Haiti,1,1,0,nd,nd
+201701,Honduras,7,0,1,100,85.7143
+201701,Kanada,0,0,0,nd,nd
+201701,Kolumbien,6,4,1,20,16.6667
+201701,Kuba,14,7,7,0,0
+201701,Mexico,1,0,0,nd,nd
+201701,Nicaragua,1,1,0,nd,nd
+201701,Jamaica,8,3,3,40,25
+201701,Paraguay,0,0,0,nd,nd
+201701,Peru,0,0,0,nd,nd
+201701,Suriname,0,0,0,nd,nd
+201701,Uruguay,0,0,0,nd,nd
+201701,Venezuela,27,19,3,20.8333,18.5185
+201701,Vereinigte Staaten v. Amerika,2,1,1,0,0
+201701,Trinidad und Tobago,0,0,0,nd,nd
+201701,Jemen,83,0,20,100,75.9036
+201701,Armenien,798,548,192,9.57096,7.26817
+201701,Afghanistan,14107,6658,1068,48.9378,45.2329
+201701,Bahrain,0,0,0,nd,nd
+201701,Aserbaidschan,642,345,216,19.0141,12.6168
+201701,Bhutan,1,0,1,nd,nd
+201701,Myanmar,49,1,11,97.3684,75.5102
+201701,Georgien,669,400,262,1.7199,1.04634
+201701,Sri Lanka,45,20,17,28.5714,17.7778
+201701,Vietnam,222,135,79,5.59441,3.6036
+201701,Korea (Demokrat. Volksrepubl.),4,0,4,nd,nd
+201701,Indien,904,669,222,1.90616,1.43805
+201701,Indonesien,2,2,0,nd,nd
+201701,Irak,10312,2845,810,70.0589,64.5559
+201701,"Iran, Islamische Republik",3999,1431,363,60.6436,55.1388
+201701,Israel,2,1,1,0,0
+201701,Japan,1,0,1,nd,nd
+201701,Kasachstan,37,23,13,4.16667,2.7027
+201701,Jordanien,29,14,7,36.3636,27.5862
+201701,Kambodscha,0,0,0,nd,nd
+201701,Katar,0,0,0,nd,nd
+201701,Kuwait,2,1,1,0,0
+201701,"Laos, Demokratische Volksrepublik",0,0,0,nd,nd
+201701,Kirgisistan,13,9,3,10,7.69231
+201701,Libanon,751,520,159,12.1622,9.58722
+201701,Oman,0,0,0,nd,nd
+201701,Mongolei,44,16,23,23.8095,11.3636
+201701,Nepal,4,1,3,0,0
+201701,Staatsangehörigkeit ohne Bezeichnung,27,16,6,23.8095,18.5185
+201701,Bangladesch,296,187,79,13.8249,10.1351
+201701,Pakistan,3297,2443,778,3.01707,2.30513
+201701,Philippinen,3,1,2,0,0
+201701,China (Taiwan),1,1,0,nd,nd
+201701,Korea (Republik),0,0,0,nd,nd
+201701,Vereinigte arabische Emirate,1,0,0,nd,nd
+201701,Tadschikistan,106,35,38,48.5294,31.1321
+201701,Turkmenistan,42,30,11,3.22581,2.38095
+201701,Saudi Arabien,12,6,6,0,0
+201701,"Syrien, Arabische Republik",13410,12,695,99.9056,94.7278
+201701,Thailand,0,0,0,nd,nd
+201701,Usbekistan,9,0,8,100,11.1111
+201701,China,397,260,107,10.3448,7.55668
+201701,Malaysia,5,4,0,nd,nd
+201701,sonst. asiat. Staatsangeh.,229,85,38,55.4974,46.2882
+201701,Australien,0,0,0,nd,nd
+201701,Staatenlos,557,78,54,84.493,76.3016
+201701,Ungeklärt,1219,273,264,71.4136,55.9475
+201701,ohne Angabe,10,6,1,33.3333,30
