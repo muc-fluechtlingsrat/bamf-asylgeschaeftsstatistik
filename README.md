@@ -17,3 +17,7 @@ Besuche einen der beiden Ordner, um mehr über die Daten zu erfahren und die Dat
 
 ## Zum Projekt
 Entstanden auf dem [Refugee Datathon in München](https://refugee-datathon-muc.org)
+
+## Datenchecks
+see README.md in cooked data directory
+
