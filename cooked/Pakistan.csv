@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-201501,Pakistan,461,438,419,19,227,0,34,1,2,116,74,7001,331,0,31,1,2,114,69,0,3,0,0,2,1,4
-201502,Pakistan,461,360,342,18,191,0,7,0,0,113,71,7168,348,0,7,0,0,113,64,0,0,0,0,0,4,3
-201503,Pakistan,461,247,225,22,130,0,7,0,0,45,78,7289,357,0,7,0,0,43,65,0,0,0,0,2,4,9
-201504,Pakistan,461,457,434,23,123,1,15,0,2,35,70,7620,374,1,14,0,1,32,57,0,1,0,1,3,5,8
-201505,Pakistan,461,452,431,21,136,1,14,0,5,26,90,7932,393,1,14,0,3,26,78,0,0,0,2,0,5,7
-201506,Pakistan,461,832,812,20,182,0,16,1,3,59,103,8579,407,0,15,1,2,56,96,0,1,0,1,3,5,2
-201507,Pakistan,461,691,666,25,146,0,12,8,1,30,95,9123,425,0,11,8,1,30,85,0,1,0,0,0,3,7
-201508,Pakistan,461,625,596,29,66,0,8,1,2,6,49,9664,450,0,7,1,1,6,49,0,1,0,1,0,0,0
-201509,Pakistan,461,1078,1059,19,123,0,9,0,2,34,78,10628,470,0,9,0,2,33,73,0,0,0,0,1,0,5
-201510,Pakistan,461,1010,1000,10,230,0,16,0,4,85,125,11485,460,0,7,0,2,84,113,0,9,0,2,1,5,7
-201511,Pakistan,461,1272,1257,15,207,1,8,0,0,94,104,12659,463,1,8,0,0,94,90,0,0,0,0,0,7,7
-201512,Pakistan,461,688,673,15,294,1,12,0,3,202,76,13113,470,1,9,0,2,201,61,0,3,0,1,1,11,4
 201601,Pakistan,461,757,744,13,334,0,14,0,1,242,77,13639,476,0,14,0,1,237,70,0,0,0,0,5,3,4
 201602,Pakistan,461,939,916,23,395,0,23,2,4,266,100,14242,476,0,20,2,4,263,75,0,3,0,0,3,12,13
 201603,Pakistan,461,1197,1171,26,215,1,17,1,2,140,54,15264,492,1,15,0,1,138,39,0,2,1,1,2,5,10
@@ -23,3 +11,12 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 201610,Pakistan,461,739,716,23,1555,1,24,6,10,884,630,20788,785,1,22,6,10,879,331,0,2,0,0,5,156,143
 201611,Pakistan,461,594,577,17,3197,3,32,19,30,1880,1233,18237,761,3,29,19,27,1846,492,0,3,0,3,34,531,210
 201612,Pakistan,461,458,432,26,3035,0,54,12,16,2010,943,15738,692,0,54,12,15,1983,543,0,0,0,1,27,261,139
+201701,Pakistan,461,365,331,34,3297,4,43,5,24,2443,778,12932,596,4,38,5,21,2432,705,0,5,0,3,11,45,28
+201702,Pakistan,461,372,325,47,3158,2,56,7,14,2337,742,10299,539,2,55,7,12,2321,682,0,1,0,2,16,28,32
+201703,Pakistan,461,461,417,44,2933,10,79,20,23,2178,623,7928,510,10,79,20,23,2157,550,0,0,0,0,21,44,29
+201704,Pakistan,461,312,277,35,2073,2,44,8,34,1601,384,6248,485,2,43,8,33,1571,304,0,1,0,1,30,45,35
+201705,Pakistan,461,403,350,53,2657,1,69,25,51,1936,575,4216,383,1,69,24,51,1865,446,0,0,1,0,71,72,57
+201706,Pakistan,461,345,300,45,1050,5,27,2,22,761,233,3591,355,5,26,2,19,736,171,0,1,0,3,25,29,33
+201707,Pakistan,461,317,250,67,1326,0,39,6,26,943,312,2709,325,0,39,6,23,917,208,0,0,0,3,26,54,50
+201708,Pakistan,461,384,334,50,1264,3,26,6,28,840,361,2013,263,3,25,6,18,815,254,0,1,0,10,25,60,47
+201709,Pakistan,461,385,310,75,690,0,19,4,6,407,254,1819,241,0,19,3,6,383,152,0,0,1,0,24,61,41
