@@ -1,6 +1,7 @@
 #!/bin/bash
-#Purpose:     add header as first row
+#Purpose:     clean, add header, add date 
 # 2017.10.16   S.Kim
+#set -xv
 
 SCRIPTNAME=$(basename $0 .sh)
 
@@ -23,10 +24,10 @@ BLANKS_BETWEEN=$(grep -c -e '^[A-Za-z]* ,' $FILE)
 if [ $BLANKS_BETWEEN -gt 10 ]; then
   echo "Please check if tabula created blanks before the commata, exiting"; exit 3
 fi
-NUM_LINES=$(wc -l $FILE)
-if [ $NUM_LINES -lt 150 ]; then
+NUM_LINES=$(wc -l $FILE | cut -f1 -d' ')
+if [[ $NUM_LINES -lt 140 ]]; then
   echo "number of lines is $NUM_LINES, seems a bit low, exiting"; exit 3
-elif [ $NUM_LINES -lt 200 ]; then
+elif [[ $NUM_LINES -gt 200 ]]; then
   echo "number of lines is $NUM_LINES, seems a bit high, exiting"; exit 3
 fi 
 # num of cols ... not sure how to do that.
