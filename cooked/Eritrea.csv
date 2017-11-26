@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-201501,Eritrea,224,626,620,6,313,0,179,45,3,4,82,15535,62,0,179,45,1,4,80,0,0,0,2,0,0,2
-201502,Eritrea,224,357,350,7,371,3,260,18,5,1,84,15579,81,3,256,18,4,1,83,0,4,0,1,0,1,0
-201503,Eritrea,224,316,306,10,359,2,225,15,5,5,107,15579,94,2,225,15,2,5,105,0,0,0,3,0,0,2
-201504,Eritrea,224,367,362,5,275,1,119,26,4,3,122,15745,97,1,119,26,3,3,116,0,0,0,1,0,2,4
-201505,Eritrea,224,620,612,8,313,1,215,12,2,3,80,16105,108,1,210,12,0,3,75,0,5,0,2,0,1,4
-201506,Eritrea,224,1071,1063,8,524,3,406,15,2,3,95,16698,124,3,404,15,0,3,93,0,2,0,2,0,0,2
-201507,Eritrea,224,1219,1209,10,567,2,492,10,6,5,52,17420,129,2,492,10,2,5,47,0,0,0,4,0,0,5
-201508,Eritrea,224,983,978,5,541,1,508,7,3,0,22,17988,132,1,507,7,2,0,21,0,1,0,1,0,0,1
-201509,Eritrea,224,1122,1113,9,717,1,521,148,1,2,44,18652,137,1,521,148,0,2,41,0,0,0,1,0,0,3
-201510,Eritrea,224,1211,1201,10,1181,2,1071,29,6,4,69,18847,144,2,1070,29,5,4,68,0,1,0,1,0,1,0
-201511,Eritrea,224,1259,1249,10,2679,15,2578,12,1,5,68,17489,146,15,2575,12,1,5,61,0,3,0,0,0,0,7
-201512,Eritrea,224,699,689,10,2374,14,2300,9,0,5,46,15877,154,14,2297,9,0,4,46,0,3,0,0,1,0,0
 201601,Eritrea,224,637,627,10,1934,22,1857,10,1,6,38,14673,159,22,1846,10,1,6,35,0,11,0,0,0,0,3
 201602,Eritrea,224,936,920,16,2291,19,2162,8,1,19,82,13492,159,19,2149,8,1,19,79,0,13,0,0,0,2,1
 201603,Eritrea,224,842,830,12,1665,24,1563,14,2,20,42,12810,154,24,1550,13,2,20,37,0,13,1,0,0,0,5
@@ -23,3 +11,12 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 201610,Eritrea,224,1724,1709,15,1952,5,1083,701,17,10,136,14214,183,5,1081,701,16,10,130,0,2,0,1,0,4,2
 201611,Eritrea,224,2015,2001,14,2025,12,1048,628,30,14,293,14219,205,12,1045,627,26,14,278,0,3,1,4,0,11,4
 201612,Eritrea,224,1646,1629,17,2666,13,1461,737,31,39,385,13225,214,13,1453,736,17,39,368,0,8,1,14,0,5,12
+201701,Eritrea,224,966,958,8,2210,6,1017,608,64,48,467,12084,201,6,1016,607,63,48,456,0,1,1,1,0,6,5
+201702,Eritrea,224,1087,1079,8,2536,7,1056,626,80,37,730,10828,186,7,1053,625,69,37,707,0,3,1,11,0,3,20
+201703,Eritrea,224,1048,1035,13,3013,37,1218,860,47,70,781,9113,164,37,1208,857,41,70,756,0,10,3,6,0,14,11
+201704,Eritrea,224,852,846,6,2656,41,1146,806,91,38,534,7478,159,41,1142,803,82,37,524,0,4,3,9,1,4,6
+201705,Eritrea,224,799,784,15,2736,17,1138,985,115,65,416,5642,127,17,1133,977,98,64,388,0,5,8,17,1,9,19
+201706,Eritrea,224,975,954,21,1629,68,674,587,51,34,215,5115,130,68,674,585,43,33,197,0,0,2,8,1,3,15
+201707,Eritrea,224,742,728,14,1900,111,804,715,52,23,195,4052,123,111,798,711,41,23,181,0,6,4,11,0,4,10
+201708,Eritrea,224,442,414,28,1655,65,677,616,62,36,199,2975,110,64,664,613,45,36,162,1,13,3,17,0,6,31
+201709,Eritrea,224,616,593,23,1038,55,386,380,40,16,161,2759,105,55,381,376,31,16,129,0,5,4,9,0,2,30

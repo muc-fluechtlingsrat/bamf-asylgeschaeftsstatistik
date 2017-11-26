@@ -1,5 +1,5 @@
 #!/bin/bash
-#Purpose:     extract yearmonth from filename and add it as first row
+#Purpose:     extract yearmonth from filename and add it as first column
 # 2016.06.18   S.Kim
 
 SCRIPTNAME=$(basename $0 .sh)
@@ -14,7 +14,11 @@ if [ $# -ne 1 ]; then
 fi
 
 FILE=$1
+re='[0-9]{6}.csv'
 s=${FILE##*/}
+if ! [[ $s =~ $re ]] ; then
+   echo "The filename $s doesn't follow the expected pattern YYYYMM.csv, exiting"; exit 1
+fi
 FILE_BASE=${s%.*}
 FILE_FIRSTSIX=${s:0:6}
 INTERMED_DIR=../intermediate

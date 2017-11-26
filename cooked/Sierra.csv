@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-201501,Sierra Leone,272,32,31,1,2,0,0,0,0,0,2,392,22,0,0,0,0,0,2,0,0,0,0,0,0,0
-201502,Sierra Leone,272,28,27,1,0,0,0,0,0,0,0,414,29,0,0,0,0,0,0,0,0,0,0,0,0,0
-201503,Sierra Leone,272,23,18,5,6,0,0,0,0,0,6,427,33,0,0,0,0,0,5,0,0,0,0,0,0,1
-201504,Sierra Leone,272,16,15,1,4,0,0,0,1,0,3,439,34,0,0,0,1,0,3,0,0,0,0,0,0,0
-201505,Sierra Leone,272,22,20,2,2,0,1,0,0,0,1,458,38,0,1,0,0,0,1,0,0,0,0,0,0,0
-201506,Sierra Leone,272,38,38,0,11,0,0,0,2,5,4,486,38,0,0,0,2,5,4,0,0,0,0,0,0,0
-201507,Sierra Leone,272,31,31,0,2,0,0,0,0,0,2,516,38,0,0,0,0,0,2,0,0,0,0,0,0,0
-201508,Sierra Leone,272,44,43,1,9,0,1,0,1,0,7,555,39,0,1,0,1,0,7,0,0,0,0,0,0,0
-201509,Sierra Leone,272,19,18,1,0,0,0,0,0,0,0,574,40,0,0,0,0,0,0,0,0,0,0,0,0,0
-201510,Sierra Leone,272,21,21,0,3,0,0,0,1,0,2,598,39,0,0,0,1,0,2,0,0,0,0,0,0,0
-201511,Sierra Leone,272,2,2,0,16,0,1,0,2,6,7,591,39,0,1,0,2,6,7,0,0,0,0,0,0,0
-201512,Sierra Leone,272,3,1,2,22,0,1,0,1,15,5,571,41,0,1,0,1,15,5,0,0,0,0,0,0,0
 201601,Sierra Leone,272,3,2,1,16,0,0,0,1,10,5,559,41,0,0,0,1,10,4,0,0,0,0,0,0,1
 201602,Sierra Leone,272,14,14,0,8,0,0,0,0,3,5,565,41,0,0,0,0,3,5,0,0,0,0,0,0,0
 201603,Sierra Leone,272,26,25,1,4,0,0,0,0,0,4,592,42,0,0,0,0,0,4,0,0,0,0,0,0,0
@@ -23,3 +11,12 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 201610,Sierra Leone,272,57,55,2,28,0,0,1,0,10,17,1129,37,0,0,1,0,9,15,0,0,0,0,1,2,0
 201611,Sierra Leone,272,84,84,0,27,0,0,1,1,10,15,1188,35,0,0,1,1,10,15,0,0,0,0,0,0,0
 201612,Sierra Leone,272,135,135,0,27,0,5,0,0,7,15,1301,43,0,5,0,0,7,15,0,0,0,0,0,0,0
+201701,Sierra Leone,272,147,147,0,98,0,4,0,8,28,58,1359,39,0,4,0,8,27,56,0,0,0,0,1,1,1
+201702,Sierra Leone,272,108,104,4,130,0,5,3,11,52,59,1341,40,0,5,3,11,51,59,0,0,0,0,1,0,0
+201703,Sierra Leone,272,76,75,1,145,0,1,0,3,20,121,1276,38,0,1,0,3,18,116,0,0,0,0,2,1,4
+201704,Sierra Leone,272,66,64,2,230,0,22,4,20,95,89,1102,51,0,22,4,20,93,86,0,0,0,0,2,1,2
+201705,Sierra Leone,272,38,36,2,277,0,24,2,27,197,27,868,46,0,24,2,26,190,12,0,0,0,1,7,3,12
+201706,Sierra Leone,272,63,61,2,315,0,18,4,29,215,49,625,35,0,18,4,29,212,36,0,0,0,0,3,5,8
+201707,Sierra Leone,272,65,64,1,303,0,22,1,15,119,146,411,24,0,22,1,15,114,135,0,0,0,0,5,5,6
+201708,Sierra Leone,272,65,61,4,120,0,12,1,13,55,39,364,28,0,12,1,13,55,35,0,0,0,0,0,2,2
+201709,Sierra Leone,272,52,44,8,113,1,11,0,5,41,55,310,35,1,11,0,5,39,53,0,0,0,0,2,1,1

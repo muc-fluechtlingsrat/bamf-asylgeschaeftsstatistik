@@ -1,0 +1,153 @@
+YEAR_MONTH,Herkunftsland,Entscheidungen insgesamt,Ablehnungen,sonstige Erledigungen, bereinigte Schutzquote, BAMF-Schutzquote
+201512,Albanien,3588,2706,867,0.551268,0.41806
+201512,Bosnien und Herzegowina,666,393,273,0,0
+201512,Belgien,0,0,0,nd,nd
+201512,Bulgarien,0,0,0,nd,nd
+201512,Estland,1,1,0,nd,nd
+201512,Frankreich,1,1,0,nd,nd
+201512,Kroatien,0,0,0,nd,nd
+201512,Slowenien,0,0,0,nd,nd
+201512,Griechenland,0,0,0,nd,nd
+201512,Italien,1,0,1,nd,nd
+201512,Lettland,0,0,0,nd,nd
+201512,Montenegro,545,524,21,0,0
+201512,Litauen,0,0,0,nd,nd
+201512,Mazedonien,741,485,255,0.205761,0.134953
+201512,Moldau (Republik),2,0,2,nd,nd
+201512,Niederlande,0,0,0,nd,nd
+201512,Kosovo,1301,1089,205,0.638686,0.538048
+201512,Polen,0,0,0,nd,nd
+201512,Portugal,0,0,0,nd,nd
+201512,Rumänien,0,0,0,nd,nd
+201512,Slowakische Republik,0,0,0,nd,nd
+201512,Schweden,1,1,0,nd,nd
+201512,Schweiz,0,0,0,nd,nd
+201512,Russische Föderation,586,104,455,20.6107,4.60751
+201512,Spanien,0,0,0,nd,nd
+201512,Türkei,108,34,52,39.2857,20.3704
+201512,Tschechische Republik,0,0,0,nd,nd
+201512,Ungarn,0,0,0,nd,nd
+201512,Ukraine,103,20,78,20,4.85437
+201512,Großbritannien mit Nordirland,0,0,0,nd,nd
+201512,Weißrußland,2,0,2,nd,nd
+201512,Serbien,1973,1310,662,0.0762777,0.0506842
+201512,Zypern,0,0,0,nd,nd
+201512,sonst. europ. Staatsangeh.,0,0,0,nd,nd
+201512,Algerien,103,62,38,4.61538,2.91262
+201512,Angola,3,2,1,0,0
+201512,Eritrea,2374,5,46,99.7852,97.8517
+201512,Äthiopien,54,21,22,34.375,20.3704
+201512,Botsuana,0,0,0,nd,nd
+201512,Benin,3,2,1,0,0
+201512,Dschibuti,0,0,0,nd,nd
+201512,Elfenbeinküste (Cote d Ivoire),30,2,28,0,0
+201512,Nigeria,101,47,47,12.963,6.93069
+201512,Simbabwe,1,0,0,nd,nd
+201512,Gabun,1,0,1,nd,nd
+201512,Gambia,20,3,17,0,0
+201512,Ghana,21,5,16,0,0
+201512,Mauretanien,1,0,1,nd,nd
+201512,Cabo Verde,0,0,0,nd,nd
+201512,Kenia,11,8,3,0,0
+201512,Komoren,0,0,0,nd,nd
+201512,Kongo,3,3,0,nd,nd
+201512,"Kongo, Dem. Republik",10,8,1,11.1111,10
+201512,Liberia,5,0,5,nd,nd
+201512,Libyen,33,9,8,64,48.4848
+201512,Mali,32,7,24,12.5,3.125
+201512,Marokko,89,55,25,14.0625,10.1124
+201512,Mauritius,0,0,0,nd,nd
+201512,Mosambik,0,0,0,nd,nd
+201512,Niger,13,5,8,0,0
+201512,Malawi,0,0,0,nd,nd
+201512,Sambia,0,0,0,nd,nd
+201512,Burkina-Faso,18,5,12,16.6667,5.55556
+201512,Guinea-Bissau,30,7,22,12.5,3.33333
+201512,Guinea,28,7,17,36.3636,14.2857
+201512,Kamerun,21,7,14,0,0
+201512,Südafrika,0,0,0,nd,nd
+201512,Ruanda,3,1,1,50,33.3333
+201512,Namibia,0,0,0,nd,nd
+201512,Senegal,28,7,21,0,0
+201512,Sierra Leone,22,15,5,11.7647,9.09091
+201512,Somalia,163,20,75,77.2727,41.7178
+201512,Äquatorialguinea,0,0,0,nd,nd
+201512,Sudan (ohne Südsudan),50,8,24,69.2308,36
+201512,Südsudan,1,0,1,nd,nd
+201512,Tansania,0,0,0,nd,nd
+201512,Togo,3,1,2,0,0
+201512,Tschad,11,1,10,0,0
+201512,Tunesien,32,20,12,0,0
+201512,Uganda,10,5,4,16.6667,10
+201512,Ägypten,103,46,12,49.4505,43.6893
+201512,Zentralafrikanische Republik,1,0,1,nd,nd
+201512,Burundi,0,0,0,nd,nd
+201512,sonst. afrik. Staatsangeh.,19,17,0,nd,nd
+201512,Argentinien,0,0,0,nd,nd
+201512,Brasilien,0,0,0,nd,nd
+201512,Belize,0,0,0,nd,nd
+201512,Dominikanische Republik,0,0,0,nd,nd
+201512,Ecuador,0,0,0,nd,nd
+201512,El Salvador,0,0,0,nd,nd
+201512,Grenada,0,0,0,nd,nd
+201512,Guatemala,0,0,0,nd,nd
+201512,Haiti,1,0,1,nd,nd
+201512,Honduras,0,0,0,nd,nd
+201512,Kanada,0,0,0,nd,nd
+201512,Kolumbien,0,0,0,nd,nd
+201512,Kuba,11,0,11,nd,nd
+201512,Mexico,0,0,0,nd,nd
+201512,Nicaragua,0,0,0,nd,nd
+201512,Jamaica,3,1,2,0,0
+201512,Paraguay,0,0,0,nd,nd
+201512,Peru,0,0,0,nd,nd
+201512,Venezuela,0,0,0,nd,nd
+201512,Vereinigte Staaten v. Amerika,0,0,0,nd,nd
+201512,Jemen,13,0,3,100,76.9231
+201512,Armenien,71,30,37,11.7647,5.6338
+201512,Afghanistan,590,140,136,69.163,53.2203
+201512,Bahrain,0,0,0,nd,nd
+201512,Aserbaidschan,30,13,9,38.0952,26.6667
+201512,Bhutan,0,0,0,nd,nd
+201512,Myanmar,2,0,2,nd,nd
+201512,Georgien,210,150,59,0.662252,0.47619
+201512,Sri Lanka,22,12,3,36.8421,31.8182
+201512,Vietnam,25,8,17,0,0
+201512,Korea (Demokrat. Volksrepubl.),0,0,0,nd,nd
+201512,Indien,123,101,21,0.980392,0.813008
+201512,Indonesien,0,0,0,nd,nd
+201512,Irak,2155,49,165,97.5377,90.0696
+201512,"Iran, Islamische Republik",287,49,67,77.7273,59.5819
+201512,Israel,1,1,0,nd,nd
+201512,Kasachstan,1,0,1,nd,nd
+201512,Jordanien,5,1,1,75,60
+201512,Kambodscha,0,0,0,nd,nd
+201512,Katar,0,0,0,nd,nd
+201512,Kuwait,0,0,0,nd,nd
+201512,"Laos, Demokratische Volksrepublik",0,0,0,nd,nd
+201512,Kirgisistan,11,4,3,50,36.3636
+201512,Libanon,33,22,4,24.1379,21.2121
+201512,Oman,0,0,0,nd,nd
+201512,Mongolei,18,1,16,50,5.55556
+201512,Nepal,0,0,0,nd,nd
+201512,Staatsangehörigkeit ohne Bezeichnung,6,0,0,nd,nd
+201512,Bangladesch,45,20,25,0,0
+201512,Pakistan,294,202,76,7.33945,5.44218
+201512,Philippinen,0,0,0,nd,nd
+201512,China (Taiwan),0,0,0,nd,nd
+201512,Korea (Republik),0,0,0,nd,nd
+201512,Vereinigte arabische Emirate,0,0,0,nd,nd
+201512,Tadschikistan,12,1,11,0,0
+201512,Turkmenistan,2,0,2,nd,nd
+201512,Saudi Arabien,0,0,0,nd,nd
+201512,"Syrien, Arabische Republik",25015,9,132,99.9638,99.4363
+201512,Thailand,0,0,0,nd,nd
+201512,Usbekistan,2,0,1,100,50
+201512,China,21,4,11,60,28.5714
+201512,Malaysia,0,0,0,nd,nd
+201512,sonst. asiat. Staatsangeh.,212,21,20,89.0625,80.6604
+201512,Neuseeland,0,0,0,nd,nd
+201512,Australien,0,0,0,nd,nd
+201512,Staatenlos,322,1,2,99.6875,99.0683
+201512,Ungeklärt,614,36,24,93.8983,90.228
+201512,ohne Angabe,0,0,0,nd,nd
