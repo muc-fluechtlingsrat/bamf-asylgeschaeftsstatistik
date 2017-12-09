@@ -5,7 +5,7 @@ Das BAMF hat uns daraufhin monatliche PDFs bereitgestellt. Seit 2017 veröffentl
 
 In diesem Repository liegen die CSV-Dateien, die wir aus den PDFs herausziehen, um sie weiterverarbeiten zu können. Wir erstellen daraus beispielsweise Histogramme mit datawrapper. Diese Daten sind öffentlich und jede/r ist willkommen, sie zu nutzen.  
 
-Erklärt gemäss Datapackage http://dataprotocols.org/data-packages , mit Datapackage bauen: http://datapackagist.okfnlabs.org
+datapackage.json: Möglicherweise veraltete Dokumentation gemäss Datapackage http://dataprotocols.org/data-packages , mit Datapackage bauen: http://datapackagist.okfnlabs.org
 
 ## HowTo: CSV aus den PDFs gewinnen
 
@@ -28,3 +28,4 @@ Benötigt:
 9. Um die Daten zu einem Land, beispielsweise Pakistan, über die Monate hinweg zu erhalten, rufe auf: `./per_country.sh -c Pakistan -y "2016 2017"`.
 10. Um ein Histogramm wie auf https://refugeedatathonmuc.wordpress.com/ zu erzeugen, reduziere die Daten mit `../bin/cut_country.sh ../cooked/Pakistan.csv`. Die resultierende Datei `../cooked/Pakistan_cut.csv` enthält nur die Spalten JahrMonat, Anträge gesamt, positive, negative, sonstige. 
 In anderen Worten: `COUNTRY=Eritrea; ./per_country.sh -c $COUNTRY -y "2016 2017"; ./cut_country.sh ../cooked/${COUNTRY}.csv; ../cooked/${COUNTRY}_cut.csv`. Hinweis: Es wird nach dem $COUNTRY gegrept. `COUNTRY=Sierra` für Sierra Leone funktioniert. Für die VR China geht `COUNTRY="China,"`.
+Zum Generieren des Histogramms kann man beispielsweise Excel benutzen, wir nehmen [https://app.datawrapper.de].
