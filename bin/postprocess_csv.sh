@@ -43,7 +43,8 @@ if [ $ALREADY_RUN -ne 0 ]; then
   exit 2
 fi
 
-cat $HEADER_FILE $FILE > /tmp/x.csv; mv /tmp/x.csv $FILE
+# add header, remove Windows endoflines etc
+cat $HEADER_FILE $FILE | dos2unix > /tmp/x.csv; mv /tmp/x.csv $FILE
 
 ### Cleaning
 
@@ -58,7 +59,8 @@ cat $HEADER_FILE $FILE > /tmp/x.csv; mv /tmp/x.csv $FILE
 csvclean -n $FILE
 CLEAN=$?
 if [ ! $CLEAN ]; then
-  echo "Sorry, your csv is not clean, exiting"
+  echo "Sorry, your csv is not clean"
 fi
+echo "Enjoy your file: $FILE"
 exit 0
 
