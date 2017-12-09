@@ -5,6 +5,8 @@ Das BAMF hat uns daraufhin monatliche PDFs bereitgestellt. Seit 2017 veröffentl
 
 In diesem Repository liegen die CSV-Dateien, die wir aus den PDFs herausziehen, um sie weiterverarbeiten zu können. Wir erstellen daraus beispielsweise Histogramme mit datawrapper. Diese Daten sind öffentlich und jede/r ist willkommen, sie zu nutzen.  
 
+Erklärt gemäss Datapackage http://dataprotocols.org/data-packages , mit Datapackage bauen: http://datapackagist.okfnlabs.org
+
 ## HowTo: CSV aus den PDFs gewinnen
 
 Benötigt:
@@ -21,10 +23,8 @@ Benötigt:
 
 4. Prüfe, ob die Daten so aussehen wie im Screenshot darüber. Es sollten keine leeren Spalten zwischen den Zahlen existieren.
 5. Exportiere als CSV.
-6. Kopiere die CSV-Datei als YYYYMM.csv in das raw-Verzeichnis.
-6. Füge jeder CSV als erste Zeile den Inhalt der `header.csv` hinzu.
-7. Rufe `../bin/clean_csv.sh 2015.csv` (z.b. für 2015.csv) auf, um die Daten zu putzen (`-` durch `0` ersetzen, Zwischenüberschriften weg, etc.)
-8. Rufe `../bin/add_date.sh 2015.csv` auf, um Jahr und Monat als erste Zeile hinzuzufügen
-9. Falls erwünscht, rufe `../bin/per_country.sh Syrien` auf - extrahiert alle Zeilen für Syrien
-10. Falls erwünscht, rufe `../bin/cut_country.sh ../cooked/Syrien.csv` auf - reduziert auf die Spalten JahrMonat, Anträge gesamt, positive, negative, sonstige. Daraus lassen sich Histogramme plotten wie auf https://refugee-datathon-muc.org/noch-mehr-entscheidungen-pro-herkunftsland/.
-
+6. Kopiere die CSV-Datei als YYYYMM.csv in das YYYY/raw-Verzeichnis.
+7. Gehe ins bin-Verzeichnis und rufe auf: `./postprocess_csv.sh ../raw/2017/201710.csv`. Das macht ein paar Bereinigungen und fügt 1. eine Kopfzeile, 2. Jahr und Monat hinzu. 
+9. Um die Daten zu einem Land, beispielsweise Pakistan, über die Monate hinweg zu erhalten, rufe auf: `./per_country.sh -c Pakistan -y "2016 2017"`.
+10. Um ein Histogramm wie auf https://refugeedatathonmuc.wordpress.com/ zu erzeugen, reduziere die Daten mit `../bin/cut_country.sh ../cooked/Pakistan.csv`. Die resultierende Datei `../cooked/Pakistan_cut.csv` enthält nur die Spalten JahrMonat, Anträge gesamt, positive, negative, sonstige. 
+In anderen Worten: `COUNTRY=Eritrea; ./per_country.sh -c $COUNTRY -y "2016 2017"; ./cut_country.sh ../cooked/${COUNTRY}.csv; ../cooked/${COUNTRY}_cut.csv`. Hinweis: Es wird nach dem $COUNTRY gegrept. `COUNTRY=Sierra` für Sierra Leone funktioniert. Für die VR China geht `COUNTRY="China,"`.

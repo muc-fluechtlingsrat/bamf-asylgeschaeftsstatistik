@@ -1,25 +1,48 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-201501,China,479,24,22,2,11,0,0,1,0,8,2,697,48,0,0,1,0,8,2,0,0,0,0,0,0,0
-201502,China,479,23,22,1,12,1,2,1,0,6,2,712,49,1,2,1,0,6,2,0,0,0,0,0,0,0
-201503,China,479,36,34,2,6,1,3,0,0,0,2,750,50,1,2,0,0,0,2,0,1,0,0,0,0,0
-201504,China,479,30,30,0,8,0,1,0,0,4,3,780,49,0,1,0,0,3,3,0,0,0,0,1,0,0
-201505,China,479,45,42,3,9,0,4,0,0,4,1,816,51,0,4,0,0,3,1,0,0,0,0,1,0,0
-201506,China,479,70,66,4,24,0,2,0,0,14,8,859,53,0,2,0,0,14,5,0,0,0,0,0,1,2
-201507,China,479,44,37,7,23,0,0,0,0,18,5,874,60,0,0,0,0,18,5,0,0,0,0,0,0,0
-201508,China,479,101,97,4,5,1,0,0,0,3,1,968,62,1,0,0,0,2,0,0,0,0,0,1,1,0
-201509,China,479,50,48,2,12,0,2,0,0,7,3,1009,64,0,2,0,0,7,3,0,0,0,0,0,0,0
-201510,China,479,55,55,0,8,0,1,0,0,7,0,1046,65,0,1,0,0,7,0,0,0,0,0,0,0,0
-201511,China,479,47,46,1,30,0,2,0,0,25,3,1063,67,0,2,0,0,25,3,0,0,0,0,0,0,0
-201512,China,479,16,14,2,21,0,6,0,0,4,11,1072,60,0,6,0,0,4,1,0,0,0,0,0,10,0
 201601,China,479,22,21,1,25,0,0,1,0,17,7,1075,56,0,0,1,0,13,6,0,0,0,0,4,1,0
+201601,China (Taiwan),465,1,1,0,0,0,0,0,0,0,0,20,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201602,China,479,6,6,0,22,0,6,1,1,8,6,1069,55,0,6,1,0,8,6,0,0,0,1,0,0,0
+201602,China (Taiwan),465,0,0,0,0,0,0,0,0,0,0,20,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201603,China,479,18,12,6,20,1,2,1,0,13,3,1070,58,1,2,1,0,12,1,0,0,0,0,1,0,2
+201603,China (Taiwan),465,1,1,0,0,0,0,0,0,0,0,21,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201604,China,479,51,49,2,26,1,3,0,0,12,10,1100,59,1,2,0,0,12,10,0,1,0,0,0,0,0
+201604,China (Taiwan),465,1,1,0,0,0,0,0,0,0,0,24,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201605,China,479,59,55,4,31,1,5,0,0,19,6,1130,62,1,5,0,0,19,5,0,0,0,0,0,1,0
+201605,China (Taiwan),465,6,6,0,0,0,0,0,0,0,0,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201606,China,479,110,110,0,23,1,2,0,0,11,9,1229,60,1,2,0,0,10,8,0,0,0,0,1,1,0
+201606,China (Taiwan),465,2,2,0,0,0,0,0,0,0,0,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201607,China,479,93,93,0,72,4,3,3,1,47,14,1250,56,4,3,3,0,46,12,0,0,0,1,1,1,1
+201607,China (Taiwan),465,0,0,0,0,0,0,0,0,0,0,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201608,China,479,158,156,2,69,1,2,2,0,57,7,1348,57,1,2,2,0,57,6,0,0,0,0,0,0,1
+201608,China (Taiwan),465,2,2,0,0,0,0,0,0,0,0,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201609,China,479,175,174,1,49,0,5,1,1,36,6,1485,57,0,5,1,1,36,6,0,0,0,0,0,0,0
+201609,China (Taiwan),465,0,0,0,0,0,0,0,0,0,0,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201610,China,479,152,143,9,71,5,4,3,3,35,21,1564,60,5,4,3,3,35,15,0,0,0,0,0,6,0
+201610,China (Taiwan),465,0,0,0,0,0,0,0,0,0,0,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201611,China,479,67,62,5,67,2,5,0,1,37,22,1562,64,2,5,0,1,37,21,0,0,0,0,0,1,0
+201611,China (Taiwan),465,0,0,0,0,0,0,0,0,0,0,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 201612,China,479,76,76,0,222,2,26,7,2,102,83,1438,48,2,24,3,2,101,74,0,2,4,0,1,5,4
+201612,China (Taiwan),465,0,0,0,4,0,0,0,0,2,2,25,1,0,0,0,0,2,2,0,0,0,0,0,0,0
+201701,China,479,63,63,0,397,4,18,5,3,260,107,1118,41,4,18,5,1,258,105,0,0,0,2,2,0,2
+201701,China (Taiwan),465,1,1,0,1,0,0,0,0,1,0,20,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+201702,China,479,59,50,9,278,17,25,2,2,175,57,902,44,17,25,2,2,174,51,0,0,0,0,1,5,1
+201702,China (Taiwan),465,0,0,0,1,0,0,0,0,1,0,18,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+201703,China,479,42,34,8,218,12,12,3,3,121,67,735,45,12,10,3,3,120,62,0,2,0,0,1,2,3
+201703,China (Taiwan),465,0,0,0,2,0,0,0,0,1,1,15,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+201704,China,479,37,31,6,180,8,10,4,1,105,52,599,36,8,6,4,1,102,46,0,4,0,0,3,6,0
+201704,China (Taiwan),465,2,2,0,0,0,0,0,0,0,0,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+201705,China,479,51,47,4,224,14,10,8,4,142,46,431,33,14,10,7,4,139,43,0,0,1,0,3,3,0
+201705,China (Taiwan),465,0,0,0,1,0,0,0,0,1,0,11,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+201706,China,479,62,58,4,95,4,8,0,0,57,26,402,35,4,8,0,0,57,24,0,0,0,0,0,1,1
+201706,China (Taiwan),465,0,0,0,0,0,0,0,0,0,0,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+201707,China,479,50,43,7,122,3,15,0,0,70,34,344,34,3,15,0,0,69,27,0,0,0,0,1,6,1
+201707,China (Hongkong),411,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+201707,China (Taiwan),465,0,0,0,1,0,0,0,0,0,1,7,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+201708,China,479,60,56,4,119,0,12,1,0,60,46,294,33,0,12,1,0,58,41,0,0,0,0,2,4,1
+201708,China (Taiwan),465,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+201709,China,479,32,28,4,110,2,6,1,1,54,46,217,35,2,6,1,1,51,43,0,0,0,0,3,3,0
+201709,China (Hongkong),411,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+201709,China (Taiwan),465,1,1,0,0,0,0,0,0,0,0,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+201710,China,479,54,43,11,80,1,5,0,4,27,43,202,26,1,5,0,4,26,22,0,0,0,0,1,13,8
+201710,China (Hongkong),411,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+201710,China (Taiwan),465,0,0,0,1,0,0,0,0,1,0,5,1,0,0,0,0,1,0,0,0,0,0,0,0,0
