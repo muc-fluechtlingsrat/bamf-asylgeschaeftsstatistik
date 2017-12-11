@@ -1,0 +1,24 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+201601,Türkei,163,119,94,25,107,2,4,1,2,54,44,3047,451,2,4,1,2,49,32,0,0,0,0,5,7,5
+201602,Türkei,163,226,189,37,59,0,5,0,1,26,27,3199,473,0,5,0,1,22,20,0,0,0,0,4,5,2
+201603,Türkei,163,198,167,31,61,0,2,0,0,20,39,3341,490,0,2,0,0,19,30,0,0,0,0,1,5,4
+201604,Türkei,163,306,272,34,68,0,3,0,0,25,40,3587,518,0,3,0,0,23,32,0,0,0,0,2,6,2
+201605,Türkei,163,330,312,18,65,0,2,0,0,23,40,3857,529,0,2,0,0,22,33,0,0,0,0,1,2,5
+201606,Türkei,163,485,459,26,144,0,6,2,5,74,57,4216,539,0,5,2,5,72,43,0,1,0,0,2,7,7
+201607,Türkei,163,550,525,25,138,0,5,1,2,49,81,4648,547,0,5,1,1,41,70,0,0,0,1,8,6,5
+201608,Türkei,163,762,732,30,155,2,7,2,2,42,100,5274,570,2,7,2,1,39,92,0,0,0,1,3,5,3
+201609,Türkei,163,696,669,27,142,0,4,4,0,19,115,5847,583,0,4,3,0,14,107,0,0,1,0,5,5,3
+201610,Türkei,163,597,575,22,190,1,13,2,1,46,127,6282,598,1,13,2,1,46,117,0,0,0,0,0,4,6
+201611,Türkei,163,702,671,31,364,1,22,7,2,157,175,6634,603,1,21,7,2,139,154,0,1,0,0,18,12,9
+201612,Türkei,163,548,528,20,366,4,20,11,2,175,154,6858,593,4,19,11,2,162,140,0,1,0,0,13,5,9
+201701,Türkei,163,610,580,30,314,2,12,5,1,169,125,7160,613,2,12,4,1,161,113,0,0,1,0,8,8,4
+201702,Türkei,163,533,492,41,252,5,7,5,2,108,125,7447,632,5,7,5,2,106,108,0,0,0,0,2,10,7
+201703,Türkei,163,513,477,36,264,0,19,1,3,95,146,7715,642,0,19,1,3,85,128,0,0,0,0,10,6,12
+201704,Türkei,163,449,423,26,828,55,156,18,3,395,201,7373,619,55,152,17,3,379,176,0,4,1,0,16,11,14
+201705,Türkei,163,548,505,43,3017,286,392,47,30,1919,343,5083,492,286,382,47,30,1844,259,0,10,0,0,75,55,29
+201706,Türkei,163,488,454,34,1208,94,199,9,9,734,163,4429,453,94,195,9,8,694,133,0,4,0,1,40,16,14
+201707,Türkei,163,598,564,34,1528,117,195,9,15,990,202,3577,395,116,194,6,13,947,153,1,1,3,2,43,26,23
+201708,Türkei,163,877,829,48,1169,109,161,17,21,641,220,3363,350,109,158,17,16,596,176,0,3,0,5,45,27,17
+201709,Türkei,163,1025,989,36,888,79,224,17,5,416,147,3552,330,79,222,16,5,386,117,0,2,1,0,30,21,9
+201710,Türkei,163,1073,1038,35,1029,57,256,2,5,552,157,3670,308,56,254,2,3,514,125,1,2,0,2,38,16,16
+201711,Türkei,163,1084,1050,34,1284,97,411,3,8,591,174,3586,243,96,409,3,7,538,119,1,2,0,1,53,42,13
