@@ -1,4 +1,4 @@
-YEAR_MONTH,Herkunftsland,LS,ASYLANTRÄGE insgesamt,ASYLANTRÄGE davon Erstanträge,ASYLANTRÄGE davon Folgeanträge,ENTSCHEIDUNGEN über Asylanträge insgesamt,ENTSCHEIDUNGEN über Asylanträge Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN über Asylanträge Anerkennungen als Flüchtling gem. § 3 I AsylG,ENTSCHEIDUNGEN über Asylanträge Gewährung von subsidiärem Schutz gem. § 4 I AsylG,ENTSCHEIDUNGEN über Asylanträge Feststellung eines Abschiebungsverbotes gem. § 60 V/VII AufenthG,ENTSCHEIDUNGEN über Asylanträge Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN über Asylanträge sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstanträgen,ANHÄNGIGE VERFAHREN aufgrund von Folgeanträgen,ENTSCHEIDUNGEN über Erstanträge Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN über Erstanträge Anerkennungen als Flüchtling gem. § 3 I AsylG,ENTSCHEIDUNGEN über Erstanträge Gewährung von subsidiärem Schutz gem. § 4 I AsylG,ENTSCHEIDUNGEN über Erstanträge Feststellung eines Abschiebungsverbotes gem. § 60 V/VII AufenthG,ENTSCHEIDUNGEN über Erstanträge Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN über Erstanträge formelle Verfahrenserledigungen (z.B. Rücknahmen),ENTSCHEIDUNGEN über Folgeanträge Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN über Folgeanträge Anerkennungen als Flüchtling gem. § 3 I AsylG,ENTSCHEIDUNGEN über Folgeanträge Gewährung von subsidiärem Schutz gem. § 4 I AsylG,ENTSCHEIDUNGEN über Folgeanträge Feststellung eines Abschiebungsverbotes gem. § 60 V/VII AufenthG,ENTSCHEIDUNGEN über Folgeanträge Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN über Folgeanträge kein weiteres Verfahren,ENTSCHEIDUNGEN über Folgeanträge formelle Verfahrenserledigungen (z.B. Rücknahmen)
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRÄGE insgesamt,ASYLANTRÄGE davon Erstantraege,ASYLANTRÄGE davon Folgeantraege,ENTSCHEIDUNGEN über Asylanträge insgesamt,ENTSCHEIDUNGEN über Asylanträge Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN über Asylanträge Anerkennungen als Fluechtling gem. § 3 I AsylG,ENTSCHEIDUNGEN über Asylanträge Gewaehrung von subsidiaerem Schutz gem. § 4 I AsylG,ENTSCHEIDUNGEN über Asylanträge Feststellung eines Abschiebungsverbotes gem. § 60 V/VII AufenthG,ENTSCHEIDUNGEN über Asylanträge Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN über Asylanträge sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN über Erstanträge Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN über Erstanträge Anerkennungen als Fluechtling gem. § 3 I AsylG,ENTSCHEIDUNGEN über Erstanträge Gewaehrung von subsidiaerem Schutz gem. § 4 I AsylG,ENTSCHEIDUNGEN über Erstanträge Feststellung eines Abschiebungsverbotes gem. § 60 V/VII AufenthG,ENTSCHEIDUNGEN über Erstanträge Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN über Erstanträge formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN über Folgeanträge Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN über Folgeanträge Anerkennungen als Fluechtling gem. § 3 I AsylG,ENTSCHEIDUNGEN über Folgeanträge Gewaehrung von subsidiaerem Schutz gem. § 4 I AsylG,ENTSCHEIDUNGEN über Folgeanträge Feststellung eines Abschiebungsverbotes gem. § 60 V/VII AufenthG,ENTSCHEIDUNGEN über Folgeanträge Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN über Folgeanträge kein weiteres Verfahren,ENTSCHEIDUNGEN über Folgeanträge formelle Verfahrenserledigungen (z.B. Ruecknahmen)
 2015-06,Albanien,121,5932,5837,95,2164,0,0,8,0,1889,267,22331,409,0,0,8,0,1885,212,0,0,0,0,4,45,10
 2015-06,Bosnien und Herzegowina,122,609,438,171,490,0,0,0,0,199,291,3016,1207,0,0,0,0,184,85,0,0,0,0,15,151,55
 2015-06,Belgien,124,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -17,28 +17,28 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRÄGE insgesamt,ASYLANTRÄGE davon Erstantr
 2015-06,Kosovo,150,1581,1373,208,2204,0,2,9,4,1883,306,13385,2256,0,2,9,3,1744,198,0,0,0,1,139,90,18
 2015-06,Polen,152,1,1,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Portugal,153,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2015-06,Rumänien,154,2,1,1,1,0,0,0,0,0,1,9,3,0,0,0,0,0,0,0,0,0,0,0,1,0
+2015-06,Rumaenien,154,2,1,1,1,0,0,0,0,0,1,9,3,0,0,0,0,0,0,0,0,0,0,0,1,0
 2015-06,Slowakische Republik,155,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Schweden,157,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Schweiz,158,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2015-06,Russische Föderation,160,593,535,58,476,0,15,8,45,98,310,5768,1063,0,8,8,6,87,198,0,7,0,39,11,36,76
+2015-06,Russische Foederation,160,593,535,58,476,0,15,8,45,98,310,5768,1063,0,8,8,6,87,198,0,7,0,39,11,36,76
 2015-06,Spanien,161,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2015-06,Türkei,163,152,134,18,94,2,6,0,1,19,66,2690,380,2,5,0,1,17,54,0,1,0,0,2,8,4
+2015-06,Tuerkei,163,152,134,18,94,2,6,0,1,19,66,2690,380,2,5,0,1,17,54,0,1,0,0,2,8,4
 2015-06,Tschechische Republik,164,0,0,0,0,0,0,0,0,0,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Ungarn,165,0,0,0,3,0,0,0,0,0,3,4,2,0,0,0,0,0,3,0,0,0,0,0,0,0
 2015-06,Ukraine,166,636,631,5,49,0,4,0,0,1,44,4573,82,0,4,0,0,1,44,0,0,0,0,0,0,0
-2015-06,Großbritannien mit Nordirland,168,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-2015-06,Weißrußland,169,29,27,2,12,0,1,0,0,0,11,223,19,0,1,0,0,0,9,0,0,0,0,0,0,2
+2015-06,Grossbritannien mit Nordirland,168,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2015-06,Weissrussland,169,29,27,2,12,0,1,0,0,0,11,223,19,0,1,0,0,0,9,0,0,0,0,0,0,2
 2015-06,Serbien,170,2240,1404,836,1888,0,0,0,6,1161,721,9617,5213,0,0,0,6,1053,152,0,0,0,0,108,489,80
 2015-06,sonst. europ. Staatsangeh.,199,0,0,0,0,0,0,0,0,0,0,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Algerien,221,320,305,15,101,0,0,0,0,20,81,2799,191,0,0,0,0,19,73,0,0,0,0,1,1,7
 2015-06,Angola,223,8,8,0,9,0,0,0,4,1,4,178,8,0,0,0,3,1,4,0,0,0,1,0,0,0
 2015-06,Eritrea,224,1071,1063,8,524,3,406,15,2,3,95,16698,124,3,404,15,0,3,93,0,2,0,2,0,0,2
-2015-06,Äthiopien,225,296,290,6,43,0,3,0,2,1,37,2218,73,0,3,0,1,1,33,0,0,0,1,0,3,1
+2015-06,Aethiopien,225,296,290,6,43,0,3,0,2,1,37,2218,73,0,3,0,1,1,33,0,0,0,1,0,3,1
 2015-06,Botsuana,227,0,0,0,3,0,0,0,0,3,0,5,0,0,0,0,0,3,0,0,0,0,0,0,0,0
 2015-06,Benin,229,66,63,3,9,0,0,0,0,1,8,381,8,0,0,0,0,1,8,0,0,0,0,0,0,0
 2015-06,Dschibuti,230,1,1,0,0,0,0,0,0,0,0,21,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-2015-06,Elfenbeinküste (Cote d Ivoire),231,54,52,2,35,0,0,0,0,2,33,294,22,0,0,0,0,2,32,0,0,0,0,0,0,1
+2015-06,Elfenbeinkueste (Cote d Ivoire),231,54,52,2,35,0,0,0,0,2,33,294,22,0,0,0,0,2,32,0,0,0,0,0,0,1
 2015-06,Nigeria,232,662,656,6,148,1,1,1,1,17,127,6985,181,1,1,1,1,16,120,0,0,0,0,1,3,4
 2015-06,Simbabwe,233,0,0,0,1,0,0,0,0,0,1,32,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 2015-06,Gabun,236,1,1,0,0,0,0,0,0,0,0,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -61,22 +61,22 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRÄGE insgesamt,ASYLANTRÄGE davon Erstantr
 2015-06,Guinea-Bissau,259,50,49,1,29,0,0,0,0,4,25,345,10,0,0,0,0,4,24,0,0,0,0,0,0,1
 2015-06,Guinea,261,122,107,15,32,0,4,0,1,3,24,2111,81,0,4,0,1,3,20,0,0,0,0,0,1,3
 2015-06,Kamerun,262,110,104,6,70,0,0,1,1,4,64,771,39,0,0,1,1,4,62,0,0,0,0,0,1,1
-2015-06,Südafrika,263,4,4,0,1,0,0,0,0,0,1,11,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2015-06,Suedafrika,263,4,4,0,1,0,0,0,0,0,1,11,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 2015-06,Ruanda,265,3,3,0,6,0,0,0,0,5,1,47,0,0,0,0,0,5,1,0,0,0,0,0,0,0
 2015-06,Namibia,267,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Senegal,269,182,181,1,44,0,0,0,0,7,37,1747,17,0,0,0,0,7,37,0,0,0,0,0,0,0
 2015-06,Sierra Leone,272,38,38,0,11,0,0,0,2,5,4,486,38,0,0,0,2,5,4,0,0,0,0,0,0,0
 2015-06,Somalia,273,625,590,35,230,0,45,18,13,20,134,7790,270,0,38,18,5,19,123,0,7,0,8,1,0,11
-2015-06,Äquatorialguinea,274,1,1,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2015-06,Sudan (ohne Südsudan),277,119,115,4,48,0,3,4,3,3,35,787,34,0,3,4,0,3,31,0,0,0,3,0,0,4
-2015-06,Südsudan,278,5,5,0,3,0,0,0,0,0,3,36,5,0,0,0,0,0,3,0,0,0,0,0,0,0
+2015-06,Aequatorialguinea,274,1,1,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2015-06,Sudan (ohne Suedsudan),277,119,115,4,48,0,3,4,3,3,35,787,34,0,3,4,0,3,31,0,0,0,3,0,0,4
+2015-06,Suedsudan,278,5,5,0,3,0,0,0,0,0,3,36,5,0,0,0,0,0,3,0,0,0,0,0,0,0
 2015-06,Swasiland,281,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 2015-06,Tansania,282,4,4,0,1,0,0,0,0,0,1,75,2,0,0,0,0,0,1,0,0,0,0,0,0,0
 2015-06,Togo,283,20,20,0,16,0,0,0,1,6,9,229,24,0,0,0,0,6,7,0,0,0,1,0,2,0
 2015-06,Tschad,284,4,3,1,4,0,0,0,0,1,3,124,17,0,0,0,0,1,2,0,0,0,0,0,0,1
 2015-06,Tunesien,285,200,192,8,40,0,0,0,1,11,28,705,104,0,0,0,1,11,19,0,0,0,0,0,0,9
 2015-06,Uganda,286,10,9,1,2,0,0,0,0,0,2,145,9,0,0,0,0,0,1,0,0,0,0,0,1,0
-2015-06,Ägypten,287,100,95,5,64,6,6,0,0,26,26,2833,55,6,6,0,0,26,24,0,0,0,0,0,0,2
+2015-06,Aegypten,287,100,95,5,64,6,6,0,0,26,26,2833,55,6,6,0,0,26,24,0,0,0,0,0,0,2
 2015-06,Zentralafrikanische Republik,289,2,2,0,1,0,0,0,0,0,1,50,1,0,0,0,0,0,1,0,0,0,0,0,0,0
 2015-06,Burundi,291,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,sonst. afrik. Staatsangeh.,299,10,10,0,8,0,0,0,0,6,2,62,11,0,0,0,0,6,2,0,0,0,0,0,0,0
@@ -123,7 +123,7 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRÄGE insgesamt,ASYLANTRÄGE davon Erstantr
 2015-06,Oman,456,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Mongolei,457,27,21,6,14,0,0,0,0,2,12,613,31,0,0,0,0,2,11,0,0,0,0,0,0,1
 2015-06,Nepal,458,0,0,0,0,0,0,0,0,0,0,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0
-2015-06,Staatsangehörigkeit ohne Bezeichnung,459,32,32,0,10,0,7,0,0,0,3,204,1,0,7,0,0,0,3,0,0,0,0,0,0,0
+2015-06,Staatsangehoerigkeit ohne Bezeichnung,459,32,32,0,10,0,7,0,0,0,3,204,1,0,7,0,0,0,3,0,0,0,0,0,0,0
 2015-06,Bangladesch,460,63,59,4,25,0,1,0,1,8,15,920,42,0,1,0,1,8,14,0,0,0,0,0,1,0
 2015-06,Pakistan,461,832,812,20,182,0,16,1,3,59,103,8579,407,0,15,1,2,56,96,0,1,0,1,3,5,2
 2015-06,Philippinen,462,0,0,0,1,0,1,0,0,0,0,21,0,0,1,0,0,0,0,0,0,0,0,0,0,0
@@ -141,5 +141,5 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRÄGE insgesamt,ASYLANTRÄGE davon Erstantr
 2015-06,sonst. asiat. Staatsangeh.,499,394,380,14,229,6,185,3,1,13,21,1761,178,3,178,3,1,12,19,3,7,0,0,1,0,2
 2015-06,Australien,523,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2015-06,Staatenlos,997,313,306,7,165,4,146,0,0,2,13,1189,73,4,119,0,0,2,12,0,27,0,0,0,0,1
-2015-06,Ungeklärt,998,570,533,37,321,7,176,0,1,65,72,3203,276,7,169,0,0,64,67,0,7,0,1,1,4,1
+2015-06,Ungeklaert,998,570,533,37,321,7,176,0,1,65,72,3203,276,7,169,0,0,64,67,0,7,0,1,1,4,1
 2015-06,ohne Angabe,999,1,1,0,0,0,0,0,0,0,0,24,1,0,0,0,0,0,0,0,0,0,0,0,0,0
