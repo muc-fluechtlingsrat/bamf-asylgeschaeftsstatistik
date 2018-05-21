@@ -46,6 +46,15 @@ fi
 # add header, remove Windows endoflines etc
 cat $HEADER_FILE $FILE | dos2unix > /tmp/x.csv; mv /tmp/x.csv $FILE
 
+# Replace special characters
+sed -i 's/ß/ss/g' $FILE;
+sed -i 's/Ä/Ae/g' $FILE;
+sed -i 's/Ö/Oe/g' $FILE;
+sed -i 's/Ü/Ue/g' $FILE;
+sed -i 's/ü/ue/g' $FILE;
+sed -i 's/ö/oe/g' $FILE;
+sed -i 's/ä/ae/g' $FILE;
+
 ### Cleaning
 
 ./clean_csv.sh $FILE
