@@ -1,6 +1,7 @@
 #!/bin/bash
 #Purpose:     extract yearmonth from filename and add it as first column
-# 2016.06.18   S.Kim
+# 2016.06.18   S.Kim created
+# 2018.02.16   S.Kim make data iso 
 
 SCRIPTNAME=$(basename $0 .sh)
 
@@ -20,7 +21,7 @@ if ! [[ $s =~ $re ]] ; then
    echo "The filename $s doesn't follow the expected pattern YYYYMM.csv, exiting"; exit 1
 fi
 FILE_BASE=${s%.*}
-FILE_FIRSTSIX=${s:0:6}
+FILE_FIRSTSIX_ISO=${FILE_BASE:0:4}-${FILE_BASE:4:6}
 INTERMED_DIR=../intermediate
 
 for DIR in $INTERMED_DIR; do
@@ -28,15 +29,15 @@ for DIR in $INTERMED_DIR; do
     mkdir $DIR
   fi
 done
-echo "Adding $FILE_FIRSTSIX"
+echo "Adding $FILE_FIRSTSIX_ISO"
 
 ALREADY_RUN=$(grep -c YEAR_MONTH $FILE)
 if [ $ALREADY_RUN -ne 0 ]; then
   echo "I think I did this file already"
   exit 2
 fi
-cat $FILE | sed "s/^/${FILE_FIRSTSIX},/" >  $INTERMED_DIR/${FILE_BASE}_with_date.csv
-head -1 $INTERMED_DIR/${FILE_BASE}_with_date.csv | sed "s/^${FILE_FIRSTSIX}/YEAR_MONTH/" >  $INTERMED_DIR/${FILE_BASE}_datehead.csv
+cat $FILE | sed "s/^/${FILE_FIRSTSIX_ISO},/" >  $INTERMED_DIR/${FILE_BASE}_with_date.csv
+head -1 $INTERMED_DIR/${FILE_BASE}_with_date.csv | sed "s/^${FILE_FIRSTSIX_ISO}/YEAR_MONTH/" >  $INTERMED_DIR/${FILE_BASE}_datehead.csv
 tail -n +2 $INTERMED_DIR/${FILE_BASE}_with_date.csv > $INTERMED_DIR/${FILE_BASE}_datetail.csv
 cat $INTERMED_DIR/${FILE_BASE}_datehead.csv $INTERMED_DIR/${FILE_BASE}_datetail.csv > $INTERMED_DIR/${FILE_BASE}_date.csv
 
