@@ -9,7 +9,6 @@
 
 #set -vx
 set -euo pipefail
-IFS=$'\n\t'
 
 SCRIPTNAME=$(basename $0 .sh)
 
@@ -30,7 +29,6 @@ while getopts "c:y:h" opt; do
             ;;
         y)  IFS=$'\n\t\ '
             YEARS="$OPTARG"
-            IFS=$'\n\t'
             ;;
         h)  usage
             ;;
@@ -39,7 +37,8 @@ while getopts "c:y:h" opt; do
     esac
 done
 
-COLHEADER=$(csvcut -c $COLUMN ../raw/header.csv | tr ' ' '_' )
+FULL_HEADER=$(sed 's/^/YEAR_MONTH, /' ../raw/header.csv)
+COLHEADER=$(echo $FULL_HEADER | csvcut -c $COLUMN | tr ' ' '_' )
 echo "The column number $COLUMN is $COLHEADER."
 INPUTDIR=../raw
 OUTPUTDIR=../cooked
@@ -47,12 +46,11 @@ if [ ! -d $OUTPUTDIR ]; then
   mkdir $OUTPUTDIR
 fi
 TMPFILE_ALL=/tmp/${SCRIPTNAME}_${COLHEADER}.csv
-echo bla > /tmp/antr_gesamt_verlauf_ASYLANTRAEGE_davon_Erstantraege.csv
 echo "YEAR_MONTH" > $TMPFILE_ALL
 cat "../raw/all_countries.csv" >> "${TMPFILE_ALL}"
 
 for YEAR in ${YEARS}; do
-  for MONTH in {01..06}; do
+  for MONTH in {01..12}; do
   #for MONTH in {01..12}; do
     if [ -f $INPUTDIR/$YEAR/${YEAR}${MONTH}.csv ]; then
       TMPFILE_SMALL=/tmp/$(basename ${TMPFILE_ALL} .csv)_${YEAR}_${MONTH}.csv
@@ -62,7 +60,6 @@ for YEAR in ${YEARS}; do
 set +u
 set +e
 set +o pipefail
-
         COUNTRY_NOQUOTES=${COUNTRY//\"}
         COUNTRYVAL=$(csvgrep -m "$COUNTRY_NOQUOTES" -c 2 $INPUTDIR/$YEAR/${YEAR}${MONTH}.csv | grep -v YEAR_MONTH | csvcut -c $COLUMN)
         COUNTRYVAL=${COUNTRYVAL:-0}
