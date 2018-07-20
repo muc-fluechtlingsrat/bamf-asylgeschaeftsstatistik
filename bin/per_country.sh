@@ -8,7 +8,7 @@ set -euo pipefail
 SCRIPTNAME=$(basename $0 .sh)
 
 function usage {
-   echo 'Usage: $(basename $0) -c country -y "YYYY1 YYYY2", e.g. $(basename $0) -c Syrien "2016 2017"'
+   echo "Usage: $(basename $0) -c country -y 'YYYY1 YYYY2', e.g. $(basename $0) -c Syrien -y '2016 2017'"
 }
 
 while getopts "c:y:" opt; do
@@ -17,10 +17,11 @@ while getopts "c:y:" opt; do
             ;;
         y)  YEARS="$OPTARG"
             ;;
-        *)  usage
+        *)  usage; exit 1
             ;;
     esac
 done
+if [ $# -ne 4 ]; then usage; exit 2; fi
 
 INPUTDIR=../raw
 OUTPUTDIR=../cooked
