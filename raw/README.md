@@ -12,7 +12,7 @@ datapackage.json: Möglicherweise veraltete Dokumentation gemäss Datapackage ht
 Benötigt:
 
 * monatliche Asylgeschäftsstatistik als PDFs vom [BAMF](http://www.bamf.de/DE/Infothek/Statistiken/Asylzahlen/Asylgeschäftsstatistik/asylgeschaeftsstatistik-node.html)
-* [Tabula](http://tabula.technology) Herunterladen, starten, warten, auf http://localhost:8080/ finden. Es braucht java. Starten zB als exe auf Windows. 
+* [Tabula](http://tabula.technology) Herunterladen, starten, warten, auf http://localhost:8080/ finden. Es braucht java. Starten zB als exe auf Windows. Auf Mac starten mit: /tabula/Tabula.app/Contents/MacOS/JavaAppLauncher
 
 1. Importiere eine Monats-PDF in Tabula
 2. Markiere nur den Inhalt der Tabelle - nicht den Header (damit kann Tabula nicht umgehen). Nutze _Repeat this Selection_ um alle Seiten mitzunehmen.
