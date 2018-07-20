@@ -40,7 +40,7 @@ sed '1s/.*/YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbo
 if [ "$SINCE" = "FULL" ]; then
   mv $OUTPUTDIR/tmpfile.csv  $OUTPUTDIR/${FILE_BASE}_cut.csv
 else 
- echo "Removing rows before $SINCE"
+ # echo "Removing rows before $SINCE"
  sed "2,/^$SINCE/d" $OUTPUTDIR/tmpfile.csv > $OUTPUTDIR/${FILE_BASE}_cut.csv
 fi
 
