@@ -2,6 +2,9 @@
 #Purpose:     extract data for one country and sort by month
 # 2016.06.18   S.Kim
 
+set -euo pipefail
+#set -vx
+
 SCRIPTNAME=$(basename $0 .sh)
 
 function usage {
@@ -24,13 +27,13 @@ OUTPUTDIR=../cooked
 if [ ! -d $OUTPUTDIR ]; then
   mkdir $OUTPUTDIR
 fi
-cat /dev/null > $OUTPUTDIR/$COUNTRY_tail.csv
+cat /dev/null > $OUTPUTDIR/${COUNTRY}_tail.csv
 
 for YEAR in $YEARS; do
-  grep -h $COUNTRY $INPUTDIR/$YEAR/${YEAR}??.csv | dos2unix | sort >> $OUTPUTDIR/$COUNTRY_tail.csv
+  grep -h $COUNTRY $INPUTDIR/$YEAR/${YEAR}??.csv | dos2unix | sort >> $OUTPUTDIR/${COUNTRY}_tail.csv
 done
 
-cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/$COUNTRY_tail.csv > $OUTPUTDIR/$COUNTRY.csv
+cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/${COUNTRY}_tail.csv > $OUTPUTDIR/$COUNTRY.csv
 
 exit 0
 
