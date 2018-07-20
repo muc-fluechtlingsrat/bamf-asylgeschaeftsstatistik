@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2015-01,Irak,438,1065,901,164,1199,8,1097,16,8,4,66,5374,3629,6,567,3,5,2,62,2,530,13,3,2,2,2
-2015-02,Irak,438,960,835,125,1348,6,1241,13,5,5,78,5678,3226,6,533,6,3,5,72,0,708,7,2,0,3,3
-2015-03,Irak,438,1192,1052,140,1263,9,1085,21,11,0,137,6177,2955,9,593,10,8,0,134,0,492,11,3,0,2,1
-2015-04,Irak,438,1398,1282,116,1081,7,922,9,4,0,139,7098,2678,4,492,5,2,0,128,3,430,4,2,0,4,7
-2015-05,Irak,438,1471,1382,89,1086,5,915,14,2,4,146,8059,2420,5,542,7,2,3,136,0,373,7,0,1,2,8
-2015-06,Irak,438,2083,1975,108,1410,17,1142,23,5,6,217,9195,2219,17,781,15,3,6,203,0,361,8,2,0,6,8
-2015-07,Irak,438,2086,1987,99,1392,0,1164,12,10,12,194,10272,2033,0,876,7,7,12,183,0,288,5,3,0,2,9
-2015-08,Irak,438,1801,1718,83,1342,7,1180,14,3,2,136,11121,1908,7,968,8,3,1,132,0,212,6,0,1,1,3
-2015-09,Irak,438,2544,2454,90,1228,6,972,29,4,7,210,12869,1884,6,847,16,2,7,196,0,125,13,2,0,6,8
-2015-10,Irak,438,4135,4047,88,1221,5,893,34,8,10,271,16375,1878,5,812,22,5,10,259,0,81,12,3,0,5,7
-2015-11,Irak,438,4479,4391,88,2276,41,1909,57,12,29,228,19064,1852,41,1825,42,9,25,212,0,84,15,3,4,5,11
-2015-12,Irak,438,4954,4875,79,2155,48,1837,47,9,49,165,22091,1811,48,1748,35,4,40,149,0,89,12,5,9,10,6
 2016-01,Irak,438,6636,6567,69,1994,16,1663,65,10,57,183,27046,1761,16,1552,59,10,54,179,0,111,6,0,3,0,4
 2016-02,Irak,438,10075,9999,76,2871,33,2349,83,18,96,292,34908,1651,33,2214,73,10,86,259,0,135,10,8,10,20,13
 2016-03,Irak,438,9053,8982,71,2795,18,2159,110,14,188,306,41741,1610,18,2079,98,13,179,286,0,80,12,1,9,4,16
@@ -39,3 +27,4 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2018-02,Irak,438,1325,1220,105,1870,3,263,113,154,733,604,5678,382,3,261,112,147,709,466,0,2,1,7,24,87,51
 2018-03,Irak,438,1011,876,135,2124,3,390,112,180,792,647,5315,382,3,386,110,157,764,508,0,4,2,23,28,78,61
 2018-04,Irak,438,1043,895,148,1812,9,352,72,120,688,571,5309,403,9,342,70,102,660,417,0,10,2,18,28,76,78
+2018-05,Irak,438,996,903,93,1384,0,253,27,92,608,404,5263,397,0,247,27,88,593,277,0,6,0,4,15,61,66

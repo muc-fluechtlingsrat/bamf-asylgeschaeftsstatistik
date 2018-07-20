@@ -32,7 +32,7 @@ mkdir -p $INTERMED_DIR
 sed 's/,-/,0/g' $FILE > $INTERMED_DIR/${FILE_BASE}_zeros.csv
 
 # We don't want the rows with: Spalte 1, Europa, Afrika, Amerika, Asien, Unbekannt, Herkunftsländer gesamt
-sed '/^Spalte 1/d;/^Europa/d;/^Afrika/d;/^Amerika/d;/^Asien/d;/^Unbekannt/d;/^Herkunftsl.nder/d' $INTERMED_DIR/${FILE_BASE}_zeros.csv > $INTERMED_DIR/${FILE_BASE}_no_continents.csv
+sed '/^Spalte 1/d;/^Europa/d;/^Afrika/d;/^Amerika/d;/^Asien/d;/^Unbekannt/d;/^Herkunftslaender/d' $INTERMED_DIR/${FILE_BASE}_zeros.csv > $INTERMED_DIR/${FILE_BASE}_no_continents.csv
 
 # Remove second Australien (first ist the country, second is the continent)
 gawk '/Australien/ && seen { next } /Australien/ && !seen { seen=1 } 1' $INTERMED_DIR/${FILE_BASE}_no_continents.csv > $INTERMED_DIR/${FILE_BASE}_no_australia.csv
