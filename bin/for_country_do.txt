@@ -11,6 +11,7 @@ for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Rus
 # create csv for decisions excl. sonstige
 for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do ./cut_country_nixsonst.sh -f ../cooked/${country}.csv -d ${FROM_MONTH}; done
 # commit all
+for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do git commit ../cooked/${country}.csv -m "adding ${MONTH} ${YEAR}"; done
 for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do git commit ../cooked/${country}_cut.csv -m "adding ${MONTH} ${YEAR}"; done
 for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do git commit ../cooked/${country}_cut_nixsonst.csv -m "adding ${MONTH} ${YEAR}"; done
 # git push interactively
