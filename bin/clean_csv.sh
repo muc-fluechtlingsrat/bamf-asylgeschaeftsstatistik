@@ -50,7 +50,7 @@ csvclean -n $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv && csvclean $INTERMED_
   #mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE}
 #fi
 if [ -f $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ]; then
-  mv $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ../raw/2017/${FILE_BASE}_no_laendercode.csv
+  mv $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ../raw/2018/${FILE_BASE}_no_laendercode.csv
 fi
 
 echo "I produced ${FILE} and ${FILE_PATH}/${FILE_BASE}_no_laendercode.csv for you"
