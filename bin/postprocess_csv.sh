@@ -34,7 +34,7 @@ fi
 
 HEADER_FILE=../raw/header.csv
 if [ ! -f $HEADER_FILE ]; then
-    echo "Sorry, cannot fine $HEADER_FILE , exiting ... "; exit 3
+    echo "Sorry, cannot find $HEADER_FILE , exiting ... "; exit 3
 fi
 
 ALREADY_RUN=$(grep -c ASYLANTRAEGE $FILE)
@@ -42,7 +42,7 @@ if [ $ALREADY_RUN -ne 0 ]; then
   echo "I think I did this file already, exiting"
   exit 2
 fi
-
+# and action
 # add header, remove Windows endoflines etc
 cat $HEADER_FILE $FILE | dos2unix > /tmp/x.csv; mv /tmp/x.csv $FILE
 

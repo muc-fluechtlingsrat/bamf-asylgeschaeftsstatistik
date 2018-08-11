@@ -21,7 +21,7 @@ if ! [[ $s =~ $re ]] ; then
    echo "The filename $s doesn't follow the expected pattern YYYYMM.csv, exiting"; exit 1
 fi
 FILE_BASE=${s%.*}
-FILE_FIRSTSIX_ISO=${FILE_BASE:0:4}-${FILE_BASE:4:6}
+FILE_FIRSTSIX_ISO=${FILE_BASE:0:4}-${FILE_BASE:4:2}
 INTERMED_DIR=../intermediate
 
 for DIR in $INTERMED_DIR; do
