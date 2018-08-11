@@ -19,7 +19,7 @@ if [ "$1" = "" ]; then
 fi
 
 set -euo pipefail
-
+#set -vx
 s=${FILE##*/}
 FILE_BASE=${s%.*}
 INTERMED_DIR=../intermediate
@@ -46,9 +46,9 @@ grep -Fvxf $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv $INTERMED_DIR/${FILE_BA
 
 csvclean -n $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv && csvclean $INTERMED_DIR/${FILE_BASE}_cleaned.csv
 
-#if [ -f $INTERMED_DIR/${FILE_BASE}_cleaned.csv ]; then
-  #mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE}
-#fi
+if [ -f $INTERMED_DIR/${FILE_BASE}_cleaned.csv ]; then
+  mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE}
+fi
 if [ -f $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ]; then
   mv $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ../raw/2018/${FILE_BASE}_no_laendercode.csv
 fi
