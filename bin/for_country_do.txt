@@ -4,14 +4,15 @@ MONTH=June
 THIS_YEAR=2018
 FROM_MONTH="2016-12"
 FOR_YEARS="2016 2017 2018"
+COUNTRIES="Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen Libyen Mali"
 # create per country csv
-for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do ./per_country.sh -c ${country} -y "$FOR_YEARS"; done
+for COUNTRY in ${COUNTRIES}; do ./per_country.sh -c ${COUNTRY} -y "$FOR_YEARS"; done
 # create csv for decisions incl. sonstige
-for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do ./cut_country.sh -f ../cooked/${country}.csv -d ${FROM_MONTH}; done
+for COUNTRY in ${COUNTRIES}; do ./cut_country.sh -f ../cooked/${COUNTRY}.csv -d ${FROM_MONTH}; done
 # create csv for decisions excl. sonstige
-for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do ./cut_country_nixsonst.sh -f ../cooked/${country}.csv -d ${FROM_MONTH}; done
+for COUNTRY in ${COUNTRIES}; do ./cut_country_nixsonst.sh -f ../cooked/${COUNTRY}.csv -d ${FROM_MONTH}; done
 # commit all
-for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do git commit ../cooked/${country}.csv -m "adding ${MONTH} ${YEAR}"; done
-for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do git commit ../cooked/${country}_cut.csv -m "adding ${MONTH} ${YEAR}"; done
-for country in Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen; do git commit ../cooked/${country}_cut_nixsonst.csv -m "adding ${MONTH} ${YEAR}"; done
+for COUNTRY in ${COUNTRIES}; do git commit ../cooked/${COUNTRY}.csv -m "adding ${MONTH} ${YEAR}"; done
+for COUNTRY in ${COUNTRIES}; do git commit ../cooked/${COUNTRY}_cut.csv -m "adding ${MONTH} ${YEAR}"; done
+for COUNTRY in ${COUNTRIES}; do git commit ../cooked/${COUNTRY}_cut_nixsonst.csv -m "adding ${MONTH} ${YEAR}"; done
 # git push interactively

@@ -59,6 +59,7 @@ sed -i 's/ä/ae/g' $FILE;
 
 ./clean_csv.sh $FILE
 
+# this also creates the _no_laendercode csv, but here we continue with the regular csv
 ### Add Date
 
 ./add_date.sh $FILE

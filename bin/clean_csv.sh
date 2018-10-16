@@ -44,7 +44,7 @@ sed -n '/^Europa/p;/^Afrika/p;/^Amerika/p;/^Asien/p;/Australien,[^523]/p;/^Unbek
 # remove the no_laendercodes from the main csv
 grep -Fvxf $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv $INTERMED_DIR/${FILE_BASE}.csv > $INTERMED_DIR/${FILE_BASE}_cleaned.csv
 
-csvclean -n $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv && csvclean $INTERMED_DIR/${FILE_BASE}_cleaned.csv
+csvclean -n $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv && csvclean -n $INTERMED_DIR/${FILE_BASE}_cleaned.csv
 
 if [ -f $INTERMED_DIR/${FILE_BASE}_cleaned.csv ]; then
   mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE}
