@@ -25,7 +25,7 @@ if [ $BLANKS_BETWEEN -gt 10 ]; then
   echo "Please check if tabula created blanks before the commata, exiting"; exit 3
 fi
 NUM_LINES=$(wc -l $FILE | cut -f1 -d' ')
-if [[ $NUM_LINES -lt 140 ]]; then
+if [[ $NUM_LINES -lt 130 ]]; then
   echo "number of lines is $NUM_LINES, seems a bit low, exiting"; exit 3
 elif [[ $NUM_LINES -gt 200 ]]; then
   echo "number of lines is $NUM_LINES, seems a bit high, exiting"; exit 3
