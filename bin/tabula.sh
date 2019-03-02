@@ -2,6 +2,16 @@
 # First argument is the downloaded pdf from http://www.bamf.de/SharedDocs/Anlagen/DE/Downloads/Infothek/Statistik/Asyl/
 # e.g. $HOME/Downloads/hkl-antrags-entscheidungs-bestandsstatistik-februar-2018.pdf
 # Second is the target file, in our example ../raw/2018/201802.csv
+
+SCRIPTNAME=$(basename $0 .sh)
+function usage {
+   echo "Usage: $SCRIPTNAME input.pdf output.csv, e.g. $SCRIPTNAME hkl-antrags-entscheidungs-bestandsstatistik-februar-2018.pdf 201802.csv "
+}
+if [ "$#" -ne 2 ]; then
+  usage;
+  exit 1;
+fi
+
 set -vx
 TABULAJAR=./tabula-1.0.2-jar-with-dependencies.jar
 java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 1 "$1" > $2
