@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2016-01,Sierra Leone,272,3,2,1,16,0,0,0,1,10,5,559,41,0,0,0,1,10,4,0,0,0,0,0,0,1
-2016-02,Sierra Leone,272,14,14,0,8,0,0,0,0,3,5,565,41,0,0,0,0,3,5,0,0,0,0,0,0,0
-2016-03,Sierra Leone,272,26,25,1,4,0,0,0,0,0,4,592,42,0,0,0,0,0,4,0,0,0,0,0,0,0
-2016-04,Sierra Leone,272,44,41,3,1,0,0,0,0,0,1,635,44,0,0,0,0,0,0,0,0,0,0,0,1,0
-2016-05,Sierra Leone,272,45,45,0,4,0,0,0,0,0,4,682,44,0,0,0,0,0,4,0,0,0,0,0,0,0
-2016-06,Sierra Leone,272,107,106,1,5,0,0,0,0,2,3,790,44,0,0,0,0,2,2,0,0,0,0,0,1,0
-2016-07,Sierra Leone,272,104,103,1,6,0,0,0,1,3,2,910,44,0,0,0,1,2,2,0,0,0,0,1,0,0
-2016-08,Sierra Leone,272,142,141,1,7,0,1,0,0,1,5,1049,45,0,1,0,0,1,5,0,0,0,0,0,0,0
-2016-09,Sierra Leone,272,54,54,0,13,0,0,0,0,2,11,1089,45,0,0,0,0,2,10,0,0,0,0,0,1,0
-2016-10,Sierra Leone,272,57,55,2,28,0,0,1,0,10,17,1129,37,0,0,1,0,9,15,0,0,0,0,1,2,0
-2016-11,Sierra Leone,272,84,84,0,27,0,0,1,1,10,15,1188,35,0,0,1,1,10,15,0,0,0,0,0,0,0
-2016-12,Sierra Leone,272,135,135,0,27,0,5,0,0,7,15,1301,43,0,5,0,0,7,15,0,0,0,0,0,0,0
 2017-01,Sierra Leone,272,147,147,0,98,0,4,0,8,28,58,1359,39,0,4,0,8,27,56,0,0,0,0,1,1,1
 2017-02,Sierra Leone,272,108,104,4,130,0,5,3,11,52,59,1341,40,0,5,3,11,51,59,0,0,0,0,1,0,0
 2017-03,Sierra Leone,272,76,75,1,145,0,1,0,3,20,121,1276,38,0,1,0,3,18,116,0,0,0,0,2,1,4
@@ -35,3 +23,4 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2018-10,Sierra Leone,272,15,12,3,67,0,3,0,5,44,15,132,6,0,3,0,4,43,9,0,0,0,1,1,2,4
 2018-11,Sierra Leone,272,30,28,2,56,0,0,1,2,43,10,137,6,0,0,1,2,41,7,0,0,0,0,2,0,3
 2018-12,Sierra Leone,272,18,15,3,36,0,1,1,2,22,10,141,7,0,1,1,2,22,7,0,0,0,0,0,2,1
+2019-01,Sierra Leone,272,13,9,4,46,0,3,0,3,31,9,130,8,0,3,0,2,28,8,0,0,0,1,3,1,0

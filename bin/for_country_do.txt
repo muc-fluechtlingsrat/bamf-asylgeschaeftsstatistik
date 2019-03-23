@@ -1,10 +1,10 @@
 # some notes to speed up the monthly procedure
 # base for countries with histograms on our webpage refugee-datathon-muc.org
-MONTH=June
-THIS_YEAR=2018
-FROM_MONTH="2016-12"
-FOR_YEARS="2016 2017 2018"
-COUNTRIES="Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen Libyen Mali"
+MONTH=Jan
+THIS_YEAR=2019
+FROM_MONTH="2017-12"
+FOR_YEARS="2017 2018 2019"
+COUNTRIES="Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen Libyen Mali Georgien Guinea Albanien Aserbaidschan Moldau"
 # create per country csv
 for COUNTRY in ${COUNTRIES}; do ./per_country.sh -c ${COUNTRY} -y "$FOR_YEARS"; done
 # create csv for decisions incl. sonstige

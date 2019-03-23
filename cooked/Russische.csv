@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2016-01,Russische Foederation,160,307,240,67,411,0,11,1,9,162,228,6833,1196,0,10,1,8,151,176,0,1,0,1,11,24,28
-2016-02,Russische Foederation,160,450,400,50,491,0,22,7,6,214,242,6949,1194,0,17,4,4,203,184,0,5,3,2,11,16,42
-2016-03,Russische Foederation,160,498,387,111,455,0,20,2,7,156,270,7101,1249,0,20,2,5,154,192,0,0,0,2,2,35,43
-2016-04,Russische Foederation,160,908,850,58,397,0,9,1,5,139,243,7722,1257,0,9,1,3,126,191,0,0,0,2,13,4,48
-2016-05,Russische Foederation,160,1151,1072,79,674,1,10,3,6,149,505,8268,1314,1,10,3,6,147,464,0,0,0,0,2,2,39
-2016-06,Russische Foederation,160,1835,1686,149,1066,2,22,7,20,423,592,9223,1359,2,22,7,17,398,510,0,0,0,3,25,22,60
-2016-07,Russische Foederation,160,1607,1535,72,799,6,22,11,4,227,529,10191,1370,6,16,11,1,217,457,0,6,0,3,10,22,50
-2016-08,Russische Foederation,160,1776,1729,47,1176,0,20,0,12,286,858,11079,1355,0,20,0,11,270,791,0,0,0,1,16,29,38
-2016-09,Russische Foederation,160,1252,1170,82,1169,0,15,14,14,395,731,11491,1365,0,15,14,10,371,638,0,0,0,4,24,23,70
-2016-10,Russische Foederation,160,729,654,75,1153,5,23,3,13,420,689,11298,1360,5,13,2,9,409,587,0,10,1,4,11,26,76
-2016-11,Russische Foederation,160,606,540,66,2767,6,104,63,44,1634,916,9553,1343,6,98,58,34,1573,693,0,6,5,10,61,117,106
-2016-12,Russische Foederation,160,512,453,59,2501,1,54,16,32,1501,897,8058,1224,1,50,14,24,1433,461,0,4,2,8,68,107,329
 2017-01,Russische Foederation,160,517,396,121,1819,8,52,24,2,1097,636,7138,1171,8,41,21,2,1047,534,0,11,3,0,50,41,61
 2017-02,Russische Foederation,160,477,388,89,1652,10,66,34,32,921,589,6316,1128,10,66,34,26,862,465,0,0,0,6,59,64,60
 2017-03,Russische Foederation,160,555,444,111,1788,3,72,58,34,945,676,5608,1012,3,66,44,23,845,469,0,6,14,11,100,69,138
@@ -35,3 +23,4 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2018-10,Russische Foederation,160,395,302,93,667,29,8,4,12,341,273,974,323,29,6,4,9,325,156,0,2,0,3,16,48,69
 2018-11,Russische Foederation,160,377,282,95,580,38,2,11,5,279,245,963,315,38,1,7,5,261,131,0,1,4,0,18,60,54
 2018-12,Russische Foederation,160,325,227,98,464,20,7,10,8,229,190,952,325,20,7,10,5,212,100,0,0,0,3,17,47,43
+2019-01,Russische Foederation,160,441,336,105,627,13,26,9,0,281,298,942,302,13,26,6,0,259,174,0,0,3,0,22,62,62
