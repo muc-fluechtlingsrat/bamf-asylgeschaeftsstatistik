@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2017-01,Nigeria,232,688,674,14,1401,5,54,19,82,589,652,17700,358,5,54,18,81,588,633,0,0,1,1,1,10,9
-2017-02,Nigeria,232,525,517,8,2047,1,85,8,152,996,805,16308,338,1,85,8,142,992,786,0,0,0,10,4,5,14
-2017-03,Nigeria,232,630,615,15,2245,1,82,20,167,1174,801,14850,339,1,82,20,165,1170,767,0,0,0,2,4,22,12
-2017-04,Nigeria,232,498,484,14,2309,3,142,30,238,1246,650,13019,461,3,142,30,234,1240,606,0,0,0,4,6,6,38
-201705,Nigeria,232,519,497,22,5396,13,328,74,496,3648,837,8268,466,13,326,74,479,3626,735,0,2,0,17,22,22,80
-2017-06,Nigeria,232,635,608,27,1774,0,128,16,156,1058,416,7252,468,0,123,16,153,1042,371,0,5,0,3,16,5,40
-2017-07,Nigeria,232,733,697,36,1734,4,151,10,191,841,537,6422,406,4,141,10,158,828,462,0,10,0,33,13,29,46
-2017-08,Nigeria,232,714,679,35,1652,3,107,17,136,755,634,5641,383,3,105,17,133,745,573,0,2,0,3,10,20,41
-2017-09,Nigeria,232,673,631,42,1291,0,88,22,120,564,497,5243,371,0,86,21,111,549,438,0,2,1,9,15,14,45
-2017-10,Nigeria,232,581,530,51,1337,1,111,15,115,597,498,4695,357,1,110,15,107,587,442,0,1,0,8,10,24,32
-2017-11,Nigeria,232,800,744,56,1400,4,127,18,143,688,420,4331,333,4,125,18,129,668,344,0,2,0,14,20,22,54
-2017-12,Nigeria,232,674,632,42,1266,0,139,28,175,477,447,3979,270,0,125,28,165,469,398,0,14,0,10,8,27,22
 2018-01,Nigeria,232,948,884,64,1650,9,133,14,178,757,559,3524,256,9,126,14,171,741,478,0,7,0,7,16,32,49
 2018-02,Nigeria,232,771,707,64,1375,2,115,19,142,530,567,3195,232,2,104,19,124,516,487,0,11,0,18,14,40,40
 2018-03,Nigeria,232,978,914,64,1325,11,113,18,121,478,584,3214,209,11,109,18,112,470,502,0,4,0,9,8,55,27
@@ -24,3 +12,6 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2018-11,Nigeria,232,709,623,86,1094,6,41,8,60,525,454,3092,209,6,37,8,57,508,373,0,4,0,3,17,51,30
 2018-12,Nigeria,232,554,497,57,706,2,36,5,30,307,326,3119,210,2,30,5,25,298,272,0,6,0,5,9,33,21
 2019-01,Nigeria,232,1248,1144,104,1099,5,58,4,44,520,468,3532,246,3,56,4,39,514,399,2,2,0,5,6,42,27
+2019-02,Nigeria,232,1388,1275,113,1469,4,61,17,50,542,795,3715,269,4,58,17,45,529,710,0,3,0,5,13,50,35
+2019-03,Nigeria,232,1287,1177,110,1575,3,44,13,46,568,901,3724,297,3,44,12,45,561,802,0,0,1,1,7,55,44
+2019-04,Nigeria,232,1068,977,91,1681,2,42,16,33,584,1004,3480,303,2,40,16,29,564,885,0,2,0,4,20,55,64
