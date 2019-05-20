@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2017-01,Afghanistan,423,1556,1442,114,14107,6,2461,902,3012,6658,1068,89569,1317,6,2444,899,2989,6641,985,0,17,3,23,17,57,26
-2017-02,Afghanistan,423,1576,1492,84,15616,21,2575,944,3317,7748,1011,76264,1183,21,2563,942,3304,7704,920,0,12,2,13,44,54,37
-2017-03,Afghanistan,423,2223,2093,130,19871,21,3108,1103,4316,10251,1072,59372,984,21,3089,1099,4277,10213,897,0,19,4,39,38,123,52
-2017-04,Afghanistan,423,1208,1131,77,14996,10,2229,814,3489,7763,691,46119,856,10,2215,806,3447,7720,595,0,14,8,42,43,54,42
-201705,Afghanistan,423,1374,1268,106,19349,10,2914,1232,4405,9944,844,28824,674,9,2878,1217,4328,9888,697,1,36,15,77,56,96,51
-2017-06,Afghanistan,423,1243,1119,124,3212,5,469,229,751,1435,323,26986,721,5,462,225,738,1419,272,0,7,4,13,16,41,10
-2017-07,Afghanistan,423,1240,1109,131,586,0,138,38,27,17,366,27687,872,0,136,35,27,17,345,0,2,3,0,0,2,19
-2017-08,Afghanistan,423,1459,1315,144,3422,6,609,214,857,1270,466,25909,904,6,593,212,810,1256,328,0,16,2,47,14,63,75
-2017-09,Afghanistan,423,1085,925,160,9004,19,1187,537,2321,4273,667,18531,776,19,1154,520,2263,4227,437,0,33,17,58,46,143,87
-2017-10,Afghanistan,423,1160,1008,152,6977,3,931,390,1751,3327,575,13223,643,3,909,385,1672,3276,320,0,22,5,79,51,157,98
-2017-11,Afghanistan,423,1264,1094,170,5599,2,742,333,1337,2490,695,9376,528,2,718,326,1253,2439,406,0,24,7,84,51,150,139
-2017-12,Afghanistan,423,927,791,136,3491,0,448,155,759,1676,453,7415,499,0,437,152,720,1636,290,0,11,3,39,40,86,77
 2018-01,Afghanistan,423,882,728,154,3458,2,435,137,741,1596,547,5305,474,2,410,136,682,1559,345,0,25,1,59,37,107,95
 2018-02,Afghanistan,423,855,732,123,2111,2,263,91,458,812,485,4668,412,2,242,84,408,785,336,0,21,7,50,27,96,53
 2018-03,Afghanistan,423,756,577,179,2147,5,247,99,431,742,623,3854,422,5,217,91,394,712,441,0,30,8,37,30,104,78
@@ -24,3 +12,6 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2018-11,Afghanistan,423,928,779,149,1292,2,164,84,261,351,430,3251,380,2,130,67,198,335,253,0,34,17,63,16,101,76
 2018-12,Afghanistan,423,677,558,119,841,0,101,40,171,196,333,3233,397,0,82,36,153,178,217,0,19,4,18,18,74,42
 2019-01,Afghanistan,423,896,753,143,1420,4,190,70,307,375,474,3036,405,4,178,65,244,357,286,0,12,5,63,18,104,84
+2019-02,Afghanistan,423,698,557,141,1198,4,178,49,253,279,435,2780,414,4,163,44,199,269,280,0,15,5,54,10,103,52
+2019-03,Afghanistan,423,860,745,115,1049,7,183,45,197,260,357,2852,412,7,169,44,142,246,204,0,14,1,55,14,86,67
+2019-04,Afghanistan,423,791,640,151,1002,2,172,49,191,206,382,2801,440,2,162,44,156,198,241,0,10,5,35,8,75,66
