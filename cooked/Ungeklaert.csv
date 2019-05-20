@@ -1,15 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2017-01,Ungeklaert,998,307,295,12,1219,3,265,403,11,273,264,9001,334,3,262,398,10,263,241,0,3,5,1,10,14,9
-2017-02,Ungeklaert,998,313,293,20,1265,6,253,428,17,289,272,7860,295,6,250,427,14,283,246,0,3,1,3,6,17,9
-2017-03,Ungeklaert,998,490,461,29,1321,4,295,434,28,341,219,6779,283,4,292,430,28,336,184,0,3,4,0,5,22,13
-2017-04,Ungeklaert,998,374,346,28,1026,6,273,260,40,269,178,6062,266,6,267,259,38,257,154,0,6,1,2,12,16,8
-2017-06,Ungeklaert,998,327,314,13,644,2,167,121,25,176,153,3823,202,2,163,119,25,170,122,0,4,2,0,6,21,10
-2017-07,Ungeklaert,998,477,445,32,709,6,163,162,16,219,143,3541,202,6,160,161,15,211,106,0,3,1,1,8,21,16
-2017-08,Ungeklaert,998,430,394,36,798,9,162,149,29,270,179,3159,191,9,158,146,29,259,139,0,4,3,0,11,22,18
-2017-09,Ungeklaert,998,455,417,38,634,7,132,90,39,174,192,2907,193,7,130,85,38,171,150,0,2,5,1,3,24,18
-2017-10,Ungeklaert,998,362,340,22,623,9,132,59,20,214,189,2626,172,9,131,56,18,213,149,0,1,3,2,1,24,16
-2017-11,Ungeklaert,998,469,433,36,735,7,171,69,36,264,188,2456,159,7,166,66,27,255,150,0,5,3,9,9,28,10
-2017-12,Ungeklaert,998,333,294,39,645,5,111,49,19,309,152,2161,151,5,110,45,18,293,118,0,1,4,1,16,21,13
 2018-01,Ungeklaert,998,349,299,50,669,9,129,63,28,293,147,1775,136,9,114,59,25,290,115,0,15,4,3,3,26,6
 2018-02,Ungeklaert,998,284,248,36,478,6,88,44,15,197,128,1723,127,6,78,44,14,195,103,0,10,0,1,2,21,4
 2018-03,Ungeklaert,998,358,315,43,557,6,99,36,18,230,168,1688,111,6,94,35,10,212,122,0,5,1,8,18,30,16
@@ -23,3 +12,6 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2018-11,Ungeklaert,998,390,340,50,416,11,156,44,13,100,92,1766,117,11,150,42,11,98,60,0,6,2,2,2,23,9
 2018-12,Ungeklaert,998,309,277,32,332,5,122,23,5,74,103,1786,131,5,120,22,4,73,83,0,2,1,1,1,12,8
 2019-01,Ungeklaert,998,392,343,49,450,9,154,29,9,128,121,1706,143,9,146,29,5,124,83,0,8,0,4,4,22,16
+2019-02,Ungeklaert,998,366,311,55,383,16,125,26,6,90,120,1708,138,16,121,26,5,83,65,0,4,0,1,7,39,16
+2019-03,Ungeklaert,998,358,301,57,540,5,250,35,12,92,146,1632,134,5,247,35,10,86,86,0,3,0,2,6,49,11
+2019-04,Ungeklaert,998,332,285,47,453,16,202,19,10,96,110,1549,151,16,202,19,10,95,75,0,0,0,0,1,23,12
