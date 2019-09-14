@@ -5,7 +5,7 @@
 
 SCRIPTNAME=$(basename $0 .sh)
 function usage {
-   echo "Usage: $SCRIPTNAME input.pdf output.csv, e.g. $SCRIPTNAME hkl-antrags-entscheidungs-bestandsstatistik-februar-2018.pdf 201802.csv "
+   echo "Usage: $0 input.pdf output.csv, e.g. $0 hkl-antrags-entscheidungs-bestandsstatistik-februar-2018.pdf 201802.csv "
 }
 if [ "$#" -ne 2 ]; then
   usage;
