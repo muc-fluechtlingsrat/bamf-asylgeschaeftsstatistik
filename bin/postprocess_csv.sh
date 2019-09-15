@@ -1,7 +1,7 @@
 #!/bin/bash
 #Purpose:     clean, add header, add date 
 # 2017.10.16   S.Kim
-#set -xv
+set -xv
 set -euo pipefail
 
 SCRIPTNAME=$(basename $0 .sh)
@@ -38,7 +38,7 @@ if [ ! -f $HEADER_FILE ]; then
     echo "Sorry, cannot find $HEADER_FILE , exiting ... "; exit 3
 fi
 
-ALREADY_RUN=$(grep -c ASYLANTRAEGE $FILE)
+ALREADY_RUN=$(grep -c ASYLANTRAEGE $FILE) || true
 if [ $ALREADY_RUN -ne 0 ]; then
   echo "I think I did this file already, exiting"
   exit 2
