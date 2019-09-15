@@ -1,28 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2015-01,Somalia,273,351,341,10,152,0,32,4,9,16,91,6219,185,0,27,4,9,16,87,0,5,0,0,0,0,4
-2015-02,Somalia,273,442,418,24,148,0,11,23,4,15,95,6547,212,0,11,22,4,15,86,0,0,1,0,0,1,8
-2015-03,Somalia,273,297,283,14,188,0,36,16,9,19,108,6725,217,0,35,16,7,19,91,0,1,0,2,0,6,11
-2015-04,Somalia,273,415,396,19,169,0,23,16,8,16,106,7029,236,0,22,15,7,15,101,0,1,1,1,1,0,5
-2015-05,Somalia,273,432,414,18,165,0,30,9,3,19,104,7365,241,0,23,9,3,19,85,0,7,0,0,0,3,16
-2015-06,Somalia,273,625,590,35,230,0,45,18,13,20,134,7790,270,0,38,18,5,19,123,0,7,0,8,1,0,11
-2015-07,Somalia,273,501,487,14,173,0,31,13,12,14,103,8159,281,0,30,13,10,14,91,0,1,0,2,0,2,10
-2015-08,Somalia,273,369,355,14,144,0,48,31,6,9,50,8444,296,0,47,31,5,9,45,0,1,0,1,0,1,4
-2015-09,Somalia,273,322,302,20,152,0,38,36,12,5,61,8707,309,0,35,34,7,5,56,0,3,2,5,0,0,5
-2015-10,Somalia,273,316,300,16,231,0,63,49,5,14,100,8952,317,0,62,46,3,14,94,0,1,3,2,0,0,6
-2015-11,Somalia,273,342,322,20,186,0,51,17,21,16,81,9232,326,0,51,17,17,16,67,0,0,0,4,0,3,11
-2015-12,Somalia,273,159,144,15,163,0,28,32,8,20,75,9319,361,0,28,32,5,19,63,0,0,0,3,1,2,10
-2016-01,Somalia,273,143,126,17,146,0,35,18,14,21,58,9381,385,0,35,18,10,21,46,0,0,0,4,0,2,10
-2016-02,Somalia,273,201,184,17,198,0,48,40,16,25,69,9497,386,0,42,38,11,25,54,0,6,2,5,0,3,12
-2016-03,Somalia,273,264,248,16,360,1,66,72,103,53,65,9541,383,1,63,72,90,52,46,0,3,0,13,1,5,14
-2016-04,Somalia,273,460,444,16,205,0,53,45,51,17,39,9961,383,0,50,44,45,16,30,0,3,1,6,1,2,7
-2016-05,Somalia,273,516,501,15,230,0,77,39,45,13,56,10492,391,0,76,37,41,13,43,0,1,2,4,0,1,12
-2016-06,Somalia,273,1065,1050,15,608,2,172,90,207,30,107,11371,378,2,166,90,196,29,88,0,6,0,11,1,6,13
-2016-07,Somalia,273,1207,1191,16,665,0,158,118,214,60,115,12286,364,0,155,117,204,59,92,0,3,1,10,1,4,19
-2016-08,Somalia,273,1304,1274,30,537,0,149,109,147,36,96,13259,385,0,148,109,142,35,83,0,1,0,5,1,3,10
-2016-09,Somalia,273,1266,1249,17,581,3,155,85,186,34,118,14112,392,3,153,85,157,32,101,0,2,0,29,2,7,10
-2016-10,Somalia,273,930,910,20,540,0,123,77,180,28,132,14608,417,0,121,77,121,27,119,0,2,0,59,1,5,8
-2016-11,Somalia,273,803,773,30,1222,0,360,189,333,102,238,14256,455,0,359,189,253,101,215,0,1,0,80,1,6,17
-2016-12,Somalia,273,658,627,31,1618,2,458,243,409,174,332,13314,495,2,448,241,346,170,304,0,10,2,63,4,11,17
 2017-01,Somalia,273,617,584,33,1894,3,508,402,327,228,426,12118,503,3,508,402,315,225,395,0,0,0,12,3,11,20
 2017-02,Somalia,273,585,550,35,2201,1,538,526,317,255,564,10705,502,1,535,524,306,254,518,0,3,2,11,1,16,30
 2017-03,Somalia,273,629,595,34,2381,0,656,593,247,294,591,9194,446,0,647,587,218,291,524,0,9,6,29,3,21,46
@@ -51,3 +27,7 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2019-02,Somalia,273,305,266,39,584,3,153,37,33,136,222,1571,147,3,149,33,21,134,160,0,4,4,12,2,17,45
 2019-03,Somalia,273,288,234,54,535,4,155,26,31,132,187,1455,152,1,151,26,22,127,129,3,4,0,9,5,18,40
 2019-04,Somalia,273,292,246,46,391,3,125,29,21,64,149,1440,164,3,123,29,13,63,103,0,2,0,8,1,16,30
+2019-05,Somalia,273,303,247,56,497,3,140,25,20,80,229,1371,159,3,131,22,13,76,161,0,9,3,7,4,21,47
+2019-06,Somalia,273,295,262,33,430,4,119,26,18,71,192,1384,145,4,117,26,15,67,135,0,2,0,3,4,21,36
+2019-07,Somalia,273,357,315,42,481,5,129,21,20,94,212,1387,149,5,127,20,16,87,162,0,2,1,4,7,19,31
+2019-08,Somalia,273,352,307,45,407,2,105,19,21,80,180,1450,162,2,102,19,16,77,133,0,3,0,5,3,18,29
