@@ -24,6 +24,7 @@ s=${FILE##*/}
 FILE_BASE=${s%.*}
 INTERMED_DIR=../intermediate
 FILE_PATH=${FILE%/*}
+YEAR=${FILE_BASE:0:4}
 
 # create temp folder
 mkdir -p $INTERMED_DIR || true
@@ -50,7 +51,7 @@ if [ -f $INTERMED_DIR/${FILE_BASE}_cleaned.csv ]; then
   mv $INTERMED_DIR/${FILE_BASE}_cleaned.csv ${FILE}
 fi
 if [ -f $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ]; then
-  mv $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ../raw/2018/${FILE_BASE}_no_laendercode.csv
+  mv $INTERMED_DIR/${FILE_BASE}_no_laendercode.csv ../raw/${YEAR}/${FILE_BASE}_no_laendercode.csv
 fi
 
 echo "I produced ${FILE} and ${FILE_PATH}/${FILE_BASE}_no_laendercode.csv for you"

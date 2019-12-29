@@ -1,28 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2015-01,Tuerkei,163,185,165,20,106,2,6,3,2,43,50,2341,336,2,4,2,2,38,42,0,2,1,0,5,7,1
-2015-02,Tuerkei,163,173,143,30,76,5,2,0,0,20,49,2435,345,4,1,0,0,17,32,1,1,0,0,3,8,9
-2015-03,Tuerkei,163,125,107,18,87,0,8,5,1,31,42,2478,356,0,8,5,0,30,37,0,0,0,1,1,3,2
-2015-04,Tuerkei,163,114,97,17,56,0,1,0,0,19,36,2538,365,0,1,0,0,16,28,0,0,0,0,3,5,3
-2015-05,Tuerkei,163,146,133,13,73,0,6,0,4,19,44,2626,372,0,6,0,2,19,39,0,0,0,2,0,3,2
-2015-06,Tuerkei,163,152,134,18,94,2,6,0,1,19,66,2690,380,2,5,0,1,17,54,0,1,0,0,2,8,4
-2015-07,Tuerkei,163,111,89,22,84,0,6,0,0,18,60,2717,393,0,4,0,0,18,53,0,2,0,0,0,4,3
-2015-08,Tuerkei,163,85,77,8,38,3,6,5,0,11,13,2778,393,1,3,5,0,10,10,2,3,0,0,1,0,3
-2015-09,Tuerkei,163,134,115,19,38,1,4,1,0,11,21,2887,412,1,2,1,0,10,19,0,2,0,0,1,0,2
-2015-10,Tuerkei,163,112,80,32,62,3,15,0,3,16,25,2952,428,3,10,0,2,10,16,0,5,0,1,6,4,5
-2015-11,Tuerkei,163,140,125,15,74,0,5,1,1,24,43,3031,436,0,3,1,1,22,38,0,2,0,0,2,2,3
-2015-12,Tuerkei,163,99,79,20,108,1,16,4,1,34,52,3028,441,1,14,4,1,30,40,0,2,0,0,4,8,4
-2016-01,Tuerkei,163,119,94,25,107,2,4,1,2,54,44,3047,451,2,4,1,2,49,32,0,0,0,0,5,7,5
-2016-02,Tuerkei,163,226,189,37,59,0,5,0,1,26,27,3199,473,0,5,0,1,22,20,0,0,0,0,4,5,2
-2016-03,Tuerkei,163,198,167,31,61,0,2,0,0,20,39,3341,490,0,2,0,0,19,30,0,0,0,0,1,5,4
-2016-04,Tuerkei,163,306,272,34,68,0,3,0,0,25,40,3587,518,0,3,0,0,23,32,0,0,0,0,2,6,2
-2016-05,Tuerkei,163,330,312,18,65,0,2,0,0,23,40,3857,529,0,2,0,0,22,33,0,0,0,0,1,2,5
-2016-06,Tuerkei,163,485,459,26,144,0,6,2,5,74,57,4216,539,0,5,2,5,72,43,0,1,0,0,2,7,7
-2016-07,Tuerkei,163,550,525,25,138,0,5,1,2,49,81,4648,547,0,5,1,1,41,70,0,0,0,1,8,6,5
-2016-08,Tuerkei,163,762,732,30,155,2,7,2,2,42,100,5274,570,2,7,2,1,39,92,0,0,0,1,3,5,3
-2016-09,Tuerkei,163,696,669,27,142,0,4,4,0,19,115,5847,583,0,4,3,0,14,107,0,0,1,0,5,5,3
-2016-10,Tuerkei,163,597,575,22,190,1,13,2,1,46,127,6282,598,1,13,2,1,46,117,0,0,0,0,0,4,6
-2016-11,Tuerkei,163,702,671,31,364,1,22,7,2,157,175,6634,603,1,21,7,2,139,154,0,1,0,0,18,12,9
-2016-12,Tuerkei,163,548,528,20,366,4,20,11,2,175,154,6858,593,4,19,11,2,162,140,0,1,0,0,13,5,9
 2017-01,Tuerkei,163,610,580,30,314,2,12,5,1,169,125,7160,613,2,12,4,1,161,113,0,0,1,0,8,8,4
 2017-02,Tuerkei,163,533,492,41,252,5,7,5,2,108,125,7447,632,5,7,5,2,106,108,0,0,0,0,2,10,7
 2017-03,Tuerkei,163,513,477,36,264,0,19,1,3,95,146,7715,642,0,19,1,3,85,128,0,0,0,0,10,6,12
@@ -50,3 +26,7 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2019-02,Tuerkei,163,805,761,44,1059,70,459,2,4,429,95,4799,198,70,458,2,4,408,63,0,1,0,0,21,30,2
 2019-03,Tuerkei,163,655,602,53,920,79,378,4,3,358,98,4600,199,79,374,4,3,343,61,0,4,0,0,15,35,2
 2019-04,Tuerkei,163,729,692,37,777,56,267,4,1,351,98,4610,189,56,259,4,1,338,65,0,8,0,0,13,28,5
+2019-05,Tuerkei,163,989,945,44,758,40,252,0,4,369,93,4890,194,40,252,0,3,354,61,0,0,0,1,15,26,6
+2019-06,Tuerkei,163,751,711,40,568,30,138,1,4,314,81,5087,204,30,136,1,3,302,60,0,2,0,1,12,17,4
+2019-07,Tuerkei,163,1274,1214,60,880,66,289,4,3,410,108,5532,215,66,289,4,3,391,69,0,0,0,0,19,39,0
+2019-08,Tuerkei,163,1306,1251,55,893,60,338,9,2,386,98,5983,216,59,338,9,1,370,59,1,0,0,1,16,30,9
