@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2017-01,Albanien,121,573,327,246,1318,0,0,6,5,912,395,2915,648,0,0,6,4,891,159,0,0,0,1,21,212,24
-2017-02,Albanien,121,378,245,133,1149,0,0,6,18,810,315,2302,550,0,0,6,13,776,116,0,0,0,5,34,173,26
-2017-03,Albanien,121,680,462,218,1249,0,1,4,10,791,443,1906,451,0,1,4,10,770,160,0,0,0,0,21,259,24
-2017-04,Albanien,121,626,374,252,1029,0,1,0,13,721,294,1515,473,0,0,0,12,701,89,0,1,0,1,20,189,16
-2017-05,Albanien,121,474,289,185,928,0,0,11,11,639,267,1119,435,0,0,11,11,610,78,0,0,0,0,29,182,7
-2017-06,Albanien,121,523,317,206,649,0,0,1,6,376,266,1020,429,0,0,1,6,371,64,0,0,0,0,5,186,16
-2017-07,Albanien,121,575,309,266,842,0,0,0,3,414,425,862,349,0,0,0,2,392,90,0,0,0,1,22,311,24
-2017-08,Albanien,121,575,368,207,908,0,2,0,4,514,388,663,241,0,2,0,4,483,94,0,0,0,0,31,247,47
-2017-09,Albanien,121,341,205,136,635,0,4,0,7,411,213,450,174,0,4,0,7,384,39,0,0,0,0,27,159,15
-2017-10,Albanien,121,381,200,181,426,0,2,1,2,225,196,412,178,0,2,1,2,213,36,0,0,0,0,12,138,22
-2017-11,Albanien,121,427,262,165,474,0,1,4,9,265,195,391,173,0,1,4,7,244,44,0,0,0,2,21,139,12
-2017-12,Albanien,121,289,198,91,309,0,0,1,6,166,136,385,188,0,0,1,6,163,54,0,0,0,0,3,79,3
 2018-01,Albanien,121,299,167,132,425,0,0,0,3,240,182,306,167,0,0,0,3,223,48,0,0,0,0,17,124,10
 2018-02,Albanien,121,191,134,57,303,0,2,1,6,168,126,280,113,0,2,1,1,158,27,0,0,0,5,10,92,7
 2018-03,Albanien,121,238,138,100,328,0,0,4,1,184,139,240,116,0,0,0,1,173,40,0,0,4,0,11,83,16
@@ -34,3 +22,4 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2019-09,Albanien,121,208,128,80,170,0,0,0,1,104,65,235,116,0,0,0,1,101,13,0,0,0,0,3,40,12
 2019-10,Albanien,121,187,129,58,178,0,1,1,3,80,93,271,102,0,1,0,0,78,24,0,0,1,3,2,58,11
 2019-11,Albanien,121,224,147,77,207,0,0,0,0,126,81,287,112,0,0,0,0,111,25,0,0,0,0,15,48,8
+2019-12,Albanien,121,186,144,42,158,0,0,1,0,98,59,327,101,0,0,0,0,91,13,0,0,1,0,7,41,5
