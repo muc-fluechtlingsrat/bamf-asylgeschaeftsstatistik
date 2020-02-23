@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2017-01,Irak,438,1312,1245,67,10312,31,4721,1746,159,2845,810,43620,1393,31,4685,1724,143,2812,723,0,36,22,16,33,41,46
-2017-02,Irak,438,1476,1405,71,10055,26,3544,2149,177,3090,1069,35716,1225,26,3502,2123,172,3050,984,0,42,26,5,40,37,48
-2017-03,Irak,438,1774,1674,100,10602,28,3386,2295,196,3669,1028,27545,1086,28,3340,2249,185,3633,924,0,46,46,11,36,59,45
-2017-04,Irak,438,1242,1173,69,8113,25,2555,1701,162,2983,687,21199,945,25,2516,1666,154,2950,594,0,39,35,8,33,54,39
-2017-05,Irak,438,1695,1619,76,10163,41,3403,1757,306,3683,973,13407,697,41,3342,1723,270,3612,835,0,61,34,36,71,74,64
-2017-06,Irak,438,1597,1480,117,3448,48,1277,492,94,934,603,11892,648,48,1260,478,81,900,504,0,17,14,13,34,55,44
-2017-07,Irak,438,1726,1619,107,4158,44,1442,651,107,1152,762,9949,561,44,1419,635,100,1120,621,0,23,16,7,32,64,77
-2017-08,Irak,438,2171,2012,159,3970,34,1221,869,110,1039,697,8474,567,33,1208,848,102,1009,540,1,13,21,8,30,58,99
-2017-09,Irak,438,2015,1889,126,2872,12,671,604,95,693,797,8053,534,12,668,587,69,665,623,0,3,17,26,28,68,106
-2017-10,Irak,438,2148,2011,137,3089,25,774,658,78,778,776,7582,516,23,765,649,58,746,617,2,9,9,20,32,65,94
-2017-11,Irak,438,2051,1851,200,3324,7,671,830,96,761,959,6662,508,7,656,815,78,737,733,0,15,15,18,24,97,129
-2017-12,Irak,438,1582,1463,119,2292,7,373,556,58,653,645,6254,505,7,367,539,50,625,532,0,6,17,8,28,49,64
 2018-01,Irak,438,1317,1198,119,2507,7,464,191,201,904,740,5410,428,7,455,189,186,868,568,0,9,2,15,36,104,68
 2018-02,Irak,438,1325,1220,105,1870,3,263,113,154,733,604,5678,382,3,261,112,147,709,466,0,2,1,7,24,87,51
 2018-03,Irak,438,1011,876,135,2124,3,390,112,180,792,647,5315,382,3,386,110,157,764,508,0,4,2,23,28,78,61
@@ -34,3 +22,4 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2019-09,Irak,438,1158,1042,116,1346,2,282,70,61,456,475,4898,455,2,273,68,57,443,328,0,9,2,4,13,76,71
 2019-10,Irak,438,1185,1064,121,1214,9,318,49,54,333,451,5024,472,9,314,47,49,318,344,0,4,2,5,15,53,54
 2019-11,Irak,438,1096,957,139,1358,2,321,59,78,468,430,4915,537,2,319,59,74,450,335,0,2,0,4,18,39,56
+2019-12,Irak,438,927,815,112,1012,6,202,46,42,342,374,4971,579,6,201,46,36,323,288,0,1,0,6,19,31,55
