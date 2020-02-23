@@ -1,16 +1,4 @@
 YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von E Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraege,ENTSCHEIDUNGEN ueber ErErstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN üueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
-2017-01,Pakistan,461,365,331,34,3297,4,43,5,24,2443,778,12932,596,4,38,5,21,2432,705,0,5,0,3,11,45,28
-2017-02,Pakistan,461,372,325,47,3158,2,56,7,14,2337,742,10299,539,2,55,7,12,2321,682,0,1,0,2,16,28,32
-2017-03,Pakistan,461,461,417,44,2933,10,79,20,23,2178,623,7928,510,10,79,20,23,2157,550,0,0,0,0,21,44,29
-2017-04,Pakistan,461,312,277,35,2073,2,44,8,34,1601,384,6248,485,2,43,8,33,1571,304,0,1,0,1,30,45,35
-2017-05,Pakistan,461,403,350,53,2657,1,69,25,51,1936,575,4216,383,1,69,24,51,1865,446,0,0,1,0,71,72,57
-2017-06,Pakistan,461,345,300,45,1050,5,27,2,22,761,233,3591,355,5,26,2,19,736,171,0,1,0,3,25,29,33
-2017-07,Pakistan,461,317,250,67,1326,0,39,6,26,943,312,2709,325,0,39,6,23,917,208,0,0,0,3,26,54,50
-2017-08,Pakistan,461,384,334,50,1264,3,26,6,28,840,361,2013,263,3,25,6,18,815,254,0,1,0,10,25,60,47
-2017-09,Pakistan,461,385,310,75,690,0,19,4,6,407,254,1819,241,0,19,3,6,383,152,0,0,1,0,24,61,41
-2017-10,Pakistan,461,398,321,77,771,2,28,1,18,514,208,1573,243,2,27,1,18,496,121,0,1,0,0,18,41,46
-2017-11,Pakistan,461,297,210,87,913,1,19,9,36,598,250,1132,208,1,17,9,36,572,129,0,2,0,0,26,76,45
-2017-12,Pakistan,461,236,148,88,623,1,22,3,17,365,215,920,196,0,21,1,17,349,117,1,1,2,0,16,62,36
 2018-01,Pakistan,461,357,248,109,729,2,16,2,14,465,230,712,156,2,13,2,14,427,98,0,3,0,0,38,90,42
 2018-02,Pakistan,461,301,226,75,489,1,12,4,7,295,170,656,157,1,11,4,6,275,91,0,1,0,1,20,49,30
 2018-03,Pakistan,461,283,179,104,501,1,10,0,11,300,179,551,196,1,10,0,10,281,98,0,0,0,1,19,47,34
@@ -34,3 +22,4 @@ YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantrae
 2019-09,Pakistan,461,285,190,95,316,1,6,0,3,159,147,560,246,1,6,0,2,148,66,0,0,0,1,11,60,21
 2019-10,Pakistan,461,291,200,91,212,3,13,0,1,70,125,632,281,3,8,0,1,66,67,0,5,0,0,4,37,21
 2019-11,Pakistan,461,228,128,100,266,6,8,2,6,96,148,604,307,6,7,1,6,89,70,0,1,1,0,7,59,19
+2019-12,Pakistan,461,161,106,55,222,1,7,0,3,89,122,571,296,1,5,0,3,86,48,0,2,0,0,3,62,12
