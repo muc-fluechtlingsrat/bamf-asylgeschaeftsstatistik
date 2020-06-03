@@ -35,6 +35,9 @@ for YEAR in $YEARS; do
   grep -h $COUNTRY $INPUTDIR/$YEAR/${YEAR}??_no_laendercode.csv | dos2unix | sort >> $OUTPUTDIR/${COUNTRY}_tail.csv
 done
 
+# if we grepped for "gesamt", we will also get all the headers
+sed -i '/^YEAR_MONTH/d' $OUTPUTDIR/${COUNTRY}_tail.csv 
+	
 cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/${COUNTRY}_tail.csv > $OUTPUTDIR/$COUNTRY.csv
 csvclean -n $OUTPUTDIR/$COUNTRY.csv
 echo $OUTPUTDIR/$COUNTRY.csv

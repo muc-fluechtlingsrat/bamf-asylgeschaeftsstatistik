@@ -5,7 +5,7 @@
 # 2016.06.18   S.Kim
 
 set -euo pipefail
-#set -vx
+# set -vx
 
 SCRIPTNAME=$(basename $0 .sh)
 
@@ -32,8 +32,17 @@ OUTPUTDIR=../cooked
 if [ ! -d $OUTPUTDIR ]; then
   mkdir $OUTPUTDIR
 fi
+# only use since if you find it
+set +e
+SINCE_IN_DATES=$(grep -c $SINCE $FILE)
+if [ $SINCE_IN_DATES -eq 0 ]; then
+  echo "Couldn't find the date $SINCE in your data, assuming FULL"
+  SINCE="FULL"
+fi
+set -e
 # Format changed slightly, we had a "" column until 201605
 # I should probably do this with csvtools ... sorry.
+
 sed -i 's/,"",/,/' $FILE
 csvcut -d, -c1,8,9,10,11,12,13 $FILE > $OUTPUTDIR/${FILE_BASE}_cut.csv
 sed '1s/.*/YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen/' $OUTPUTDIR/${FILE_BASE}_cut.csv > $OUTPUTDIR/tmpfile.csv

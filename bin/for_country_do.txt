@@ -1,6 +1,6 @@
 # some notes to speed up the monthly procedure
 # base for countries with histograms on our webpage refugee-datathon-muc.org
-MONTH=Jan
+MONTH=June
 THIS_YEAR=2019
 FROM_MONTH="2017-12"
 FOR_YEARS="2017 2018 2019"
@@ -12,6 +12,9 @@ for COUNTRY in ${COUNTRIES}; do ./cut_country.sh -f ../cooked/${COUNTRY}.csv -d 
 # create csv for decisions excl. sonstige
 for COUNTRY in ${COUNTRIES}; do ./cut_country_nixsonst.sh -f ../cooked/${COUNTRY}.csv -d ${FROM_MONTH}; done
 # commit all
+for COUNTRY in ${COUNTRIES}; do git add ../cooked/${COUNTRY}.csv ; done
+for COUNTRY in ${COUNTRIES}; do git add ../cooked/${COUNTRY}_cut.csv ; done
+for COUNTRY in ${COUNTRIES}; do git add ../cooked/${COUNTRY}_cut_nixsonst.csv ; done
 for COUNTRY in ${COUNTRIES}; do git commit ../cooked/${COUNTRY}.csv -m "adding ${MONTH} ${YEAR}"; done
 for COUNTRY in ${COUNTRIES}; do git commit ../cooked/${COUNTRY}_cut.csv -m "adding ${MONTH} ${YEAR}"; done
 for COUNTRY in ${COUNTRIES}; do git commit ../cooked/${COUNTRY}_cut_nixsonst.csv -m "adding ${MONTH} ${YEAR}"; done

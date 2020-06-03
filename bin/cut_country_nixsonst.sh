@@ -34,6 +34,14 @@ OUTPUTDIR=../cooked
 if [ ! -d $OUTPUTDIR ]; then
   mkdir $OUTPUTDIR
 fi
+# only use since if you find it
+set +e
+SINCE_IN_DATES=$(grep -c $SINCE $FILE)
+if [ $SINCE_IN_DATES -eq 0 ]; then
+  echo "Couldn't find the date $SINCE in your data, assuming FULL"
+  SINCE="FULL"
+fi
+set -e
 # Format changed slightly, we had a "" column until 201605
 # I should probably do this with csvtools ... sorry.
 sed -i 's/,"",/,/' $FILE
