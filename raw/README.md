@@ -11,9 +11,10 @@ datapackage.json: Möglicherweise veraltete Dokumentation gemäss Datapackage ht
 
 Benötigt:
 
-* monatliche Asylgeschäftsstatistik als PDFs vom [BAMF](http://www.bamf.de/DE/Infothek/Statistiken/Asylzahlen/Asylgeschäftsstatistik/asylgeschaeftsstatistik-node.html)
+* monatliche Asylgeschäftsstatistik als PDFs vom [BAMF](https://www.bamf.de/DE/Themen/Statistik/Asylzahlen/AsylGesStatistik/asylgeschaeftsstatistik-node.html)
 * [Tabula](http://tabula.technology) Herunterladen, starten, warten, auf http://localhost:8080/ finden. Es braucht java. Starten zB als exe auf Windows. Auf Mac starten mit: /tabula/Tabula.app/Contents/MacOS/JavaAppLauncher
 
+Manuell extrahieren:
 1. Importiere eine Monats-PDF in Tabula
 2. Markiere nur den Inhalt der Tabelle - nicht den Header (damit kann Tabula nicht umgehen). Nutze _Repeat this Selection_ um alle Seiten mitzunehmen.
 ![](../docs/hkl-tabula-1.png)
@@ -23,6 +24,13 @@ Benötigt:
 
 4. Prüfe, ob die Daten so aussehen wie im Screenshot darüber. Es sollten keine leeren Spalten zwischen den Zahlen existieren.
 5. Exportiere als CSV.
+
+Mit Script, im bin-directory dieses git repos stehend:
+```
+wget "https://www.bamf.de/SharedDocs/Anlagen/DE/Statistik/Asylgeschaeftsstatistik/hkl-antrags-entscheidungs-bestandsstatistik-februar-2020.pdf?__blob=publicationFile&v=3" -O hkl-antrags-entscheidungs-bestandsstatistik-februar-2020.pdf
+./tabula.sh hkl-antrags-entscheidungs-bestandsstatistik-februar-2020.pdf 202002.csv
+```
+
 6. Kopiere die CSV-Datei als YYYYMM.csv in das YYYY/raw-Verzeichnis.
 7. Gehe ins bin-Verzeichnis und rufe auf: `./postprocess_csv.sh ../raw/2017/201710.csv`. Das macht ein paar Bereinigungen und fügt 1. eine Kopfzeile, 2. Jahr und Monat hinzu. 
 9. Um die Daten zu einem Land, beispielsweise Pakistan, über die Monate hinweg zu erhalten, rufe auf: `./per_country.sh -c Pakistan -y "2016 2017"`.
