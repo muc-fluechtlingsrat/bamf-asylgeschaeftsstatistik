@@ -31,7 +31,7 @@ fi
 cat /dev/null > $OUTPUTDIR/${COUNTRY}_tail.csv
 
 for YEAR in $YEARS; do
-  grep -h $COUNTRY $INPUTDIR/$YEAR/${YEAR}??.csv | dos2unix | sort >> $OUTPUTDIR/${COUNTRY}_tail.csv
+  grep -h $COUNTRY $INPUTDIR/$YEAR/${YEAR}??.csv | grep -v Bissau | dos2unix | sort >> $OUTPUTDIR/${COUNTRY}_tail.csv
 done
 
 cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/${COUNTRY}_tail.csv > $OUTPUTDIR/$COUNTRY.csv
