@@ -44,7 +44,8 @@ fi
 set -e
 # Format changed slightly, we had a "" column until 201605
 # I should probably do this with csvtools ... sorry.
-sed -i 's/,"",/,/' $FILE
+sed -i.bak 's/,"",/,/' $FILE
+rm $FILE.bak
 csvcut -d, -c1,8,9,10,11,12 $FILE > $OUTPUTDIR/${FILE_BASE}_cut_nixsonst.csv
 sed '1s/.*/YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt/' $OUTPUTDIR/${FILE_BASE}_cut_nixsonst.csv > $OUTPUTDIR/tmpfile.csv
 if [ "$SINCE" = "FULL" ]; then

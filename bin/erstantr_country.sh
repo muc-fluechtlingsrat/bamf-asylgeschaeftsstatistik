@@ -29,7 +29,8 @@ for DIR in $OUTPUTDIR; do
 done
 # Format changed slightly, we had a "" column until 201605
 # I should probably do this with csvtools ... sorry.
-sed -i 's/,"",/,/' $FILE
+sed -i.bak 's/,"",/,/' $FILE
+rm $FILE.bak
 csvcut -d, -c1,5 $FILE > $OUTPUTDIR/${FILE_BASE}${SUFFIX}.csv
 sed '1s/.*/YEAR_MONTH,ASYLANTRAEGE davon Erstantraege/' $OUTPUTDIR/${FILE_BASE}${SUFFIX}.csv > $OUTPUTDIR/tmpfile.csv
 mv $OUTPUTDIR/tmpfile.csv  $OUTPUTDIR/${FILE_BASE}${SUFFIX}.csv
