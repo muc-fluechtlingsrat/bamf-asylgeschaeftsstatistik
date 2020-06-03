@@ -35,6 +35,7 @@ for YEAR in $YEARS; do
 done
 
 cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/${COUNTRY}_tail.csv > $OUTPUTDIR/$COUNTRY.csv
+rm $OUTPUTDIR/${COUNTRY}_tail.csv
 csvclean -n $OUTPUTDIR/$COUNTRY.csv
 echo $OUTPUTDIR/$COUNTRY.csv
 exit 0
