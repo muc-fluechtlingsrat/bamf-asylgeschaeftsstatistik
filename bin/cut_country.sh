@@ -34,7 +34,8 @@ if [ ! -d $OUTPUTDIR ]; then
 fi
 # Format changed slightly, we had a "" column until 201605
 # I should probably do this with csvtools ... sorry.
-sed -i 's/,"",/,/' $FILE
+sed -i.bak 's/,"",/,/' $FILE
+rm $FILE.bak
 csvcut -d, -c1,8,9,10,11,12,13 $FILE > $OUTPUTDIR/${FILE_BASE}_cut.csv
 sed '1s/.*/YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen/' $OUTPUTDIR/${FILE_BASE}_cut.csv > $OUTPUTDIR/tmpfile.csv
 if [ "$SINCE" = "FULL" ]; then

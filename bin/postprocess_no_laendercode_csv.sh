@@ -34,10 +34,11 @@ fi
 
 ### Cleaning - special for no_laendercode
 # for some strange reason we have trailing commas
-sed -i 's/,$//' $FILE
+sed -i.bak 's/,$//' $FILE
+rm $FILE.bak
 ### Add empty column where laendercode would be
 csvcut -c1 $FILE > /tmp/csv1
-sed -i 's/$/,/' /tmp/csv1
+sed -i.bak 's/$/,/' /tmp/csv1
 csvcut -c2- $FILE > /tmp/csv2
 csvjoin -H /tmp/csv1 /tmp/csv2 | tail -n +2 > $FILE
 # add header, remove Windows endoflines etc

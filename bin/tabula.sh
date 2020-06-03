@@ -15,7 +15,7 @@ if [ "$#" -ne 2 ]; then
 fi
 
 set -vx
-TABULAJAR=./tabula-1.0.2-jar-with-dependencies.jar
+TABULAJAR=./tabula-1.0.3-jar-with-dependencies.jar
 java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 1 "$1" > $2
 java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 2 "$1" >> $2
 java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 3 "$1" >> $2

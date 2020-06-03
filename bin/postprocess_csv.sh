@@ -40,7 +40,7 @@ fi
 
 ALREADY_RUN=$(grep -c ASYLANTRAEGE $FILE) || true
 if [ $ALREADY_RUN -ne 0 ]; then
-  echo "I think I did this file already, exiting"
+  echo "I think I did this file already, exiting. If you think that this is a mistake, remove the header."
   exit 2
 fi
 # and action
@@ -48,14 +48,14 @@ fi
 cat $HEADER_FILE $FILE | dos2unix > /tmp/x.csv; mv /tmp/x.csv $FILE
 
 # Replace special characters
-sed -i 's/ß/ss/g' $FILE;
-sed -i 's/Ä/Ae/g' $FILE;
-sed -i 's/Ö/Oe/g' $FILE;
-sed -i 's/Ü/Ue/g' $FILE;
-sed -i 's/ü/ue/g' $FILE;
-sed -i 's/ö/oe/g' $FILE;
-sed -i 's/ä/ae/g' $FILE;
-
+sed -i.bak 's/ß/ss/g' $FILE;
+sed -i.bak 's/Ä/Ae/g' $FILE;
+sed -i.bak 's/Ö/Oe/g' $FILE;
+sed -i.bak 's/Ü/Ue/g' $FILE;
+sed -i.bak 's/ü/ue/g' $FILE;
+sed -i.bak 's/ö/oe/g' $FILE;
+sed -i.bak 's/ä/ae/g' $FILE;
+rm $FILE.bak
 ### Cleaning
 
 ./clean_csv.sh $FILE

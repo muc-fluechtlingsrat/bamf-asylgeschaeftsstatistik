@@ -32,11 +32,14 @@ mkdir -p $INTERMED_DIR || true
 # careful - copy to workdir
 cp ${FILE} $INTERMED_DIR/${FILE_BASE}.csv
 # We don't want the rows with: Spalte 1, 
-sed -i '/^Spalte 1/d' $INTERMED_DIR/${FILE_BASE}.csv 
+sed -i.bak '/^Spalte 1/d' $INTERMED_DIR/${FILE_BASE}.csv 
+rm $INTERMED_DIR/${FILE_BASE}.csv.bak
 # Replace minus signs
-sed -i 's/,-/,0/g' $INTERMED_DIR/${FILE_BASE}.csv
+sed -i.bak 's/,-/,0/g' $INTERMED_DIR/${FILE_BASE}.csv
+rm $INTERMED_DIR/${FILE_BASE}.csv.bak
 # Remove dots in numbers
-sed -i 's/\([0-9]\)\.\([0-9]\)/\1\2/g' $INTERMED_DIR/${FILE_BASE}.csv 
+sed -i.bak 's/\([0-9]\)\.\([0-9]\)/\1\2/g' $INTERMED_DIR/${FILE_BASE}.csv 
+rm $INTERMED_DIR/${FILE_BASE}.csv.bak
 # Write these to another file - they have one column less, "Laendercode": Europa, 
 # Afrika, Amerika, Asien, Unbekannt, Herkunftsländer gesamt ...
 # ... Australien with Laendercode 523 is the country, Australien without the continent:
