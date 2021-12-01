@@ -1,20 +1,21 @@
 # some notes to speed up the monthly procedure
 # base for countries with histograms on our webpage refugee-datathon-muc.org
-MONTH=June
+MONTH=May
 THIS_YEAR=2020
 FROM_MONTH="2018-12"
 FOR_YEARS="2018 2019 2020"
-COUNTRIES="Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen Libyen Mali Georgien Guinea Albanien Aserbaidschan Moldau"
+OUTPUTDIR=../cooked/2018_2019_2020
+COUNTRIES="Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen Libyen Mali Georgien Guinea Albanien Aserbaidschan Moldau Venezuela"
 # create per country csv
 for COUNTRY in ${COUNTRIES}; do ./per_country.sh -c ${COUNTRY} -y "$FOR_YEARS"; done
-for COUNTRY in ${COUNTRIES}; do cp ../cooked/${COUNTRY}.csv ../cooked/${FOR_YEARS// /_}; done
+for COUNTRY in ${COUNTRIES}; do cp ../cooked/${COUNTRY}.csv ${OUTPUTDIR}; done
 # create csv for decisions incl. sonstige
 for COUNTRY in ${COUNTRIES}; do ./cut_country.sh -f ../cooked/${COUNTRY}.csv -d ${FROM_MONTH}; done
-for COUNTRY in ${COUNTRIES}; do mv ../cooked/${COUNTRY}_cut.csv ../cooked/${FOR_YEARS// /_}; done
+for COUNTRY in ${COUNTRIES}; do mv ../cooked/${COUNTRY}_cut.csv ${OUTPUTDIR}; done
 # create csv for decisions excl. sonstige
 for COUNTRY in ${COUNTRIES}; do ./cut_country_nixsonst.sh -f ../cooked/${COUNTRY}.csv -d ${FROM_MONTH}; done
-for COUNTRY in ${COUNTRIES}; do mv ../cooked/${COUNTRY}_cut_nixsonst.csv ../cooked/${FOR_YEARS// /_}; done
+for COUNTRY in ${COUNTRIES}; do mv ../cooked/${COUNTRY}_cut_nixsonst.csv ${OUTPUTDIR}; done
 # commit all
-for COUNTRY in ${COUNTRIES}; do git add ../cooked/${FOR_YEARS// /_}/*.csv ; done
-for COUNTRY in ${COUNTRIES}; do git commit ../cooked/${FOR_YEARS// /_}/*.csv -m "adding ${MONTH} ${YEAR}"; done
+for COUNTRY in ${COUNTRIES}; do git add ${OUTPUTDIR}/${COUNTRY}*.csv; done
+for COUNTRY in ${COUNTRIES}; do git commit ${OUTPUTDIR}/${COUNTRY}*.csv -m "adding ${MONTH} ${YEAR}" ; done
 # git push interactively
