@@ -1,6 +1,6 @@
 #!/bin/bash
 set -vx
-while getopts 'ymt:h' opt; do
+while getopts 'y:m:t:h' opt; do
   case "$opt" in
     y)
       YEAR="$OPTARG"
@@ -18,12 +18,12 @@ while getopts 'ymt:h' opt; do
   esac
 done
 
-echo $0 $*
+set -euo pipefail
 # written for a docker container, everything is in /
 
 # translate to German month name. You need the locale generated for this.
 MONATSNAME=$(LC_ALL=de_DE.utf8 date -d "2000-$MONTH-11" +%B)
-PDF=hkl-antrags-entscheidungs-bestandsstatistik-${MONATSNAME,,}-$YEAR.pdf
+PDF=hkl-antrags-entscheidungs-bestandsstatistik-${MONATSNAME,,}-${YEAR}.pdf
 
 # get the pdf
 wget "https://www.bamf.de/SharedDocs/Anlagen/DE/Statistik/Asylgeschaeftsstatistik/$PDF?__blob=publicationFile&v=2" -O $PDF
