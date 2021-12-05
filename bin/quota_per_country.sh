@@ -37,7 +37,7 @@ for YEAR in $YEARS; do
     if [ -f $INPUTDIR/$YEAR/${YEAR}${MONTH}.csv ]; then
       echo "getting quota for $YEAR $MONTH"
       ./get_schutzquote.sh $INPUTDIR/$YEAR/${YEAR}${MONTH}.csv
-      grep -h $COUNTRY $OUTPUTDIR/${YEAR}${MONTH}_quota.csv | dos2unix | sort >> $OUTPUTFILE
+      grep -h $COUNTRY $OUTPUTDIR/${YEAR}${MONTH}_quota.csv | sort >> $OUTPUTFILE
     else
        echo "no file $INPUTDIR/$YEAR/${YEAR}${MONTH}.csv found, continuing"
     fi

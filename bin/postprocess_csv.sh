@@ -45,7 +45,7 @@ if [ $ALREADY_RUN -ne 0 ]; then
 fi
 # and action
 # add header, remove Windows endoflines etc
-cat $HEADER_FILE $FILE | dos2unix > /tmp/x.csv; mv /tmp/x.csv $FILE
+cat $HEADER_FILE $FILE > /tmp/x.csv; mv /tmp/x.csv $FILE
 
 # Replace special characters
 sed -i.bak 's/ß/ss/g' $FILE;

@@ -32,7 +32,7 @@ fi
 cat /dev/null > $OUTPUTDIR/${COUNTRY}_tail.csv
 
 for YEAR in $YEARS; do
-  grep -h $COUNTRY $INPUTDIR/$YEAR/${YEAR}??_no_laendercode.csv | dos2unix | sort >> $OUTPUTDIR/${COUNTRY}_tail.csv
+  grep -h $COUNTRY $INPUTDIR/$YEAR/${YEAR}??_no_laendercode.csv | sort >> $OUTPUTDIR/${COUNTRY}_tail.csv
 done
 
 # if we grepped for "gesamt", we will also get all the headers
