@@ -5,23 +5,20 @@ while getopts 'ymt:h' opt; do
     y)
       YEAR="$OPTARG"
       ;;
-
     m)
       MONTH="$OPTARG"
       ;;
-
     t)
       GITTOKEN="$OPTARG"
       ;;
-   
     ?|h)
       echo "Usage: $(basename $0) -y YEAR YYYY -m MONTH MM -t GITTOKEN"
       exit 1
       ;;
   esac
 done
-shift "$(($OPTIND -1))"
 
+echo $0 $*
 # written for a docker container, everything is in /
 
 # translate to German month name. You need the locale generated for this.
