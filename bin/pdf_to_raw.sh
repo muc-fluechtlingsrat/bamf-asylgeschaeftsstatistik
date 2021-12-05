@@ -31,8 +31,11 @@ wget "https://www.bamf.de/SharedDocs/Anlagen/DE/Statistik/Asylgeschaeftsstatisti
 # run tabula.sh 
 /bamf-asylgeschaeftsstatistik/bin/tabula.sh $PDF $YEAR$MONTH.csv
 
-# git push the new csv
+# postprocess the csv 
 mv $YEAR$MONTH.csv /bamf-asylgeschaeftsstatistik/raw/$YEAR
+/bamf-asylgeschaeftsstatistik/bin/postprocess_csv.sh /bamf-asylgeschaeftsstatistik/raw/$YEAR/$YEAR$MONTH.csv
+
+# git push the new csv
 cd /bamf-asylgeschaeftsstatistik 
 git add raw/$YEAR/$YEAR$MONTH*.csv
 git -c "user.name=ynux" -c "user.email=ynux@gmx.net" commit -m "adding raw $MONATSNAME $YEAR data" raw/$YEAR/$YEAR$MONTH*.csv
