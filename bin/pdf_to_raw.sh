@@ -33,7 +33,8 @@ wget "https://www.bamf.de/SharedDocs/Anlagen/DE/Statistik/Asylgeschaeftsstatisti
 
 # postprocess the csv 
 mv $YEAR$MONTH.csv /bamf-asylgeschaeftsstatistik/raw/$YEAR
-/bamf-asylgeschaeftsstatistik/bin/postprocess_csv.sh /bamf-asylgeschaeftsstatistik/raw/$YEAR/$YEAR$MONTH.csv
+cd /bamf-asylgeschaeftsstatistik/bin/
+./postprocess_csv.sh /bamf-asylgeschaeftsstatistik/raw/$YEAR/$YEAR$MONTH.csv
 
 # git push the new csv
 cd /bamf-asylgeschaeftsstatistik 
