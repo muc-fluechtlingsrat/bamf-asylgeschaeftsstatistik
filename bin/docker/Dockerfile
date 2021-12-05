@@ -7,4 +7,4 @@ RUN git clone https://github.com/muc-fluechtlingsrat/bamf-asylgeschaeftsstatisti
 
 ENV YEAR=$YEAR MONTH=$MONTH GITTOKEN=$GITTOKEN
 
-CMD ["/bamf-asylgeschaeftsstatistik/bin/pdf_to_raw.sh","-y","$YEAR","-m","$MONTH","-t","$GITTOKEN"]
+CMD ["sh", "-c", "/bamf-asylgeschaeftsstatistik/bin/pdf_to_raw.sh","-y","$YEAR","-m","$MONTH","-t","$GITTOKEN"]
