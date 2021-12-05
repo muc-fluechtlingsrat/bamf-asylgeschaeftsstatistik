@@ -7,7 +7,7 @@ In diesem Repository liegen die CSV-Dateien, die wir aus den PDFs herausziehen, 
 
 datapackage.json: Möglicherweise veraltete Dokumentation gemäss Datapackage http://dataprotocols.org/data-packages , mit Datapackage bauen: http://datapackagist.okfnlabs.org
 
-## HowTo: CSV aus den PDFs gewinnen
+## Manuelles HowTo: CSV aus den PDFs gewinnen
 
 Benötigt:
 
@@ -37,3 +37,21 @@ wget "https://www.bamf.de/SharedDocs/Anlagen/DE/Statistik/Asylgeschaeftsstatisti
 10. Um ein Histogramm wie auf https://refugeedatathonmuc.wordpress.com/ zu erzeugen, reduziere die Daten mit `../bin/cut_country.sh ../cooked/Pakistan.csv`. Die resultierende Datei `../cooked/Pakistan_cut.csv` enthält nur die Spalten JahrMonat, Anträge gesamt, positive, negative, sonstige. 
 In anderen Worten: `COUNTRY=Eritrea; ./per_country.sh -c $COUNTRY -y "2016 2017"; ./cut_country.sh ../cooked/${COUNTRY}.csv; ../cooked/${COUNTRY}_cut.csv`. Hinweis: Es wird nach dem $COUNTRY gegrept. `COUNTRY=Sierra` für Sierra Leone funktioniert. Für die VR China geht `COUNTRY="China,"`.
 Zum Generieren des Histogramms kann man beispielsweise Excel benutzen, wir nehmen [https://app.datawrapper.de].
+
+## HowTo, automatisiert und in der Cloud
+
+Ich benutze Azure.
+
+* Create Resource Group, Storage Account, Container for the monthly BAMF PDFs. Keep it simple and cheap.
+
+There doesn't seem to be an option to upload url accessible files outside the storage account directly, so go via your machine.
+```
+STORAGEACCOUNT=refugeedatathonsa
+CONTAINER=bamf-monthly-pdf
+PDF=hkl-antrags-entscheidungs-bestandsstatistik-september-2020.pdf
+
+cd $HOME/Downloads; wget https://www.bamf.de/SharedDocs/Anlagen/DE/Statistik/Asylgeschaeftsstatistik/hkl-antrags-entscheidungs-bestandsstatistik-september-2020.pdf
+az login
+az storage blob upload -f $HOME/Downloads/$PDF --account-name $STORAGEACCOUNT -c $CONTAINER -n $PDF
+
+
