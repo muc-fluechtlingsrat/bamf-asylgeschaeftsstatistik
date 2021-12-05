@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -vx
 while getopts 'ymt:h' opt; do
   case "$opt" in
     y)
@@ -26,7 +26,7 @@ shift "$(($OPTIND -1))"
 
 # translate to German month name. You need the locale generated for this.
 MONATSNAME=$(LC_ALL=de_DE.utf8 date -d "2000-$MONTH-11" +%B)
-PDF=hkl-antrags-entscheidungs-bestandsstatistik-$MONATSNAME_LC-$YEAR.pdf
+PDF=hkl-antrags-entscheidungs-bestandsstatistik-${MONATSNAME:@L}-$YEAR.pdf
 
 # get the pdf
 wget "https://www.bamf.de/SharedDocs/Anlagen/DE/Statistik/Asylgeschaeftsstatistik/$PDF?__blob=publicationFile&v=2" -O $PDF
