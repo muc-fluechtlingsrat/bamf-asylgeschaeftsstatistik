@@ -13,13 +13,10 @@ if [ "$#" -ne 2 ]; then
   usage;
   exit 1;
 fi
-
 set -vx
+num_pages=$(qpdf --show-npages "$1")
 TABULAJAR=/tabula-1.0.5-jar-with-dependencies.jar
-java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 1 "$1" > $2
-java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 2 "$1" >> $2
-java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 3 "$1" >> $2
-java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 4 "$1" >> $2
-java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 5 "$1" >> $2
-java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p 6 "$1" >> $2
+for page in $(seq 1 1 $num_pages); do
+  java -jar ${TABULAJAR} -l -a 192.058,16.838,539.342,827.167 -p $page "$1" >> $2
+done
 
