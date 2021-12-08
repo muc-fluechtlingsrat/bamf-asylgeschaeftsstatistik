@@ -1,6 +1,6 @@
 #!/bin/bash
 #Purpose:     clean, add header, add date 
-# 2017.10.16   S.Kim
+#2017.10.16   S.Kim
 #set -xv
 set -euo pipefail
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#Purpose:     extract quota for one country and sort by month
+# Purpose:     extract quota for one country and sort by month
 # 2017.10.18   S.Kim
 
 SCRIPTNAME=$(basename $0 .sh)

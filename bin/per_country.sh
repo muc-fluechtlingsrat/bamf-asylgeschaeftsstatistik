@@ -9,23 +9,23 @@ set -euo pipefail
 SCRIPTNAME=$(basename $0 .sh)
 
 function usage {
-   echo "Usage: $(basename $0) -c country -y YYYY_YYYY, e.g. $(basename $0) -c Syrien -y 2016_2017"
+   echo "Usage: $(basename $0) -c country -y YYYY_YYYY -o <outputdir>"
 }
 
-while getopts "c:y:" opt; do
+while getopts "c:y:o:" opt; do
     case $opt in
         c)  COUNTRY="$OPTARG"
             ;;
         y)  YEARS="${OPTARG//_/ }"
             ;;
+        o)  OUTPUTDIR="${OPTARG}"
+            ;;
         *)  usage; exit 1
             ;;
     esac
 done
-if [ $# -ne 4 ]; then usage; exit 2; fi
 
 INPUTDIR=../raw
-OUTPUTDIR=../cooked
 if [ ! -d $OUTPUTDIR ]; then
   mkdir $OUTPUTDIR
 fi

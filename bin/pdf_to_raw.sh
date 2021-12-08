@@ -1,3 +1,5 @@
+# Purpose:     extract csv from pdf in a container build from the Dockerfile in docker/Dockerfile
+# 2021.12.08   S.Kim
 #!/bin/bash
 set -vx
 while getopts 'y:m:t:h' opt; do
@@ -38,6 +40,7 @@ cd /bamf-asylgeschaeftsstatistik/bin/
 
 # git push the new csv
 cd /bamf-asylgeschaeftsstatistik 
+git pull
 git add raw/$YEAR/$YEAR$MONTH*.csv
 git -c "user.name=ynux" -c "user.email=ynux@gmx.net" commit -m "adding raw $MONATSNAME $YEAR data" raw/$YEAR/$YEAR$MONTH*.csv
 git push https://ynux:$GITTOKEN@github.com/muc-fluechtlingsrat/bamf-asylgeschaeftsstatistik.git
