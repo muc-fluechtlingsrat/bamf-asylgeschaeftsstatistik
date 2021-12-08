@@ -1,4 +1,4 @@
-YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen
+YEAR_MONTH,Asylberechtigt,Fluechtling,subs. Schutz,Abschiebungsverbot,Abgelehnt,sonstige Verfahrenserledigungen
 2020-01,0,1,0,1,80,63
 2020-02,1,0,0,3,55,35
 2020-03,0,4,1,1,67,65
@@ -7,3 +7,6 @@ YEAR_MONTH,Asylberechtigt,Fluechtling, subs. Schutz,Abschiebungsverbot,Abgelehnt
 2020-06,0,4,1,1,114,25
 2020-07,0,8,0,0,72,26
 2020-08,1,6,0,1,59,17
+2020-09,0,8,1,2,51,33
+2020-10,0,4,3,1,37,26
+2020-11,0,5,1,2,56,50
