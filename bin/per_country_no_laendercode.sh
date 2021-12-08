@@ -1,7 +1,8 @@
 #!/bin/bash
-# Purpose:     extract data for one country and sort by month
-# Special edition for no_laendercode entities, e.g. Herkunftslaender gesamt
+# Purpose: extract data for one country and sort by month
+#          Special edition for no_laendercode entities, e.g. Herkunftslaender gesamt
 # 2016.06.18   S.Kim
+# 2021.12.08   S.Kim create dateheader.csv from header.csv
 
 set -euo pipefail
 #set -vx
@@ -37,7 +38,8 @@ done
 
 # if we grepped for "gesamt", we will also get all the headers
 sed -i '/^YEAR_MONTH/d' $OUTPUTDIR/${COUNTRY}_tail.csv 
-	
+	  
+sed 's/^/YEAR_MONTH,/' ../raw/header.csv > $OUTPUTDIR/dateheader.csv
 cat $OUTPUTDIR/dateheader.csv $OUTPUTDIR/${COUNTRY}_tail.csv > $OUTPUTDIR/$COUNTRY.csv
 csvclean -n $OUTPUTDIR/$COUNTRY.csv
 echo $OUTPUTDIR/$COUNTRY.csv
