@@ -1,0 +1,24 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2020-01,Pakistan,461,246,146,100,271,0,6,1,3,111,150,582,295,0,6,1,1,104,48,0,0,0,2,7,88,14
+2020-02,Pakistan,461,203,121,82,239,0,20,0,6,84,129,588,292,0,19,0,6,78,42,0,1,0,0,6,72,15
+2020-03,Pakistan,461,108,71,37,210,0,20,0,0,88,102,546,268,0,19,0,0,83,41,0,1,0,0,5,48,13
+2020-04,Pakistan,461,121,82,39,116,0,15,0,3,40,58,604,269,0,11,0,3,38,14,0,4,0,0,2,40,4
+2020-05,Pakistan,461,69,39,30,310,0,10,1,8,143,148,485,217,0,6,1,7,137,45,0,4,0,1,6,89,14
+2020-06,Pakistan,461,88,49,39,233,2,19,0,3,93,116,420,187,2,17,0,2,88,36,0,2,0,1,5,65,15
+2020-07,Pakistan,461,105,58,47,203,0,12,0,6,87,98,373,180,0,12,0,2,81,30,0,0,0,4,6,61,7
+2020-08,Pakistan,461,118,71,47,176,3,9,2,1,89,72,363,178,3,8,2,0,80,25,0,1,0,1,9,37,10
+2020-09,Pakistan,461,156,95,61,191,0,10,1,5,99,76,346,209,0,9,1,4,97,33,0,1,0,1,2,36,7
+2020-10,Pakistan,461,130,85,45,213,1,14,1,2,96,99,345,190,1,9,1,2,90,24,0,5,0,0,6,58,17
+2020-11,Pakistan,461,161,102,59,202,2,7,1,0,107,85,350,202,2,6,1,0,97,24,0,1,0,0,10,48,13
+2020-12,Pakistan,461,92,48,44,211,0,14,0,3,108,86,279,205,0,11,0,3,100,36,0,3,0,0,8,33,17
+2021-01,Pakistan,461,143,87,56,168,0,12,0,0,70,86,293,220,0,10,0,0,64,27,0,2,0,0,6,44,15
+2021-02,Pakistan,461,178,112,66,222,0,15,0,2,95,110,302,230,0,11,0,2,87,36,0,4,0,0,8,60,14
+2021-03,Pakistan,461,157,89,68,210,0,17,0,4,86,103,290,239,0,14,0,3,79,30,0,3,0,1,7,52,21
+2021-04,Pakistan,461,106,49,57,158,0,10,0,3,43,102,279,239,0,10,0,2,39,31,0,0,0,1,4,61,10
+2021-05,Pakistan,461,122,66,56,161,0,7,2,10,49,93,303,226,0,7,2,6,41,16,0,0,0,4,8,66,11
+2021-06,Pakistan,461,138,93,45,141,1,8,2,3,29,98,337,220,1,7,2,2,26,31,0,1,0,1,3,60,7
+2021-07,Pakistan,461,130,79,51,176,0,26,1,2,57,90,353,194,0,15,1,2,45,19,0,11,0,0,12,65,6
+2021-08,Pakistan,461,128,89,39,174,1,14,1,5,39,114,355,173,1,11,1,4,34,55,0,3,0,1,5,49,10
+2021-09,Pakistan,461,159,111,48,209,0,14,1,7,75,112,369,159,0,10,0,6,67,32,0,4,1,1,8,59,21
+2021-10,Pakistan,461,154,119,35,143,0,8,2,7,57,69,396,169,0,7,0,7,55,30,0,1,2,0,2,30,9
+2021-11,Pakistan,461,199,169,30,160,0,16,0,4,63,77,468,162,0,14,0,3,56,38,0,2,0,1,7,25,14
