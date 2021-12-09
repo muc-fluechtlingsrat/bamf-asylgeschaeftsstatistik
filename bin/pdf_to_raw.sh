@@ -20,7 +20,7 @@ while getopts 'y:m:t:h' opt; do
   esac
 done
 
-set -euo pipefail
+set -eu
 # written for a docker container, everything is in /
 
 # translate to German month name. You need the locale generated for this.
