@@ -1,0 +1,25 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2019-01,Libyen,248,54,45,9,99,2,7,16,7,32,35,202,13,0,7,14,7,32,29,2,0,2,0,0,3,3
+2019-02,Libyen,248,47,33,14,96,0,4,13,1,34,44,181,18,0,4,13,1,32,34,0,0,0,0,2,2,8
+2019-03,Libyen,248,55,46,9,85,0,2,4,4,41,34,159,15,0,2,4,3,40,23,0,0,0,1,1,5,6
+2019-04,Libyen,248,42,32,10,84,1,15,4,3,31,30,132,14,1,13,4,2,31,18,0,2,0,1,0,5,7
+2019-05,Libyen,248,47,39,8,63,1,2,5,2,21,32,137,9,1,2,1,2,21,19,0,0,4,0,0,7,6
+2019-06,Libyen,248,40,35,5,48,0,7,2,1,13,25,136,12,0,7,2,1,12,23,0,0,0,0,1,0,2
+2019-07,Libyen,248,80,67,13,44,1,3,8,1,15,16,178,21,1,3,8,1,15,12,0,0,0,0,0,1,3
+2019-08,Libyen,248,78,67,11,66,0,8,10,1,21,26,203,22,0,8,10,1,21,17,0,0,0,0,0,5,4
+2019-09,Libyen,248,42,30,12,53,0,1,10,0,8,34,200,21,0,1,10,0,7,19,0,0,0,0,1,13,2
+2019-10,Libyen,248,123,102,21,65,1,1,11,1,19,32,258,27,1,1,2,0,19,29,0,0,9,1,0,1,2
+2019-11,Libyen,248,73,64,9,76,2,0,13,2,19,40,269,24,0,0,12,2,18,31,2,0,1,0,1,7,2
+2019-12,Libyen,248,84,78,6,71,1,1,7,4,26,32,293,25,1,1,6,4,25,27,0,0,1,0,1,1,4
+2020-01,Libyen,248,73,64,9,78,0,8,11,0,7,52,285,26,0,8,10,0,7,44,0,0,1,0,0,4,4
+2020-02,Libyen,248,55,51,4,65,2,2,12,2,27,20,284,25,2,2,12,2,25,16,0,0,0,0,2,1,3
+2020-03,Libyen,248,52,50,2,127,0,2,39,5,58,23,235,23,0,2,39,4,58,18,0,0,0,1,0,2,3
+2020-04,Libyen,248,47,47,0,29,1,5,12,1,7,3,269,22,1,5,12,1,7,3,0,0,0,0,0,0,0
+2020-05,Libyen,248,34,31,3,117,8,4,42,2,35,26,201,22,6,3,39,2,35,23,2,1,3,0,0,1,2
+2020-06,Libyen,248,32,30,2,77,0,3,12,5,28,29,181,17,0,3,7,0,27,27,0,0,5,5,1,0,2
+2020-07,Libyen,248,46,41,5,58,0,7,21,1,19,10,173,22,0,7,21,1,18,9,0,0,0,0,1,0,1
+2020-08,Libyen,248,44,34,10,58,5,5,14,5,10,19,158,24,5,5,14,4,7,14,0,0,0,1,3,4,1
+2020-09,Libyen,248,56,46,10,59,0,4,10,1,28,16,171,25,0,4,9,1,26,6,0,0,1,0,2,7,3
+2020-10,Libyen,248,67,57,10,57,1,0,6,6,12,32,183,34,1,0,5,5,12,23,0,0,1,1,0,9,0
+2020-11,Libyen,248,52,50,2,53,0,4,6,8,10,25,193,29,0,3,5,7,8,23,0,1,1,1,2,1,1
+2020-12,Libyen,248,60,54,6,45,0,3,10,3,11,18,211,31,0,3,10,3,11,15,0,0,0,0,0,0,3
