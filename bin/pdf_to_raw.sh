@@ -25,6 +25,8 @@ set -euo pipefail
 
 # translate to German month name. You need the locale generated for this.
 MONATSNAME=$(LC_ALL=de_DE.utf8 date -d "2000-$MONTH-11" +%B)
+# thanks for the umlaut in maerz ...
+${MONATSNAME/ä/ae}
 PDF=hkl-antrags-entscheidungs-bestandsstatistik-${MONATSNAME,,}-${YEAR}.pdf
 
 # get the pdf
