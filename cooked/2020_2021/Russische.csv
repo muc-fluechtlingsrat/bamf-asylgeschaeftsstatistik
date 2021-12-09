@@ -1,0 +1,24 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2020-01,Russische Foederation,160,458,322,136,517,12,7,14,3,199,282,823,312,12,4,7,3,171,179,0,3,7,0,28,55,48
+2020-02,Russische Foederation,160,343,208,135,488,3,5,5,1,155,319,768,301,3,5,4,1,153,161,0,0,1,0,2,79,79
+2020-03,Russische Foederation,160,228,160,68,460,15,6,1,6,172,260,681,277,15,4,1,1,163,154,0,2,0,5,9,41,65
+2020-04,Russische Foederation,160,149,126,23,237,6,5,0,3,121,102,762,262,6,1,0,0,107,27,0,4,0,3,14,34,41
+2020-05,Russische Foederation,160,101,71,30,449,7,19,6,6,223,188,597,215,7,4,5,6,190,94,0,15,1,0,33,52,42
+2020-06,Russische Foederation,160,114,50,64,406,1,18,5,2,230,150,482,228,1,6,1,2,217,68,0,12,4,0,13,43,39
+2020-07,Russische Foederation,160,199,137,62,382,4,13,4,6,208,147,452,221,4,8,0,5,180,55,0,5,4,1,28,38,54
+2020-08,Russische Foederation,160,172,113,59,259,3,11,9,2,77,157,462,233,3,5,6,2,70,60,0,6,3,0,7,47,50
+2020-09,Russische Foederation,160,246,147,99,271,1,6,1,4,106,153,487,266,1,4,0,0,95,81,0,2,1,4,11,45,27
+2020-10,Russische Foederation,160,195,105,90,352,4,13,5,3,144,183,438,262,4,4,1,2,139,94,0,9,4,1,5,47,42
+2020-11,Russische Foederation,160,172,92,80,381,3,9,3,8,194,164,371,258,3,6,3,5,154,81,0,3,0,3,40,60,23
+2020-12,Russische Foederation,160,146,81,65,262,4,7,5,3,103,140,365,227,4,6,1,0,90,38,0,1,4,3,13,36,66
+2021-01,Russische Foederation,160,160,108,52,258,4,9,1,2,148,94,354,238,4,2,1,2,129,34,0,7,0,0,19,24,36
+2021-02,Russische Foederation,160,189,107,82,341,1,19,3,3,173,142,325,261,1,11,3,3,160,57,0,8,0,0,13,50,35
+2021-03,Russische Foederation,160,158,95,63,313,1,10,4,5,143,150,309,251,1,4,1,4,129,46,0,6,3,1,14,40,64
+2021-04,Russische Foederation,160,134,71,63,244,1,9,4,4,113,113,297,258,1,5,3,3,97,25,0,4,1,1,16,61,27
+2021-05,Russische Foederation,160,127,82,45,226,1,10,2,0,87,126,295,258,1,8,1,0,80,34,0,2,1,0,7,38,54
+2021-06,Russische Foederation,160,185,115,70,229,1,10,5,0,88,125,313,277,1,5,5,0,69,55,0,5,0,0,19,35,35
+2021-07,Russische Foederation,160,214,143,71,329,6,18,5,1,133,166,348,248,2,7,5,1,107,52,4,11,0,0,26,66,48
+2021-08,Russische Foederation,160,191,141,50,253,2,10,1,1,76,163,367,243,2,8,1,1,65,80,0,2,0,0,11,41,42
+2021-09,Russische Foederation,160,194,131,63,255,1,17,6,2,85,144,386,239,0,8,6,0,77,61,1,9,0,2,8,38,45
+2021-10,Russische Foederation,160,250,188,62,222,1,8,2,1,118,92,511,256,1,2,2,0,98,35,0,6,0,1,20,41,16
+2021-11,Russische Foederation,160,189,114,75,256,1,13,4,7,85,146,520,261,1,1,4,0,76,66,0,12,0,7,9,33,47
