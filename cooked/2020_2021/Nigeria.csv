@@ -1,0 +1,24 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2020-01,Nigeria,232,534,445,89,798,3,23,4,44,324,400,2142,375,2,19,3,35,308,235,1,4,1,9,16,60,105
+2020-02,Nigeria,232,415,312,103,628,0,9,3,13,264,339,2158,358,0,7,3,11,248,156,0,2,0,2,16,98,85
+2020-03,Nigeria,232,291,243,48,641,3,26,3,21,270,318,2119,316,2,25,3,18,255,155,1,1,0,3,15,56,107
+2020-04,Nigeria,232,183,153,30,326,0,5,2,10,177,132,2219,328,0,5,2,8,170,43,0,0,0,2,7,33,56
+2020-05,Nigeria,232,204,163,41,1057,0,26,4,40,618,369,1851,299,0,25,4,37,592,175,0,1,0,3,26,62,132
+2020-06,Nigeria,232,229,174,55,858,1,38,7,48,401,363,1627,297,1,37,5,41,391,180,0,1,2,7,10,52,131
+2020-07,Nigeria,232,301,231,70,764,1,28,5,14,454,262,1509,316,0,27,3,11,425,113,1,1,2,3,29,43,106
+2020-08,Nigeria,232,276,213,63,462,0,32,2,19,225,184,1515,325,0,26,2,9,216,81,0,6,0,10,9,44,59
+2020-09,Nigeria,232,357,288,69,496,2,18,0,14,267,195,1573,329,2,16,0,12,256,91,0,2,0,2,11,61,43
+2020-10,Nigeria,232,247,182,65,553,1,26,2,26,303,195,1517,326,1,26,2,19,290,101,0,0,0,7,13,39,55
+2020-11,Nigeria,232,299,251,48,581,4,20,6,25,341,185,1561,319,3,16,6,15,320,78,1,4,0,10,21,52,55
+2020-12,Nigeria,232,244,198,46,471,1,17,8,13,253,179,1580,318,1,16,7,12,245,101,0,1,1,1,8,51,27
+2021-01,Nigeria,232,244,198,46,564,8,22,1,25,311,197,1563,319,6,21,1,23,300,110,2,1,0,2,11,42,45
+2021-02,Nigeria,232,288,229,59,598,0,22,4,29,334,209,1548,297,0,18,3,23,308,119,0,4,1,6,26,50,40
+2021-03,Nigeria,232,267,198,69,541,3,23,2,27,283,203,1528,316,3,23,2,24,267,114,0,0,0,3,16,41,48
+2021-04,Nigeria,232,208,157,51,465,1,18,6,15,266,159,1532,304,1,12,6,14,255,71,0,6,0,1,11,55,33
+2021-05,Nigeria,232,219,160,59,405,0,14,5,20,218,148,1536,315,0,12,5,13,210,72,0,2,0,7,8,35,41
+2021-06,Nigeria,232,258,176,82,451,1,29,6,16,225,174,1546,330,1,21,6,13,214,84,0,8,0,3,11,57,33
+2021-07,Nigeria,232,272,213,59,434,1,31,4,20,206,172,1596,324,1,29,4,15,197,73,0,2,0,5,9,59,40
+2021-08,Nigeria,232,222,170,52,433,2,15,2,16,185,213,1570,286,2,14,2,8,178,89,0,1,0,8,7,81,43
+2021-09,Nigeria,232,243,185,58,416,3,24,3,30,211,145,1562,289,3,22,3,28,198,69,0,2,0,2,13,43,33
+2021-10,Nigeria,232,195,154,41,369,2,30,5,23,186,123,1581,298,1,24,5,19,177,55,1,6,0,4,9,35,33
+2021-11,Nigeria,232,174,142,32,434,2,14,1,21,212,184,1504,283,1,12,1,19,204,110,1,2,0,2,8,40,34
