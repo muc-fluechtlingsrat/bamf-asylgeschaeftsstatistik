@@ -1,3 +1,4 @@
+#!/bin/bash
 # Following https://github.com/tabulapdf/tabula-java/wiki/Using-the-command-line-tabula-extractor-tool
 # First argument is the downloaded pdf from http://www.bamf.de/SharedDocs/Anlagen/DE/Downloads/Infothek/Statistik/Asyl/
 # e.g. $HOME/Downloads/hkl-antrags-entscheidungs-bestandsstatistik-februar-2018.pdf

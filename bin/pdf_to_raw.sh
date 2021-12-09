@@ -1,6 +1,6 @@
+#!/bin/bash
 # Purpose:     extract csv from pdf in a container build from the Dockerfile in docker/Dockerfile
 # 2021.12.08   S.Kim
-#!/bin/bash
 set -vx
 while getopts 'y:m:t:h' opt; do
   case "$opt" in
@@ -20,7 +20,7 @@ while getopts 'y:m:t:h' opt; do
   esac
 done
 
-set -eu
+set -euo pipefail
 # written for a docker container, everything is in /
 
 # translate to German month name. You need the locale generated for this.
