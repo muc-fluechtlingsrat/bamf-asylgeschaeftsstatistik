@@ -30,6 +30,8 @@ for COUNTRY in ${COUNTRIES}; do ./cut_country.sh -f ${OUTPUTDIR}/${COUNTRY}.csv 
 # create reduced csv for decisions excl. sonstige
 for COUNTRY in ${COUNTRIES}; do ./cut_country.sh -f ${OUTPUTDIR}/${COUNTRY}.csv -o ${OUTPUTDIR}; done
 # commit all
+git config user.email "ynux@gmx.net"
+git config user.name "ynux"
 git pull
 for COUNTRY in ${COUNTRIES}; do git add ${OUTPUTDIR}/${COUNTRY}*.csv; done
 for COUNTRY in ${COUNTRIES}; do git commit ${OUTPUTDIR}/${COUNTRY}*.csv -m "did $(basename $0) for years $FOR_YEARS " ; done
