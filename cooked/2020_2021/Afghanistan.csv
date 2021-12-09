@@ -1,0 +1,24 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2020-01,Afghanistan,423,980,881,99,931,9,117,41,228,219,317,3977,454,8,111,39,186,215,165,1,6,2,42,4,78,74
+2020-02,Afghanistan,423,884,760,124,893,1,118,47,163,255,309,4117,480,1,109,45,145,236,195,0,9,2,18,19,62,52
+2020-03,Afghanistan,423,643,574,69,860,11,110,27,182,197,333,4124,432,8,96,27,146,186,195,3,14,0,36,11,82,56
+2020-04,Afghanistan,423,548,491,57,425,1,108,26,50,106,134,4392,440,1,94,26,25,99,74,0,14,0,25,7,31,29
+2020-05,Afghanistan,423,320,277,43,1280,1,110,76,323,381,389,3709,402,1,84,73,287,360,257,0,26,3,36,21,54,78
+2020-06,Afghanistan,423,446,369,77,1053,1,157,48,257,330,260,3398,383,1,135,44,196,308,138,0,22,4,61,22,52,70
+2020-07,Afghanistan,423,728,617,111,946,1,141,36,235,265,268,3433,391,1,134,35,190,253,124,0,7,1,45,12,76,68
+2020-08,Afghanistan,423,853,759,94,770,9,99,41,219,158,244,3730,389,9,96,41,167,140,124,0,3,0,52,18,63,57
+2020-09,Afghanistan,423,1306,1202,104,805,3,129,31,194,211,237,4403,415,3,125,29,155,198,119,0,4,2,39,13,69,49
+2020-10,Afghanistan,423,1205,1095,110,908,3,134,35,214,176,346,4931,455,3,124,34,170,165,245,0,10,1,44,11,67,34
+2020-11,Afghanistan,423,1429,1346,83,1152,2,121,54,241,286,448,5477,443,2,108,54,205,267,316,0,13,0,36,19,64,68
+2020-12,Afghanistan,423,993,911,82,1023,7,148,35,232,211,390,5670,431,7,136,35,203,197,269,0,12,0,29,14,63,58
+2021-01,Afghanistan,423,1217,1138,79,1057,4,104,61,257,225,406,6168,441,4,88,61,197,212,306,0,16,0,60,13,52,48
+2021-02,Afghanistan,423,1045,909,136,1236,2,119,56,277,277,505,6171,470,2,108,53,220,267,386,0,11,3,57,10,55,64
+2021-03,Afghanistan,423,1127,972,155,1167,2,108,39,253,230,535,6271,542,2,98,39,226,217,422,0,10,0,27,13,66,47
+2021-04,Afghanistan,423,1153,1030,123,1053,0,108,33,231,204,477,6618,564,0,95,33,192,195,324,0,13,0,39,9,80,73
+2021-05,Afghanistan,423,1594,1524,70,877,7,110,35,192,143,390,7690,487,7,105,33,131,134,222,0,5,2,61,9,93,75
+2021-06,Afghanistan,423,1600,1492,108,849,3,89,36,196,181,344,8728,482,3,74,24,162,173,190,0,15,12,34,8,92,62
+2021-07,Afghanistan,423,2483,2353,130,916,2,102,38,261,172,341,10583,502,2,92,33,210,160,188,0,10,5,51,12,103,50
+2021-08,Afghanistan,423,2596,2266,330,581,6,98,33,85,59,300,12563,764,6,92,29,74,55,206,0,6,4,11,4,56,38
+2021-09,Afghanistan,423,4495,2434,2061,485,6,134,23,2,0,320,14483,3013,6,131,21,2,0,299,0,3,2,0,0,3,18
+2021-10,Afghanistan,423,3295,2376,919,457,1,106,22,1,0,327,16620,4723,1,94,21,1,0,297,0,12,1,0,0,3,27
+2021-11,Afghanistan,423,4685,2702,1983,646,2,145,17,4,0,478,18853,6758,2,135,17,4,0,437,0,10,0,0,0,8,33

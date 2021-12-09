@@ -1,0 +1,24 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2020-01,Albanien,121,271,188,83,272,0,0,0,0,170,102,311,118,0,0,0,0,164,40,0,0,0,0,6,57,5
+2020-02,Albanien,121,235,177,58,235,0,1,0,0,127,107,330,99,0,0,0,0,122,26,0,1,0,0,5,64,17
+2020-03,Albanien,121,97,67,30,148,0,0,0,1,78,69,298,86,0,0,0,1,73,23,0,0,0,0,5,34,12
+2020-04,Albanien,121,115,88,27,28,0,1,0,0,16,11,352,115,0,1,0,0,16,4,0,0,0,0,0,7,0
+2020-05,Albanien,121,35,21,14,180,0,0,2,1,116,61,251,89,0,0,2,1,103,22,0,0,0,0,13,28,11
+2020-06,Albanien,121,43,31,12,117,0,0,1,0,81,35,192,81,0,0,1,0,79,12,0,0,0,0,2,19,4
+2020-07,Albanien,121,43,26,17,117,0,2,0,2,61,52,138,65,0,1,0,2,59,10,0,1,0,0,2,27,15
+2020-08,Albanien,121,44,30,14,66,0,0,0,0,36,30,143,61,0,0,0,0,35,6,0,0,0,0,1,14,10
+2020-09,Albanien,121,67,59,8,95,0,0,0,0,43,52,158,43,0,0,0,0,43,21,0,0,0,0,0,24,7
+2020-10,Albanien,121,78,46,32,69,0,0,0,0,45,24,162,60,0,0,0,0,43,6,0,0,0,0,2,14,4
+2020-11,Albanien,121,69,50,19,101,0,0,0,0,58,43,153,55,0,0,0,0,56,16,0,0,0,0,2,14,13
+2020-12,Albanien,121,53,26,27,61,0,0,0,0,31,30,137,69,0,0,0,0,30,10,0,0,0,0,1,15,5
+2021-01,Albanien,121,64,42,22,53,0,0,0,0,20,33,161,64,0,0,0,0,13,6,0,0,0,0,7,9,18
+2021-02,Albanien,121,78,51,27,86,0,0,0,1,53,32,155,68,0,0,0,0,53,6,0,0,0,1,0,20,6
+2021-03,Albanien,121,61,42,19,97,0,0,0,1,48,48,131,57,0,0,0,1,47,16,0,0,0,0,1,27,5
+2021-04,Albanien,121,36,29,7,56,0,0,0,0,28,28,131,42,0,0,0,0,25,9,0,0,0,0,3,18,1
+2021-05,Albanien,121,39,26,13,52,0,0,0,0,24,28,126,40,0,0,0,0,23,9,0,0,0,0,1,15,4
+2021-06,Albanien,121,56,37,19,59,0,0,3,1,24,31,131,39,0,0,3,1,23,5,0,0,0,0,1,19,7
+2021-07,Albanien,121,86,49,37,61,0,0,0,0,44,17,143,53,0,0,0,0,37,5,0,0,0,0,7,12,0
+2021-08,Albanien,121,192,123,69,82,0,0,0,0,41,41,221,100,0,0,0,0,36,17,0,0,0,0,5,19,5
+2021-09,Albanien,121,434,294,140,183,0,0,0,0,96,87,436,191,0,0,0,0,95,9,0,0,0,0,1,62,16
+2021-10,Albanien,121,312,210,102,317,0,0,0,0,184,133,458,181,0,0,0,0,174,11,0,0,0,0,10,104,18
+2021-11,Albanien,121,236,171,65,295,0,0,0,0,179,116,448,166,0,0,0,0,154,23,0,0,0,0,25,78,15

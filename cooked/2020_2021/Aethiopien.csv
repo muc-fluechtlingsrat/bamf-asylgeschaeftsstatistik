@@ -1,0 +1,24 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2020-01,"Aethiopien",225,67,49,18,134,1,9,2,10,61,51,281,71,1,8,2,9,60,20,0,1,0,1,1,24,7
+2020-02,Aethiopien,225,67,43,24,107,0,27,2,5,40,33,261,73,0,25,1,5,35,10,0,2,1,0,5,17,6
+2020-03,Aethiopien,225,47,34,13,107,0,7,0,6,53,41,236,61,0,7,0,5,51,18,0,0,0,1,2,17,6
+2020-04,Aethiopien,225,32,30,2,40,0,9,0,5,12,14,255,54,0,8,0,3,11,3,0,1,0,2,1,8,3
+2020-05,Aethiopien,225,42,32,10,133,0,6,3,9,73,42,210,40,0,6,3,6,66,13,0,0,0,3,7,17,12
+2020-06,Aethiopien,225,69,51,18,71,0,11,2,8,40,10,221,52,0,10,2,8,40,1,0,1,0,0,0,5,4
+2020-07,Aethiopien,225,100,38,62,94,3,10,1,5,45,30,222,87,3,9,1,4,41,3,0,1,0,1,4,22,5
+2020-08,Aethiopien,225,91,33,58,100,0,4,1,10,26,59,228,101,0,2,1,8,24,9,0,2,0,2,2,42,8
+2020-09,Aethiopien,225,74,34,40,80,0,16,0,10,30,24,226,131,0,16,0,9,30,5,0,0,0,1,0,11,8
+2020-10,Aethiopien,225,79,50,29,122,0,21,1,9,55,36,222,119,0,19,1,4,52,4,0,2,0,5,3,28,4
+2020-11,Aethiopien,225,122,49,73,121,1,21,1,14,39,45,221,160,1,17,1,13,38,6,0,4,0,1,1,37,2
+2020-12,Aethiopien,225,110,71,39,88,0,16,0,7,22,43,266,160,0,9,0,7,21,3,0,7,0,0,1,36,4
+2021-01,Aethiopien,225,79,44,35,80,0,19,1,13,19,28,284,177,0,15,1,5,18,2,0,4,0,8,1,25,1
+2021-02,Aethiopien,225,103,60,43,102,0,23,1,7,40,31,305,194,0,11,1,7,37,5,0,12,0,0,3,24,2
+2021-03,Aethiopien,225,89,47,42,111,0,24,2,16,26,43,310,188,0,6,2,14,22,10,0,18,0,2,4,28,5
+2021-04,Aethiopien,225,64,40,24,70,7,16,0,6,21,20,314,196,7,10,0,6,20,6,0,6,0,0,1,12,2
+2021-05,Aethiopien,225,77,54,23,112,0,16,1,7,43,45,328,177,0,7,1,5,39,3,0,9,0,2,4,40,2
+2021-06,Aethiopien,225,74,47,27,102,4,21,0,7,27,43,337,172,4,15,0,6,27,8,0,6,0,1,0,28,7
+2021-07,Aethiopien,225,84,59,25,98,13,20,1,8,26,30,347,171,13,12,1,8,25,7,0,8,0,0,1,19,4
+2021-08,Aethiopien,225,89,40,49,110,0,19,0,11,25,55,348,179,0,17,0,10,23,7,0,2,0,1,2,44,4
+2021-09,Aethiopien,225,81,64,17,82,1,18,0,7,29,27,382,170,1,15,0,7,26,5,0,3,0,0,3,19,3
+2021-10,Aethiopien,225,71,66,5,66,0,16,1,2,26,21,423,162,0,13,1,2,25,8,0,3,0,0,1,12,1
+2021-11,Aethiopien,225,50,33,17,90,0,24,1,6,31,28,422,145,0,15,1,4,30,4,0,9,0,2,1,21,3
