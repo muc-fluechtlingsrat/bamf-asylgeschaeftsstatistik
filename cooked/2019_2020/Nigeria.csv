@@ -1,0 +1,25 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2019-01,Nigeria,232,1248,1144,104,1099,5,58,4,44,520,468,3532,246,3,56,4,39,514,399,2,2,0,5,6,42,27
+2019-02,Nigeria,232,1388,1275,113,1469,4,61,17,50,542,795,3715,269,4,58,17,45,529,710,0,3,0,5,13,50,35
+2019-03,Nigeria,232,1287,1177,110,1575,3,44,13,46,568,901,3724,297,3,44,12,45,561,802,0,0,1,1,7,55,44
+2019-04,Nigeria,232,1068,977,91,1681,2,42,16,33,584,1004,3480,303,2,40,16,29,564,885,0,2,0,4,20,55,64
+2019-05,Nigeria,232,1140,1019,121,1698,1,40,4,31,612,1010,3270,314,1,39,4,26,596,839,0,1,0,5,16,82,89
+2019-06,Nigeria,232,616,529,87,1294,0,36,4,34,417,803,2832,327,0,32,3,29,407,688,0,4,1,5,10,50,65
+2019-07,Nigeria,232,708,615,93,1276,3,26,5,37,442,763,2562,325,3,26,4,35,426,598,0,0,1,2,16,55,110
+2019-08,Nigeria,232,544,442,102,1074,3,19,6,29,436,581,2318,318,3,17,6,25,425,416,0,2,0,4,11,69,96
+2019-09,Nigeria,232,463,382,81,808,2,23,7,20,365,391,2224,319,1,23,7,15,352,275,1,0,0,5,13,48,68
+2019-10,Nigeria,232,492,409,83,844,0,23,3,26,354,438,2120,299,0,23,3,23,345,279,0,0,0,3,9,70,89
+2019-11,Nigeria,232,565,420,145,792,0,28,4,32,356,372,2124,362,0,28,4,27,341,222,0,0,0,5,15,76,74
+2019-12,Nigeria,232,360,284,76,625,0,24,10,12,254,325,2081,385,0,24,10,9,241,214,0,0,0,3,13,45,66
+2020-01,Nigeria,232,534,445,89,798,3,23,4,44,324,400,2142,375,2,19,3,35,308,235,1,4,1,9,16,60,105
+2020-02,Nigeria,232,415,312,103,628,0,9,3,13,264,339,2158,358,0,7,3,11,248,156,0,2,0,2,16,98,85
+2020-03,Nigeria,232,291,243,48,641,3,26,3,21,270,318,2119,316,2,25,3,18,255,155,1,1,0,3,15,56,107
+2020-04,Nigeria,232,183,153,30,326,0,5,2,10,177,132,2219,328,0,5,2,8,170,43,0,0,0,2,7,33,56
+2020-05,Nigeria,232,204,163,41,1057,0,26,4,40,618,369,1851,299,0,25,4,37,592,175,0,1,0,3,26,62,132
+2020-06,Nigeria,232,229,174,55,858,1,38,7,48,401,363,1627,297,1,37,5,41,391,180,0,1,2,7,10,52,131
+2020-07,Nigeria,232,301,231,70,764,1,28,5,14,454,262,1509,316,0,27,3,11,425,113,1,1,2,3,29,43,106
+2020-08,Nigeria,232,276,213,63,462,0,32,2,19,225,184,1515,325,0,26,2,9,216,81,0,6,0,10,9,44,59
+2020-09,Nigeria,232,357,288,69,496,2,18,0,14,267,195,1573,329,2,16,0,12,256,91,0,2,0,2,11,61,43
+2020-10,Nigeria,232,247,182,65,553,1,26,2,26,303,195,1517,326,1,26,2,19,290,101,0,0,0,7,13,39,55
+2020-11,Nigeria,232,299,251,48,581,4,20,6,25,341,185,1561,319,3,16,6,15,320,78,1,4,0,10,21,52,55
+2020-12,Nigeria,232,244,198,46,471,1,17,8,13,253,179,1580,318,1,16,7,12,245,101,0,1,1,1,8,51,27

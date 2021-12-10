@@ -1,0 +1,25 @@
+YEAR_MONTH,Herkunftsland,LS,ASYLANTRAEGE insgesamt,ASYLANTRAEGE davon Erstantraege,ASYLANTRAEGE davon Folgeantraege,ENTSCHEIDUNGEN ueber Asylantraege insgesamt,ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Asylberechtigte (Art 16a und Familienasyl),ENTSCHEIDUNGEN ueber Asylantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Asylantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Asylantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Asylantraege sonstige Verfahrenserledigungen,ANHÄNGIGE VERFAHREN aufgrund von Erstantraegen,ANHÄNGIGE VERFAHREN aufgrund von Folgeantraegen,ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Erstantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Erstantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Erstantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Erstantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Asylberechtigte (Art. 16a und Familienasyl),ENTSCHEIDUNGEN ueber Folgeantraege Anerkennungen als Fluechtling gem. Par. 3 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Gewaehrung von subsidiaerem Schutz gem. Par. 4 I AsylG,ENTSCHEIDUNGEN ueber Folgeantraege Feststellung eines Abschiebungsverbotes gem. Par. 60 V/VII AufenthG,ENTSCHEIDUNGEN ueber Folgeantraege Ablehnungen (unbegr. abgel./offens unbegr. abgel.),ENTSCHEIDUNGEN ueber Folgeantraege kein weiteres Verfahren,ENTSCHEIDUNGEN ueber Folgeantraege formelle Verfahrenserledigungen (z.B. Ruecknahmen)
+2019-01,"Iran, Islamische Republik",439,1006,937,69,1305,13,200,18,6,662,406,3958,262,13,187,17,3,650,350,0,13,1,3,12,38,18
+2019-02,"Iran, Islamische Republik",439,737,652,85,1254,42,206,19,5,661,321,3564,255,41,190,19,2,642,248,1,16,0,3,19,38,35
+2019-03,"Iran, Islamische Republik",439,667,591,76,1094,34,204,13,1,548,294,3305,262,34,193,13,0,536,224,0,11,0,1,12,42,28
+2019-04,"Iran, Islamische Republik",439,827,742,85,878,20,155,9,4,463,227,3369,290,20,134,9,3,449,189,0,21,0,1,14,22,16
+2019-05,"Iran, Islamische Republik",439,978,867,111,841,24,113,11,2,466,225,3550,348,23,97,10,2,459,181,1,16,1,0,7,26,18
+2019-06,"Iran, Islamische Republik",439,631,546,85,710,17,96,3,5,324,265,3533,369,17,84,2,1,320,209,0,12,1,4,4,43,13
+2019-07,"Iran, Islamische Republik",439,841,740,101,978,19,143,11,1,480,324,3524,359,19,121,11,1,464,246,0,22,0,0,16,56,22
+2019-08,"Iran, Islamische Republik",439,806,717,89,725,25,107,4,6,345,238,3685,360,25,100,4,2,331,157,0,7,0,4,14,61,20
+2019-09,"Iran, Islamische Republik",439,875,765,110,692,11,111,8,9,323,230,3927,399,11,103,8,8,302,167,0,8,0,1,21,38,25
+2019-10,"Iran, Islamische Republik",439,765,684,81,699,8,78,4,2,345,262,4080,393,8,71,4,1,329,192,0,7,0,1,16,51,19
+2019-11,"Iran, Islamische Republik",439,749,664,85,776,20,135,15,10,345,251,4162,413,18,127,12,6,330,196,2,8,3,4,15,29,26
+2019-12,"Iran, Islamische Republik",439,407,335,72,724,18,99,17,1,369,220,3992,400,17,93,17,1,347,157,1,6,0,0,22,39,24
+2020-01,"Iran, Islamische Republik",439,630,524,106,877,19,149,16,5,412,276,3886,418,18,122,15,4,395,201,1,27,1,1,17,52,23
+2020-02,"Iran, Islamische Republik",439,500,422,78,642,16,87,9,3,319,208,3839,425,16,81,9,2,311,137,0,6,0,1,8,44,27
+2020-03,"Iran, Islamische Republik",439,351,279,72,573,15,90,7,3,303,155,3735,408,15,82,7,2,289,80,0,8,0,1,14,50,25
+2020-04,"Iran, Islamische Republik",439,256,225,31,386,18,112,5,2,197,52,3796,401,18,81,5,0,181,21,0,31,0,2,16,23,8
+2020-05,"Iran, Islamische Republik",439,197,156,41,1065,13,133,19,8,696,196,3168,339,13,112,18,3,679,110,0,21,1,5,17,62,24
+2020-06,"Iran, Islamische Republik",439,177,125,52,996,22,143,27,6,655,143,2591,360,20,141,27,5,629,73,2,2,0,1,26,30,40
+2020-07,"Iran, Islamische Republik",439,245,196,49,873,28,131,24,10,575,105,2259,347,28,123,24,3,560,34,0,8,0,7,15,39,32
+2020-08,"Iran, Islamische Republik",439,198,142,56,608,17,98,19,2,348,124,2004,342,15,87,19,2,333,57,2,11,0,0,15,38,29
+2020-09,"Iran, Islamische Republik",439,335,271,64,554,16,106,15,3,288,126,1961,336,16,96,15,1,277,52,0,10,0,2,11,49,25
+2020-10,"Iran, Islamische Republik",439,275,210,65,476,13,96,12,5,250,100,1887,337,13,88,10,3,237,44,0,8,2,2,13,38,18
+2020-11,"Iran, Islamische Republik",439,265,202,63,511,10,104,12,7,288,90,1786,343,8,90,11,2,268,35,2,14,1,5,20,38,17
+2020-12,"Iran, Islamische Republik",439,215,136,79,447,11,107,6,10,214,99,1668,370,11,90,6,6,203,59,0,17,0,4,11,34,6
