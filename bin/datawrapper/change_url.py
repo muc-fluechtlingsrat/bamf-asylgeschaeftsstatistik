@@ -1,4 +1,4 @@
-import configparser, requests
+import configparser, requests, json
 
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -9,12 +9,28 @@ headers = {
     "authorization": "Bearer " + config['SECRETS']['DatawrapperToken'],
 }
 
-
-# ids = ["m29lF","TdP8l","bNTKz","8uX66","Ckql5","QSQo0","aDOB3","K59kU","6wIm8","eXBG0","TE5DT","cTDnE","aT7iD","Bfvou","yUAGA","8SuEA","lSm9e","2cQf1","nfk72","jwVac","OIDFL","tlGm5","fXeDq","rWX41"]
-ids = ["OIDFL"]
+ids = json.loads(config['DATA']['ids_2019_2020'])
 
 for id in ids:
+  print(id)
   url = "https://api.datawrapper.de/v3/charts/" + id
+  print(url)
   response = requests.request("GET", url, headers=headers)
-  print(response.json()['metadata']['data']['external-data'])
+  external_data_url = response.json()['metadata']['data']['external-data']
+  external_data_url_list = external_data_url.split('/') 
+  external_data_url_list[7] = '2019_2020'
+  external_data_url = '/'.join(external_data_url_list)
+  print(external_data_url)
+
+  payload = {
+         "metadata": {
+           "data": {
+             "external-data": 
+               external_data_url
+           }
+         }
+       }
+  print(type(payload))
+  response = requests.request("PATCH", url, json=payload, headers=headers)
+  
 
