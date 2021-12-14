@@ -10,6 +10,7 @@ headers = {
 }
 
 ids = json.loads(config['DATA']['ids_2019_2020'])
+ids = ["WlXG7", "RDQlD"]
 for id in ids:
   print(id)
   url = "https://api.datawrapper.de/v3/charts/" + id + "/publish"

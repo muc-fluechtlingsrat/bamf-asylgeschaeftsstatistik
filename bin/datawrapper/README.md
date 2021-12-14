@@ -29,10 +29,11 @@ Datawrapper now lets you organize your charts in teams and folders. This is good
 ### For 2020 2021 charts
 
 1. Create folder
-1. create (fork?) them all
-2. into their folder
+1. Add country list to config.php, and for each country:
+2. Copy two charts (not sure what fork would be doing)  
+2. move their folder
 3. change data source
-4. change title
+4. change title. Then for all
 5. get ids
 6. publish
 
