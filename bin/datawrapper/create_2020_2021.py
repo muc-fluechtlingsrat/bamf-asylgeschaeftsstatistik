@@ -1,7 +1,6 @@
 import configparser, requests, json, logging
 
 logging.basicConfig(level=logging.DEBUG)
-
 config = configparser.ConfigParser()
 config.read('config.ini')
 
