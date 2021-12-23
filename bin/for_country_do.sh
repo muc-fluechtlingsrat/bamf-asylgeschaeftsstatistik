@@ -3,16 +3,19 @@
 #              which are the base for the histograms on our webpage refugee-datathon-muc.org
 # 2021.12.08   S.Kim
 set -vx
-while getopts 'y:m:t:h' opt; do
+while getopts 'y:c:t:h' opt; do
   case "$opt" in
     y)
       FOR_YEARS="$OPTARG"
+      ;;
+    c)
+      COUNTRIES="$OPTARG"
       ;;
     t)
       GITTOKEN="$OPTARG"
       ;;
     ?|h)
-      echo "Usage: $(basename $0) -y FOR_YEARS YYYY_YYYY -t GITTOKEN"
+      echo "Usage: $(basename $0) -y 2020_2021 -c "Afghanistan Syrien Irak" -t GITTOKEN"
       exit 1
       ;;
   esac
@@ -22,7 +25,7 @@ set -euo pipefail
 # written to be used in our docker container
 OUTPUTDIR=../cooked/$FOR_YEARS/
 
-COUNTRIES="Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen Libyen Mali Georgien Guinea Albanien Aserbaidschan Moldau Venezuela"
+#COUNTRIES="Afghanistan Syrien Irak Iran Nigeria Eritrea Pakistan Somalia Russische Tuerkei Ungeklaert Sierra Aethiopien Jemen Libyen Mali Georgien Guinea Albanien Aserbaidschan Moldau Venezuela"
 # create per country csv
 for COUNTRY in ${COUNTRIES}; do ./per_country.sh -c ${COUNTRY} -y "$FOR_YEARS" -o ${OUTPUTDIR}; done
 # create reduced csv for decisions incl. sonstige
